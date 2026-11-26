@@ -50,7 +50,7 @@ def main():
         add(ROOT/'data/raw/osm_expansion_20261125_get'/name)
     for path in (ROOT/'data/clean/open_osm_v2_20261126').glob('*.json'):add(path)
     for name in ('pilot_metric_inputs.json','three_method_function.json','sampled_agreement_summary.json'):add(ROOT/'results'/name)
-    for name in ('submission_checklist_20261126.md','second_rater_20261125.md','MANUSCRIPT_DRAFT_20261126.md'):
+    for name in ('submission_checklist_20261126.md','second_rater_20261125.md','MANUSCRIPT_DRAFT_20261126.md','DEMO_GUIDE_ZH.md'):
         add(ROOT/'docs'/name)
     manifest={}
     for relative,(source,body) in sorted(planned.items()):

@@ -4,7 +4,7 @@
 
 | 作业要求 | 本轮可独立完成的材料 | 仍需完成或限制 |
 |---|---|---|
-| 公开仓库及完整有序代码 | 已创建公开目标 https://github.com/shile-source/cps5801-ouhai-place-retrieval ，白名单源码包、模块化src/tests/configs/experiments、校验清单 | 源码上传与远端文件核验须读取实际发布回执，创建空仓库不等于上传完成 |
+| 公开仓库及完整有序代码 | https://github.com/shile-source/cps5801-ouhai-place-retrieval 已发布白名单源码、模块化src/tests/configs/experiments及校验清单 | 已验证公开可见、main提交及远端清单与本地一致；课程平台的正式提交仍由学生完成 |
 | README与执行说明 | 英文复现README、安装、数据/模型、运行/评价、预期输出、目录结构 | 原49条完整混合数据的公开再分发兼容性未解决，完整检索复现条件须如实说明 |
 | 环境及配置 | 保留Python3.13.2、固定依赖、模型revision/逐文件SHA、batch/长度/FP32、seed与硬件 | Windows/4060验证不等于学校Linux/A5000验证；不声称训练了新模型 |
 | 可复现结果 | 已发布P02原结果可从匿名完整排名/实际等级重算；39条开放来源演示可重建 | BGE只有真实功能结果，没有新相关性指标；原协议只1个查询有效，不能写总体提升 |

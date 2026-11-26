@@ -110,7 +110,7 @@ For the author's preserved local workspace only:
 ```powershell
 .\Start-Project.ps1 -m experiments.audit_research_evidence_20261125
 .\Start-Project.ps1 -m experiments.bind_review_facts_20261126
-.\Start-Demo.ps1
+.\Start-Review-Demo.ps1
 .\Start-Second-Rater.ps1
 .\Start-Project.ps1 -m experiments.check_sampled_agreement
 ```
