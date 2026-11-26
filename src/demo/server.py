@@ -57,7 +57,7 @@ def validate_request(value):
     return value['method'], query.strip()
 
 class SearchEngine:
-    def __init__(self, corpus, run_dir, min_c_gib=5.0, space=None, encoder_enabled=True,allow_bge=False,safe_streaming=False,facts_binding=None):
+    def __init__(self, corpus, run_dir, min_c_gib=5.0, space=None, encoder_enabled=True,allow_bge=False,safe_streaming=False,facts_binding=None,dense_precision='float32'):
         from src.data.load_candidates import load_candidates
         from src.retrieval.bm25 import BM25Retriever
         from src.retrieval.keyword import KeywordRetriever
@@ -76,6 +76,11 @@ class SearchEngine:
         self.encoder_enabled = encoder_enabled
         self.allow_bge=allow_bge
         self.safe_streaming=safe_streaming
+        if dense_precision not in ('float32','float16'):
+            raise ValueError('Explicit supported dense precision required')
+        if dense_precision=='float16' and not safe_streaming:
+            raise ValueError('Reduced-memory demo requires the bounded streamed loader')
+        self.dense_precision=dense_precision
         self.worker_backend='encoder'
         self.backend_failures={}
         self.reader_thread=None
@@ -162,7 +167,7 @@ class SearchEngine:
         if self.safe_streaming:
             env.update(CPS5801_DENSE_LOADER='streamed',CPS5801_BGE_LOADER='streamed',
                        CPS5801_SAFETENSORS_BACKEND='pread',CPS5801_BGE_DIRECT_GPU_LOAD='1',
-                       CPS5801_EMBEDDING_PRECISION='float32',CUDA_MODULE_LOADING='LAZY',CUDA_MODULE_DATA_LOADING='LAZY')
+                       CPS5801_EMBEDDING_PRECISION=self.dense_precision,CUDA_MODULE_LOADING='LAZY',CUDA_MODULE_DATA_LOADING='LAZY')
         self.worker = subprocess.Popen([sys.executable,'-u','-m','src.demo.encoder_worker',str(self.corpus),backend],
             cwd=ROOT, env=env, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=self.stderr_handle,
             text=True, encoding='utf-8', bufsize=1)
@@ -194,6 +199,7 @@ class SearchEngine:
             'encoder_error':self.worker_error, 'encoder_min_c_gib':self.min_c_gib,
             'encoder_enabled':self.encoder_enabled,
             'bge_available':self.allow_bge,'dense_states':states,'safe_streaming':self.safe_streaming,
+            'dense_precision':self.dense_precision,'historical_fp32_comparison_unchanged':True,
             'explicit_hard_filter_available':self.source_facts is not None,
             'active_dense_backend':self.worker_backend if self.worker and self.worker.poll() is None else None,
             'disk_free_gib':{d:round(self.space(d)/1024**3,2) for d in ('C','D')},
@@ -372,6 +378,7 @@ def main():
     parser.add_argument('--enable-bge',action='store_true')
     parser.add_argument('--safe-streaming',action='store_true')
     parser.add_argument('--facts-binding',type=Path)
+    parser.add_argument('--dense-precision',choices=('float32','float16'),default='float32')
     args=parser.parse_args()
     if not 2 <= args.min_c_gib <= 20:
         raise ValueError('Model C protection threshold must be between 2 and 20 GiB')
@@ -384,7 +391,7 @@ def main():
     if not corpus.is_relative_to(ROOT / 'data' / 'clean'):
         raise ValueError('Demo corpus must be a project data/clean snapshot')
     engine=SearchEngine(corpus,run_dir,args.min_c_gib,encoder_enabled=not args.disable_encoder,
-                        allow_bge=args.enable_bge,safe_streaming=args.safe_streaming,facts_binding=args.facts_binding)
+                        allow_bge=args.enable_bge,safe_streaming=args.safe_streaming,facts_binding=args.facts_binding,dense_precision=args.dense_precision)
     server=ThreadingHTTPServer(('127.0.0.1',args.port),make_handler(engine))
     startup={'url':f'http://127.0.0.1:{args.port}/','pid':os.getpid(),'run_dir':str(run_dir),**engine.status()}
     (run_dir/'startup.json').write_text(json.dumps(startup,ensure_ascii=False,indent=2),encoding='utf-8')

@@ -8,8 +8,8 @@
     "bytes": 1300
   },
   "README.md": {
-    "sha256": "2b337962c5b8ac3d7696299d5b10d2af18261ec191e2203ed6082fdda63bb142",
-    "bytes": 19500
+    "sha256": "eff89ffa845e0b5e9dd8fcf9025ef150749c71fd33af8056ff96feeb7b315c8d",
+    "bytes": 20157
   },
   "Start-Adjudication.ps1": {
     "sha256": "16f726e8c97c89d7868b85bcf4654a618f8defd3b2652232b0b6b47a3352f6d9",
@@ -20,8 +20,8 @@
     "bytes": 343
   },
   "Start-Demo.ps1": {
-    "sha256": "c27e15f8639ba10f24cb58d80fe5703a6d67a0e3ab3ead92cffa711cc426a32a",
-    "bytes": 410
+    "sha256": "1798a6bcf1e575f51ee20d1272d8137f386ab3e31493770ea498a175a65567a8",
+    "bytes": 446
   },
   "Start-Open-Demo.ps1": {
     "sha256": "e1be7346102e69ab19eaaf7e8d8fa58a4c9fa564c3522d01ba247bdc9cc1e030",
@@ -108,12 +108,12 @@
     "bytes": 7770
   },
   "docs/DEMO_GUIDE_ZH.md": {
-    "sha256": "5c6763e2e3313a6d403740153beb639369690d139881dddc1ceb616304ad9b93",
-    "bytes": 4415
+    "sha256": "23a7cbd2266d649389bb7edffd44e485a14da02818c986c81697eada222fbee6",
+    "bytes": 5067
   },
   "docs/FINAL_REPORT_20261126.md": {
-    "sha256": "bb2b6c857df6d1e3b1823d06abda2ec42f0cea3c4acdeb80e1e446779b7a8b86",
-    "bytes": 25874
+    "sha256": "821a6f3a0cd8dd4592fa37415852c80d49f1981449115077807a4582077dff45",
+    "bytes": 26951
   },
   "docs/REVIEW_AND_AUDIT_20261126.md": {
     "sha256": "5ef860b272ee2a35404364b3ddef3868a0392a19d2536e05cdb0e57596b42f6e",
@@ -364,8 +364,8 @@
     "bytes": 4697
   },
   "src/demo/map.js": {
-    "sha256": "02fc38d7d2b699a21321a6f13a8709c1060832065dbf85d2a95ea47a725dddec",
-    "bytes": 9819
+    "sha256": "d51593160e12248f2487b426d9adee8bfcfea1fe495471868027313d755f4fa1",
+    "bytes": 9928
   },
   "src/demo/navigation.py": {
     "sha256": "f82fc22f960a6e1cff83e349b8b31641a795014805926a13440fca23b4076450",
@@ -388,8 +388,8 @@
     "bytes": 824
   },
   "src/demo/server.py": {
-    "sha256": "a3547d42d8873fd29839fb5982524f3771a39cfdd071bdc9433b8c94ee780408",
-    "bytes": 23897
+    "sha256": "d4ac5b914f2848a339f72c711055cc0a5b23716d5d5e65109aff90d537f07b7b",
+    "bytes": 24489
   },
   "src/demo/vendor/leaflet-1.9.4/LICENSE": {
     "sha256": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb",
@@ -588,8 +588,8 @@
     "bytes": 1710
   },
   "tests/test_live_demo.py": {
-    "sha256": "5f010844250aa3bb1a18baee9d14895255949446d0a0e4e4fc37f2dd099c4a95",
-    "bytes": 10805
+    "sha256": "5bbe4d9664102e284baf20481d7a17632df900ee2487a760a33748bb27b4fc73",
+    "bytes": 11001
   },
   "tests/test_map_product.py": {
     "sha256": "87c856a541dc41c383061c356ca2593692fb9e08b9658be6494019104e9b40ee",

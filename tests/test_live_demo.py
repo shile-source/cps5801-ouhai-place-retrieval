@@ -29,6 +29,11 @@ def test_invalid_live_request_rejected(value):
 def test_request_trims_query_and_retains_method():
     assert validate_request({'method':'encoder','query':'  潘桥书房  '}) == ('encoder','潘桥书房')
 
+
+def test_precision_default_preserves_historical_fp32(engine):
+    assert engine.status()['dense_precision']=='float32'
+    assert engine.status()['historical_fp32_comparison_unchanged'] is True
+
 @pytest.fixture
 def engine(tmp_path):
     source=tmp_path/'synthetic_only_for_unit_test.json'
