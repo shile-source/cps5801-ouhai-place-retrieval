@@ -46,7 +46,9 @@ def main():
                  'requirements.txt','requirements-gpu.txt','requirements-encoder.txt','requirements-bge-helper.txt',
                  'pytest.ini','LICENSE','AI_DISCLOSURE.md','THIRD_PARTY_NOTICES.md'):
         add(ROOT/name)
-    add(ROOT/'docs/reproducibility_README.md','README.md')
+    readme=ROOT/'docs/reproducibility_README.md'
+    # The public checkout already has this English document at its root.
+    add(readme if readme.is_file() else ROOT/'README.md','README.md')
     add(ROOT/'data/README.md')
     for name in ('research_v0_5_draft.json','model_artifacts.json','retain_runtime_20261125.txt','supplemental_analysis_v1_20261126.json','runtime_recorded_20261126.json','keyword_supplement_v1_20261126.json','completed_pilot_v1_20261126.json','completed_reviewed_pilot_v2_20261126.json'):
         add(ROOT/'configs'/name)

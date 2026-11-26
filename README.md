@@ -162,4 +162,18 @@ Expected status: `post_review_exclusion_reproduced_without_imputation`. All four
 
 ## Fresh CPU environment verification
 
+After the basic project `.venv` is prepared, the isolated CPU verification can be repeated on Windows using the existing Python, without installing Torch:
+
+```powershell
+.\Start-Project.ps1 -m venv .cache/repro_cpu_env_20261126
+$env:TEMP = "$PWD/.cache/tmp"
+$env:TMP = $env:TEMP
+.\.cache\repro_cpu_env_20261126\Scripts\python.exe -m pip install -r requirements.txt --cache-dir .cache/pip
+.\Start-Project.ps1 -m experiments.build_submission_candidate_20261126
+$candidate = (Get-Content outputs/latest_submission_candidate_20261126.json | ConvertFrom-Json).directory
+.\Start-Project.ps1 -m experiments.verify_fresh_cpu_20261126 --candidate $candidate
+```
+
+The source-copy checks also rebuild the release from inside the public copy. The builder uses its root README when the author's private documentation-layout path is absent; it does not require private labels or installed model weights to package the public materials.
+
 An isolated D-drive environment was created using the existing Python 3.13.2 and exact `requirements.txt` from official PyPI, with no system-site packages, user packages or Torch. On the audited source snapshot,332 tests passed and1 historical-data test was skipped; saved arithmetic, open39-record rebuilding and actual keyword/BM25 search passed. Later added review-sensitivity checks are separately verified. This is fresh CPU workflow evidence only. It does not validate a fresh CUDA installation, school A5000 or original mixed-data end-to-end retrieval. See `docs/REVIEW_AND_AUDIT_20261126.md` for scope and the source-copy verifier.

@@ -8,8 +8,8 @@
     "bytes": 1300
   },
   "README.md": {
-    "sha256": "da407d6a5aefcbb0ad676fcf9e9e541a3ed1466226de4dd78cbcca1ee4e2bed5",
-    "bytes": 16638
+    "sha256": "4023240ef5023fbd1b1b6782ff125727c8af78e02b889488b9c3da0a86494b04",
+    "bytes": 17575
   },
   "Start-Adjudication.ps1": {
     "sha256": "16f726e8c97c89d7868b85bcf4654a618f8defd3b2652232b0b6b47a3352f6d9",
@@ -128,8 +128,8 @@
     "bytes": 1539
   },
   "experiments/build_submission_candidate_20261126.py": {
-    "sha256": "1cfb95b3d6b1e59c803a30aa3d5406313c3fdde0e94b9848849f0227e86c20c5",
-    "bytes": 6088
+    "sha256": "14cca24f6c8393c8eb784bb50e0fdd0a3ebd5717b021fba61a65d632d94ec745",
+    "bytes": 6223
   },
   "experiments/check_sampled_agreement.py": {
     "sha256": "20021fd3dcce7ae136d1d4a34031c4500408a0c0feca9f9f3323254ffd6d7aad",
@@ -200,8 +200,8 @@
     "bytes": 5004
   },
   "experiments/verify_fresh_cpu_20261126.py": {
-    "sha256": "2a426a6ba86c44906703e9ef4f47afcadc83e72ed17cf9d1ee23bc83f3cbca56",
-    "bytes": 3846
+    "sha256": "3b26dd577f21924ae0a8498d6a1f9a91c6ea7cb3053e3bd3e482b1a558c2e951",
+    "bytes": 3929
   },
   "experiments/verify_source_values_20261125.py": {
     "sha256": "f1479da78639c646e9bcdb616a7d19866a90cc96e02b30704398d2325732458a",
@@ -212,8 +212,8 @@
     "bytes": 4057
   },
   "experiments/verify_submission_candidate_20261126.py": {
-    "sha256": "824ac43256959fb2bcca0d0992e903955550c2e05a2341be966a1356e96345df",
-    "bytes": 3777
+    "sha256": "8d86c8caa0a04c2f2cf6ed5a9f40518c7e644cbb5bdf452ab1b2148fb9140f26",
+    "bytes": 3860
   },
   "pytest.ini": {
     "sha256": "5ca2e4a72e029facbec6f6ecac316b144b872bcf0889ea2c0b0f236381614ce0",

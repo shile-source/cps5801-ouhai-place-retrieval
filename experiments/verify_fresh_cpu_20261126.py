@@ -28,7 +28,8 @@ def main():
            ('review_sensitivity',['-m','experiments.reproduce_review_sensitivity']),
            ('open_data',['-m','experiments.prepare_open_osm_20261126']),
            ('bm25',['-m','experiments.run_retrieval_snapshot','--method','bm25','--query','公园']),
-           ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园'])]
+           ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园']),
+           ('repackage',['-m','experiments.build_submission_candidate_20261126'])]
     report={'scope':'fresh CPU dependencies and public saved arithmetic/open-data lexical workflow; not fresh GPU or original mixed retrieval',
             'fresh_dependency_install':True,'torch_installed':False,'new_model_inference':False,
             'candidate':str(source),'requirements_sha256':hashlib.sha256((source/'requirements.txt').read_bytes()).hexdigest(),

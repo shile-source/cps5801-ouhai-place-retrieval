@@ -33,7 +33,8 @@ def main():
            ('review_sensitivity',['-m','experiments.reproduce_review_sensitivity']),
            ('open_data',['-m','experiments.prepare_open_osm_20261126']),
            ('bm25',['-m','experiments.run_retrieval_snapshot','--method','bm25','--query','公园']),
-           ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园'])]
+           ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园']),
+           ('repackage',['-m','experiments.build_submission_candidate_20261126'])]
     results={}
     env=dict(os.environ,HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',PYTHONIOENCODING='utf-8',PYTHONPATH=str(candidate))
     for label,arguments in steps:
