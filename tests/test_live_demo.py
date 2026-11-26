@@ -66,6 +66,17 @@ def test_bm25_returns_live_query_metadata_and_stable_ids(engine):
     assert '书房' in first['results'][0]['matched_tokens']
     assert first['search_ms']>=0
 
+
+def test_keyword_api_computes_without_a_model_even_when_models_are_paused(engine,monkeypatch):
+    engine.encoder_enabled=False
+    monkeypatch.setattr('src.demo.server.subprocess.Popen',lambda *a,**k:pytest.fail('Lexical method started GPU'))
+    assert validate_request({'method':'keyword','query':'书房'})==('keyword','书房')
+    result=engine.search('keyword','书房')
+    assert result['results'][0]['poi_id']=='synthetic_book'
+    assert result['results'][0]['model']=='keyword_overlap'
+    assert result['live_computation'] is True and result['saved_results_used'] is False
+    assert result['dense_configuration'] is None and engine.worker is None
+
 def test_unknown_quiet_attribute_is_not_claimed(engine):
     result=engine.search('bm25','安静学习')
     assert any('不能证明' in w for w in result['warnings'])

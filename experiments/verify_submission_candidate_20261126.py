@@ -28,8 +28,11 @@ def main():
     steps=[('module_origin',['-c',origin_check]),('tests',['-m','pytest','-q','--tb=short']),
            ('metrics',['-m','experiments.reproduce_reported_metrics']),
            ('agreement',['-m','experiments.reproduce_agreement_summary']),
+           ('keyword_supplement',['-m','experiments.reproduce_keyword_supplement']),
+           ('bge_supplement',['-m','experiments.reproduce_bge_supplement']),
            ('open_data',['-m','experiments.prepare_open_osm_20261126']),
-           ('bm25',['-m','experiments.run_retrieval_snapshot','--method','bm25','--query','公园'])]
+           ('bm25',['-m','experiments.run_retrieval_snapshot','--method','bm25','--query','公园']),
+           ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园'])]
     results={}
     env=dict(os.environ,HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',PYTHONIOENCODING='utf-8',PYTHONPATH=str(candidate))
     for label,arguments in steps:

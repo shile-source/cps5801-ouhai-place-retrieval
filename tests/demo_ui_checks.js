@@ -16,7 +16,7 @@ const get = id => {assert.ok(nodes.has(id),'Missing HTML element: '+id);return n
 const document = {documentElement:{},title:'',getElementById:get,createElement:t=>new Element(t),createElementNS:(_,t)=>new Element(t),querySelectorAll(selector) {
   if(selector==='[data-t]')return [];
   if(selector==='[data-query]')return examples;
-  if(selector==='#bm25,#encoder,#both,[data-query]')return [...['bm25','encoder','both'].map(get),...examples];
+  if(selector==='#keyword,#bm25,#encoder,#both,[data-query]')return [...['keyword','bm25','encoder','both'].map(get),...examples];
   throw Error('Unexpected selector: '+selector);
 }};
 const pending=[];
@@ -85,7 +85,10 @@ const tick = () => new Promise(resolve=>setImmediate(resolve));
   assert.equal(pending.length,2);
   assert.equal(pending[0].request.query,pending[1].request.query,'Both methods must use one captured query');
   assert.equal(pending[1].request.query,'synthetic original query');
-  pending[1].reply();await running;await tick();
+  pending[1].reply();await tick();
+  assert.equal(pending.length,3);
+  assert.equal(pending[2].request.query,'synthetic original query');
+  pending[2].reply();await running;await tick();
   assert.ok(!get('query').readOnly && !get('bm25').disabled);
   pending.splice(0,pending.length);
   backend.bge_available=true;
@@ -94,12 +97,12 @@ const tick = () => new Promise(resolve=>setImmediate(resolve));
   await evaluate('status()');
   assert.equal(get('bge_m3').hidden,false);
   assert.equal(get('bge_m3Result').hidden,false);
-  assert.equal(evaluate("t('both')"),'Run all three methods');
+  assert.equal(evaluate("t('both')"),'Run all four methods');
   get('query').value='synthetic three-method query';
   get('hardSeats').value='40';
   const allRunning=get('both').fire('click');
   await tick();
-  for(const method of ['bm25','encoder','bge_m3']){
+  for(const method of ['keyword','bm25','encoder','bge_m3']){
     const request=pending.shift();assert.equal(request.request.method,method);
     assert.equal(request.request.query,'synthetic three-method query');
     assert.deepEqual(request.request.constraints,[{field:'seats',operator:'gte',value:40}]);

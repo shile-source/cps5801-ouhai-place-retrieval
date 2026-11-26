@@ -16,7 +16,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--corpus',type=Path,default=ROOT/'data/clean/open_osm_v2_20261126/poi_candidates.json')
-    parser.add_argument('--method',choices=['bm25','encoder','bge_m3'],default='bm25')
+    parser.add_argument('--method',choices=['keyword','bm25','encoder','bge_m3'],default='bm25')
     parser.add_argument('--query',required=True)
     parser.add_argument('--top-k',type=int,default=5)
     parser.add_argument('--allow-model-inference',action='store_true')
@@ -25,7 +25,7 @@ def main():
         raise ValueError('Bounded query and top-k required')
     corpus=args.corpus.resolve()
     if not corpus.is_relative_to(ROOT/'data/clean'):raise ValueError('Use a versioned project snapshot')
-    if args.method!='bm25' and not args.allow_model_inference:
+    if args.method not in ('keyword','bm25') and not args.allow_model_inference:
         raise ValueError('Model inference is opt-in; inspect prior failures before authorizing a new run')
     from src.data.load_candidates import load_candidates
     pois=load_candidates(corpus)
@@ -35,9 +35,11 @@ def main():
     report={'purpose':'snapshot_functional_retrieval_NOT_effectiveness_evaluation','method':args.method,
             'query':args.query,'candidate_count':len(pois),'new_labels':0,'formal_evaluation':False,
             'corpus_sha256':hashlib.sha256(corpus.read_bytes()).hexdigest()}
-    if args.method=='bm25':
+    if args.method in ('keyword','bm25'):
         from src.retrieval.bm25 import BM25Retriever
-        rows=BM25Retriever(pois).search(args.query,args.top_k)
+        from src.retrieval.keyword import KeywordRetriever
+        retriever = KeywordRetriever if args.method=='keyword' else BM25Retriever
+        rows=retriever(pois).search(args.query,args.top_k)
         report.update(status='completed',rows=[{'rank':r.rank,'poi_id':r.poi_id,'score':r.score,'model':r.model} for r in rows])
     else:
         import psutil

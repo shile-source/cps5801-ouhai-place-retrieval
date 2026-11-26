@@ -13,6 +13,10 @@ def run_worker():
     start = time.perf_counter()
     if not torch.cuda.is_available():
         raise RuntimeError('Existing CUDA GPU is unavailable; no reinstall or model substitution attempted')
+    if os.environ.get('CPS5801_VERIFY_TINY_EQUIVALENCE')=='1':
+        from experiments.verify_streamed_equivalence_20261125 import run_fixture
+        fixture=run_fixture(emit=False)
+        print(json.dumps({'type':'synthetic_equivalence','report':fixture}),flush=True)
     torch.cuda.reset_peak_memory_stats()
     pois = load_candidates(sys.argv[1])
     backend = sys.argv[2] if len(sys.argv)>2 else 'encoder'

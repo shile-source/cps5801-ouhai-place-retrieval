@@ -13,7 +13,7 @@ The completed preliminary evaluation used 49 source records and eight AI-assiste
 | BM25 | 1 | 0.9241332080 | 0.3333333333 | 1 | 1 |
 | Multilingual Sentence Encoder | 1 | 0.7262287618 | 0.3333333333 | 1 | 1 |
 
-These results do not establish general semantic-search superiority. BGE-M3 has a successful local functional check but **no published relevance-effectiveness result**. The later second-rater task is a frozen80-pair sample, ten pairs per query, added after original result publication. All80 are handled (78 numeric,2 unknown). The UI-origin first-rater subset has71 numeric pairs,67 exact agreements (94.4%), linear weighted kappa0.8754 and quadratic weighted kappa0.8851. Including assisted first-rater corrections gives74 numeric pairs,68 exact agreements (91.9%), linear kappa0.8424 and quadratic kappa0.8649. Six unknown pairs are excluded; six numeric disagreements and six unknown-involving cases remain unadjudicated. This is descriptive sampled consistency evidence, not full dual annotation or a new held-out test. The 76-record development corpus and open 39-record demonstration below are distinct from the 49-record evaluated corpus. The original 150–200-place / held-out-query study plan was not achieved.
+These original results do not establish general semantic-search superiority. A separately declared post-publication supplement on the same fully judged P02 query gives keyword overlap nDCG@5 **0.9515234566** and BGE-M3 **0.7262287618**; both P@3=1/3, MRR=1 and Recall@5=1. The original two-method publication remains unchanged. Read `docs/FINAL_REPORT_20261126.md` for results, timing, error analysis and limitations. The later second-rater task is a frozen80-pair sample, ten pairs per query, added after original result publication. All80 are handled (78 numeric,2 unknown). The UI-origin first-rater subset has71 numeric pairs,67 exact agreements (94.4%), linear weighted kappa0.8754 and quadratic weighted kappa0.8851. Including assisted first-rater corrections gives74 numeric pairs,68 exact agreements (91.9%), linear kappa0.8424 and quadratic kappa0.8649. Six unknown pairs are excluded; six numeric disagreements and six unknown-involving cases remain unadjudicated. This is descriptive sampled consistency evidence, not full dual annotation or a new held-out test. The 76-record development corpus and open 39-record demonstration below are distinct from the 49-record evaluated corpus. The original 150–200-place / held-out-query study plan was not achieved.
 
 ## Repository structure
 
@@ -129,7 +129,17 @@ The independent held-out query plan, full data identity/geographic review, broad
 
 ### Latest local model availability (26 November)
 
-A new explicitly authorized FP32 streamed BGE check, with a kernel lock preventing concurrent project GPU workers, stopped before producing query outputs because system-drive free space fell from 11,316,731,904 to 8,805,412,864 bytes. The existing 1GiB decline guard was retained. There was no automatic retry; the planned post-publication BGE effectiveness supplement and model-demo restoration were not performed. Earlier successful functional observations remain historical evidence, not a guarantee that live dense inference is currently available. Use BM25 for the current demonstration. The kernel lock has separate-process CPU tests; those tests do not establish model-load success.
+Earlier changed checks stopped under the unchanged system-drive guard. A subsequent authorized material fix constructs all model tensors on the meta device, restores only the standard generated ID buffers and copies checkpoint slices of at most16MiB to the GPU. The synthetic CLS/mean parameter and output equivalence checks passed with zero observed differences. The real original49-record FP32 BGE check then passed: the largest C-drive decline was393,216bytes, with unchanged5GiB/10GiB free-space and1GiB decline limits. The complete P02 ranking was saved and scored separately; no new grades were created. Kernel GPU exclusion remains active. Successful current checks do not guarantee future desktop memory conditions, and a failed future worker still stops without automatic retry.
+
+### Reproduce supplementary metric arithmetic
+
+```powershell
+.\Start-Project.ps1 -m experiments.reproduce_keyword_supplement
+.\Start-Project.ps1 -m experiments.reproduce_bge_supplement
+.\Start-Project.ps1 -m experiments.run_retrieval_snapshot --method keyword --query 公园
+```
+
+The first two commands use public anonymous rankings and actual frozen grades. The last runs the new keyword baseline on the open39-record snapshot, without a GPU. These are post-publication exploratory supplements, not an independent held-out test. `configs/keyword_supplement_v1_20261126.json` records the untuned score definition and timing schedule. `results/*supplement*.json` preserve numerical evidence; no source text or participant logs are added.
 
 ## Verification, attribution and AI disclosure
 

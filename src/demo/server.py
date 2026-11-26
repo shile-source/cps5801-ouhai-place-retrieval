@@ -36,8 +36,8 @@ class StorageGuardError(RuntimeError):
     pass
 
 def validate_request(value):
-    if not isinstance(value, dict) or value.get('method') not in ('bm25','encoder','bge_m3'):
-        raise ValueError('检索方法必须是 bm25、encoder 或 bge_m3')
+    if not isinstance(value, dict) or value.get('method') not in ('keyword','bm25','encoder','bge_m3'):
+        raise ValueError('检索方法必须是 keyword、bm25、encoder 或 bge_m3')
     query = value.get('query')
     if not isinstance(query,str) or not query.strip() or len(query) > 500:
         raise ValueError('请输入1–500字的查询')
@@ -47,10 +47,12 @@ class SearchEngine:
     def __init__(self, corpus, run_dir, min_c_gib=5.0, space=None, encoder_enabled=True,allow_bge=False,safe_streaming=False,facts_binding=None):
         from src.data.load_candidates import load_candidates
         from src.retrieval.bm25 import BM25Retriever
+        from src.retrieval.keyword import KeywordRetriever
         self.corpus, self.run_dir = Path(corpus), Path(run_dir)
         self.pois = load_candidates(corpus)
         self.records = {row['poi_id']:row for row in json.loads(self.corpus.read_text(encoding='utf-8'))}
         self.bm25 = BM25Retriever(self.pois)
+        self.keyword = KeywordRetriever(self.pois)
         self.corpus_hash = hashlib.sha256(self.corpus.read_bytes()).hexdigest()
         self.source_facts=None
         if facts_binding is not None:
@@ -198,7 +200,7 @@ class SearchEngine:
     def search(self, method, query, top_k=5, constraints=None):
         from src.retrieval.bm25 import tokenize
         from src.retrieval.constraints import parse_explicit_constraints,shared_pool
-        if method not in ('bm25','encoder','bge_m3'):raise ValueError('Unknown retrieval method')
+        if method not in ('keyword','bm25','encoder','bge_m3'):raise ValueError('Unknown retrieval method')
         if type(top_k) is not int or not 1 <= top_k <= 1000:
             raise ValueError('top_k必须是1至1000之间的整数')
         explicit=parse_explicit_constraints(constraints)
@@ -212,10 +214,10 @@ class SearchEngine:
             load_ms = 0
             if allowed is not None and not allowed:
                 rows=[];search_ms=0.0  # An empty shared pool must not start a GPU worker.
-            elif method == 'bm25':
+            elif method in ('keyword','bm25'):
                 start = time.perf_counter()
                 rows = [{'rank':r.rank,'poi_id':r.poi_id,'score':r.score,'model':r.model}
-                        for r in self.bm25.search(query,top_k,predicate=(lambda p:p.poi_id in allowed) if allowed is not None else None)]
+                        for r in (self.keyword if method=='keyword' else self.bm25).search(query,top_k,predicate=(lambda p:p.poi_id in allowed) if allowed is not None else None)]
                 search_ms = (time.perf_counter()-start)*1000
             elif method in ('encoder','bge_m3'):
                 try:
@@ -262,7 +264,7 @@ class SearchEngine:
                             '只按明确填写的条件筛选来源快照，未知不通过；未从查询自动推断条件。' if explicit else '未应用硬约束过滤。']}
             if '安静' in query or '学习' in query:
                 response['warnings'].append('当前数据没有核实“安静/适合学习”，本结果不能证明这些体验属性。')
-            if method == 'bm25' and rows and all(r['score']==0 for r in rows):
+            if method in ('keyword','bm25') and rows and all(r['score']==0 for r in rows):
                 response['warnings'].append('BM25全部得分为0，以下仅按ID打破同分，不是词汇命中。')
             with (self.run_dir/'live_searches.jsonl').open('a',encoding='utf-8') as log:
                 log.write(json.dumps(response,ensure_ascii=False,allow_nan=False)+'\n')

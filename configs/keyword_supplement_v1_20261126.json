@@ -1,0 +1,20 @@
+{
+  "phase": "post_publication_exploratory_supplement",
+  "declared_before_supplement_execution": true,
+  "source_corpus_sha256": "000f0f988560f4bc1cc195c743b4d0c85016c50d92b25379dc3aaab16daf44fd",
+  "source_actions_sha256": "bb2a2e566e7bb56ebe89f0e6600523e0fabcfe3f8e83796cb937e20860182c09",
+  "source_packet_sha256": "f5f23858d825f19320f45bb28c5273315e2624018cb99c6eb62be44b1381b7f9",
+  "method": "keyword_overlap",
+  "score": "number of distinct Jieba lowercase query tokens also present in the document",
+  "fields": ["name", "category", "address", "description"],
+  "stopwords": "none; shared existing BM25 tokenizer",
+  "zero_overlap": "retain for complete candidate ordering",
+  "tie_break": "poi_id ascending",
+  "parameter_tuning": false,
+  "new_labels": false,
+  "metric_protocol": "unchanged complete-judgment rule; gain2^grade-1; binary threshold2; full MRR",
+  "hard_conditions": "none added to frozen Pilot",
+  "latency": {"methods": ["keyword_overlap", "bm25"], "queries": "all eight frozen queries, including those excluded from effectiveness", "warmups_per_query": 3, "repeats_per_query": 30, "order": "alternate method order per repeat", "unit": "milliseconds; same-process CPU warm search only"},
+  "claims_held_out_test": false,
+  "claims_confirmatory_experiment": false
+}

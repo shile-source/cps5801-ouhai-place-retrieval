@@ -2,6 +2,36 @@
 import json
 from pathlib import Path
 import sys
+import math
+
+
+def tensor_row_ranges(shape, element_size, budget_bytes=16*1024**2):
+    """Bound host reads by first-axis rows; reject a row exceeding the budget."""
+    if not shape or any(type(n) is not int or n<=0 for n in shape):
+        raise ValueError('Positive nonscalar tensor shape required')
+    row_bytes=math.prod(shape[1:])*element_size
+    if row_bytes>budget_bytes or element_size not in (2,4):
+        raise ValueError('A tensor row exceeds the bounded host-read budget')
+    rows=max(1,budget_bytes//row_bytes)
+    return [(start,min(shape[0],start+rows)) for start in range(0,shape[0],rows)]
+
+
+def restore_generated_buffers(backbone, config, torch):
+    """Materialize only standard generated XLM-R IDs, never learned parameters."""
+    for name,buffer in list(backbone.named_buffers()):
+        if not buffer.is_meta:
+            continue
+        suffix=name.rsplit('.',1)[-1]
+        shape=(1,config.max_position_embeddings)
+        if tuple(buffer.shape)!=shape or buffer.dtype!=torch.long:
+            raise ValueError('Unsupported meta buffer: '+name)
+        if suffix=='position_ids':value=torch.arange(shape[1],dtype=torch.long,device='cpu').expand(shape)
+        elif suffix=='token_type_ids':value=torch.zeros(shape,dtype=torch.long,device='cpu')
+        else:raise ValueError('Unsupported meta buffer: '+name)
+        module=backbone
+        parts=name.split('.')
+        for part in parts[:-1]:module=getattr(module,part)
+        module._buffers[parts[-1]]=value
 
 
 def validate_tensor_catalog(expected,actual):
@@ -30,8 +60,12 @@ def load_streamed_bge(checkpoint,device,precision,max_length):
     checkpoint=Path(checkpoint)
     dtype={'float32':torch.float32,'float16':torch.float16}[precision]
     config=AutoConfig.from_pretrained(str(checkpoint),local_files_only=True,trust_remote_code=False)
-    with init_empty_weights():
+    # include_buffers=True uses a device context in the installed Accelerate;
+    # the default register-parameter interception can allocate a large CPU tensor
+    # before replacing it with a meta parameter.
+    with init_empty_weights(include_buffers=True):
         backbone=AutoModel.from_config(config,trust_remote_code=False)
+    restore_generated_buffers(backbone,config,torch)
     expected={name:tuple(t.shape) for name,t in backbone.state_dict().items()}
     with safe_open(checkpoint/'model.safetensors',framework='pt',device='cpu',backend='pread') as reader:
         actual={name:tuple(reader.get_slice(name).get_shape()) for name in reader.keys()}
@@ -49,7 +83,17 @@ def load_streamed_bge(checkpoint,device,precision,max_length):
             del source_buffer
         validate_tensor_catalog(expected,actual)
         for number,name in enumerate(expected,1):
-            tensor=reader.get_tensor(name)
+            shape=tuple(actual[name])
+            if name in buffers or not shape:
+                tensor=reader.get_tensor(name).to('cuda:0')
+            else:
+                tensor=torch.empty(shape,device='cuda:0',dtype=dtype)
+                view=reader.get_slice(name)
+                with torch.no_grad():
+                    for first,last in tensor_row_ranges(shape,4):
+                        piece=view[first:last]
+                        tensor[first:last].copy_(piece,non_blocking=False)
+                        del piece
             set_module_tensor_to_device(backbone,name,'cuda:0',value=tensor,dtype=dtype)
             del tensor
             if number==1 or number%50==0 or number==len(expected):
