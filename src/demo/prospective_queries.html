@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>朋友填写：30条地点请求</title>
+<style>body{font:18px/1.7 system-ui;background:#f4f7f6;color:#17382f;margin:0}main{max-width:960px;margin:32px auto;padding:30px;background:white;border-radius:16px}h1{font-size:28px}textarea{box-sizing:border-box;width:100%;min-height:82px;font:inherit;padding:10px;border:1px solid #8caaa1;border-radius:6px}label{display:block;margin:18px 0}input,select,button{font:inherit;padding:9px}button{background:#235c4e;color:white;border:0;border-radius:7px;cursor:pointer;margin:10px 8px 10px 0}button:disabled{opacity:.5}#notice{position:sticky;top:0;background:#fff2cb;padding:12px;white-space:pre-wrap}small{display:block}.record{border-top:1px solid #ddd;padding:12px 0}summary{cursor:pointer}fieldset{border:0;padding:0}</style>
+<main><h1>请朋友亲自写30条地点查找请求</h1>
+<p>这次只写“你会怎样向搜索工具提问”，不用评价地点，也不用看照片。请用自己的话，不用AI代写，不参考之前的查询或模型排名。可以查看下方来源目录，但不要整句复制资料。填写人用代号，不写姓名或联系方式。</p>
+<p>仅使用资料可支持的名称、类别、来源地址、座位数、藏书量等事实。不要求安静程度、实时营业、景色质量或未经验证的距离。不限于读书，也可涉及公园或景点。尽量写不同意图；若没有合适想法，可以先保存草稿，不必凑数。</p>
+<div id="notice" role="status">正在读取已保存草稿…</div>
+<details><summary>查看来源目录（76条候选；可能重合，不代表已核实地点现状）</summary><p>这是来源文字，不含模型排名。地址与开放情况未独立核验。</p><div id="catalog"></div></details>
+<fieldset id="form"><label>填写人代号 <input id="author_code" maxlength="80" autocomplete="off"></label>
+<label>填写前是否看过本项目的模型排名或效果结果？ <select id="rank_exposure"><option value="">请选择</option><option value="unseen">没有看过</option><option value="seen">看过</option><option value="unsure">不确定</option></select></label>
+<label>这30条是否使用AI代写或改写？ <select id="ai_use"><option value="">请选择</option><option value="none">没有</option><option value="used">使用过</option><option value="unsure">不确定</option></select></label><div id="queries"></div>
+<button type="button" id="save">保存草稿</button><label><input type="checkbox" id="confirmed">我是实际填写人，以上来源声明如实；确认提交后锁定本版本。</label><button type="button" id="submit">提交30条并锁定</button></fieldset>
+<p>草稿保存到这台电脑D盘，可关闭后继续。提交仅表示已收回，仍需检查出处、意图及可评价性；不会自动成为正式测试集。旧查询、旧评分不变。</p></main>
+<script>
+let token='',locked=false;const $=id=>document.getElementById(id);
+const groups=[['明确名称或位置','写10条：用资料中的地点名称或明确来源位置寻找记录。'],['自然表达','写10条：用自己的话表达用途或类别，不照抄资料句子，不必指定地点名。'],['多个偏好','写10条：每条至少两个偏好，用“优先”“希望”等表达；偏好不是必须条件。只用资料支持的属性。']];
+groups.forEach((g,i)=>{const h=document.createElement('h2');h.textContent=g[0];$('queries').append(h);const p=document.createElement('p');p.textContent=g[1];$('queries').append(p);for(let n=0;n<10;n++){const l=document.createElement('label');l.textContent=`${i*10+n+1}. `;const a=document.createElement('textarea');a.id='q'+(i*10+n);a.maxLength=500;l.append(a);$('queries').append(l)}});
+function payload(){const d={queries:Array.from({length:30},(_,i)=>$('q'+i).value),confirmed:$('confirmed').checked};['author_code','rank_exposure','ai_use'].forEach(k=>d[k]=$(k).value);return d}
+function status(s){locked=s.locked;$('form').disabled=locked;const count=s.draft.queries.filter(x=>x.trim()).length;$('notice').textContent=locked?`已提交并锁定：${count}/30。请告诉项目负责人已完成。`:`已保存草稿：${count}/30。编辑后请点击“保存草稿”；未点击的内容尚未保存。`}
+async function save(submit){try{const r=await fetch(submit?'/api/submit':'/api/draft',{method:'POST',headers:{'Content-Type':'application/json','X-Query-Token':token},body:JSON.stringify(payload())});const s=await r.json();if(!r.ok)throw Error(s.error);status(s)}catch(e){$('notice').textContent='尚未保存成功：'+e.message}}
+$('save').onclick=()=>save(false);$('submit').onclick=()=>save(true);
+$('form').addEventListener('input',()=>{if(!locked)$('notice').textContent='有未保存修改，请点击“保存草稿”。'});
+window.addEventListener('beforeunload',e=>{if($('notice').textContent.includes('有未保存')){e.preventDefault();e.returnValue=''}});
+(async()=>{try{const r=await fetch('/api/state');if(!r.ok)throw Error('连接失败');const s=await r.json();token=s.request_token;['author_code','rank_exposure','ai_use'].forEach(k=>$(k).value=s.draft[k]);s.draft.queries.forEach((v,i)=>$('q'+i).value=v);status(s);const records=await(await fetch('/api/catalog')).json();records.forEach(r=>{const d=document.createElement('div');d.className='record';const b=document.createElement('b');b.textContent=r.name+' · '+r.category;const p=document.createElement('p');p.textContent=r.description||('来源地址：'+(r.address||'未知'));d.append(b,p);$('catalog').append(d)})}catch(e){$('notice').textContent='读取失败，请联系项目负责人：'+e.message}})();
+</script></html>

@@ -1,5 +1,13 @@
 # CPS5801: source-text place retrieval
 
+## Interactive map application update
+
+The local search server now serves a Chinese map application at `/` (also `/map`), with the previous bilingual method-comparison view at `/compare`. Natural-language requests use the selected real backend, required source conditions are applied before ranking, and result cards link to numbered map markers and source details. The application does not silently substitute lexical retrieval for failed dense inference. Leaflet 1.9.4 is vendored locally with its BSD license and SHA receipts. Optional OSM street tiles depend on external network access and normal browser caching; local numbered markers remain usable without tiles.
+
+Only explicitly WGS84 OSM source positions are plotted. Nodes are source points; way/relation bounding-box centres are separately styled approximate area positions, not verified entrances and not guaranteed to lie inside the feature. Original unknown-CRS government records are not plotted or silently converted. The 76-record author development snapshot has39 displayable OSM positions and37 unplotted records; this is not a count of independently verified unique entities. The public open-only39-record snapshot remains separate.
+
+**Latest desktop validation limitation:** the new application passed real BM25 result-to-map/detail interaction checks, but OSM street tiles failed to load in the inspected browser. The BGE live attempt stopped without a completed ranking; a subsequent Encoder selection was rejected by the retained storage guard before its own worker was constructed. Both are now blocked in that live session; no automatic retry or numeric effectiveness result was generated. Prior successful model checks remain historical evidence, not proof that this latest desktop session is currently running dense search. Do not restart the service merely to clear the failure state. The original research objectives remain incomplete.
+
 Public source repository: [shile-source/cps5801-ouhai-place-retrieval](https://github.com/shile-source/cps5801-ouhai-place-retrieval).
 
 This repository implements a Chinese place-search prototype for Ouhai, Wenzhou, comparing BM25, a multilingual Sentence Encoder and BGE-M3 dense retrieval under shared text fields. It uses pretrained inference; **there is no model-training stage or newly trained checkpoint**. The map is an application demonstration, not independent evidence of current operations, entrances or district membership.

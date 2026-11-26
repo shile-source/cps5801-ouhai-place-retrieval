@@ -30,6 +30,9 @@ def create_session(session,items,bindings,root):
 
 
 class Adjudication:
+    action = 'human_adjudication'
+    source = 'user_adjudication_ui'
+    role = 'first_rater_post_publication_reviewer'
     def __init__(self,session,root):
         self.path,self.root=Path(session),Path(root).resolve()
         self.lock=threading.RLock()
@@ -83,9 +86,9 @@ class Adjudication:
             if not isinstance(reviewer,str) or not 1<=len(reviewer.strip())<=80 or any(ord(c)<32 for c in reviewer):
                 raise ValueError('请填写你的复核者代号')
             if confirmed is not True:raise ValueError('请确认由你本人依据来源作出本次判断')
-            event={'action':'human_adjudication','case_id':case_id,'grade':grade,'reason':reason.strip(),
-                   'reviewer':reviewer.strip(),'source':'user_adjudication_ui',
-                   'role':'first_rater_post_publication_reviewer','claims_independent_blind_judgment':False,
+            event={'action':self.action,'case_id':case_id,'grade':grade,'reason':reason.strip(),
+                   'reviewer':reviewer.strip(),'source':self.source,
+                   'role':self.role,'claims_independent_blind_judgment':False,
                    'saved_at':datetime.now().astimezone().isoformat()}
             with (self.path/'decisions.jsonl').open('a',encoding='utf-8',newline='\n') as file:
                 file.write(json.dumps(event,ensure_ascii=False)+'\n');file.flush();os.fsync(file.fileno())

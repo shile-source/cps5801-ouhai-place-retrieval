@@ -203,3 +203,22 @@ def test_http_does_not_serve_project_files(server):
     with pytest.raises(HTTPError) as error:
         urlopen(server+'/../../AGENTS.md',timeout=5)
     assert error.value.code==404
+
+
+@pytest.mark.parametrize('path,kind', [('/', 'text/html'), ('/map.js', 'application/javascript'),
+    ('/map.css', 'text/css'), ('/vendor/leaflet-1.9.4/leaflet.js', 'application/javascript'),
+    ('/vendor/leaflet-1.9.4/leaflet.css', 'text/css')])
+def test_product_map_static_assets_and_referrer_policy(server, path, kind):
+    with urlopen(server + path, timeout=5) as response:
+        assert response.headers.get_content_type() == kind
+        assert response.headers['Referrer-Policy'] == 'strict-origin-when-cross-origin'
+        assert 'https://tile.openstreetmap.org' in response.headers['Content-Security-Policy']
+        assert len(response.read()) > 100
+
+
+def test_worker_exit_does_not_hide_recorded_storage_failure(engine):
+    from types import SimpleNamespace
+    engine.worker = SimpleNamespace(poll=lambda: 1)
+    engine.worker_error = 'synthetic storage protection reason'
+    with pytest.raises(StorageGuardError, match='synthetic storage protection reason'):
+        engine._receive(timeout=.1)

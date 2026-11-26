@@ -32,6 +32,19 @@ def map_preview(record):
         return None
     return {'latitude': lat, 'longitude': lon, 'status': 'unverified_osm_point'}
 
+
+def map_location(record):
+    """Display OSM nodes or explicitly documented bbox centres, never guessed entrances."""
+    point = map_preview(record)
+    if point:
+        return {**point, 'kind': 'source_node', 'entrance_verified': False}
+    if (not record['poi_id'].startswith(('osm_way_', 'osm_relation_'))
+            or record.get('coordinate_kind') != 'overpass_bounding_box_center'):
+        return None
+    point = map_preview(dict(record, poi_id='osm_node_display_validation'))
+    return {**point, 'kind': 'bounding_box_center', 'entrance_verified': False,
+            'status': 'approximate_source_area_center'} if point else None
+
 class StorageGuardError(RuntimeError):
     pass
 
@@ -109,6 +122,8 @@ class SearchEngine:
                 return message
             except queue.Empty:
                 if self.worker.poll() is not None:
+                    if self.worker_error:
+                        raise StorageGuardError(self.worker_error)
                     raise RuntimeError(f'模型工作器退出（exit={self.worker.returncode}），请核对D盘 encoder_stderr.log')
         self.worker.terminate()
         raise RuntimeError('模型响应超过150秒，已停止本次工作器；不会自动重试')
@@ -190,7 +205,7 @@ class SearchEngine:
         fields = ('poi_id', 'name', 'category', 'address', 'description', 'source_url')
         rows = [
             {**{field: record.get(field) or '' for field in fields},
-             'map_preview': map_preview(record), 'navigation': destination(record, self.navigation_notes)}
+             'map_preview': map_preview(record), 'map_location': map_location(record), 'navigation': destination(record, self.navigation_notes)}
             for record in self.records.values()
         ]
         rows.sort(key=lambda row: (row['name'], row['poi_id']))
@@ -248,6 +263,7 @@ class SearchEngine:
                 source = self.records[row['poi_id']]
                 row.update({key:source.get(key) or '' for key in ('name','category','address','description','source_url')})
                 row['map_preview'] = map_preview(source)
+                row['map_location'] = map_location(source)
                 row['navigation'] = destination(source, self.navigation_notes)
                 row['matched_tokens'] = sorted(tokens & set(tokenize('\n'.join(row[k] for k in ('name','category','address','description')))))
                 row['verification_status'] = '地点区属、位置和当前运营仍待独立核验'
@@ -291,13 +307,29 @@ def make_handler(engine):
                 self.send_json(200,engine.status())
             elif self.path == '/api/places':
                 self.send_json(200,engine.places())
-            elif self.path in ('/','/index.html'):
+            elif self.path in ('/compare','/index.html'):
                 body=Path(__file__).with_name('index.html').read_bytes()
                 self.send_response(200)
                 self.send_header('Content-Type','text/html; charset=utf-8')
                 self.send_header('Content-Length',str(len(body)))
                 self.send_header('Cache-Control','no-store')
                 self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; frame-src https://www.openstreetmap.org; frame-ancestors 'none'")
+                self.end_headers(); self.wfile.write(body)
+            elif self.path in ('/','/map','/map.html','/map.js','/map.css',
+                                '/vendor/leaflet-1.9.4/leaflet.js','/vendor/leaflet-1.9.4/leaflet.css',
+                                '/vendor/leaflet-1.9.4/LICENSE','/vendor/leaflet-1.9.4/PROVENANCE.json'):
+                relative = 'map.html' if self.path in ('/','/map','/map.html') else self.path[1:]
+                path = Path(__file__).parent / relative
+                body = path.read_bytes()
+                kinds = {'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8',
+                         '.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8'}
+                self.send_response(200)
+                self.send_header('Content-Type', kinds.get(path.suffix, 'text/plain; charset=utf-8'))
+                self.send_header('Content-Length', str(len(body)))
+                self.send_header('X-Content-Type-Options', 'nosniff')
+                self.send_header('Referrer-Policy', 'strict-origin-when-cross-origin')
+                self.send_header('Cache-Control', 'no-cache')
+                self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://tile.openstreetmap.org; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'")
                 self.end_headers(); self.wfile.write(body)
             else:
                 self.send_json(404,{'error':'Not found'})

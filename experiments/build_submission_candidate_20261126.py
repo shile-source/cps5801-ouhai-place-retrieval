@@ -18,7 +18,8 @@ EXPERIMENTS=(
     'run_keyword_supplement_20261126.py','reproduce_keyword_supplement.py',
     'finalize_bge_supplement_20261126.py','reproduce_bge_supplement.py',
     'verify_streamed_equivalence_20261125.py','prepare_adjudication_20261126.py','verify_fresh_cpu_20261126.py',
-    'finalize_adjudication_20261126.py','reproduce_review_sensitivity.py')
+    'finalize_adjudication_20261126.py','reproduce_review_sensitivity.py',
+    'run_ai_query_smoke_20261126.py','prepare_assisted_review_20261126.py')
 BLOCKED_PARTS={'apps','.venv','.cache','.git','__pycache__','labels','queries'}
 TOKEN=re.compile(rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9]{35,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -38,11 +39,15 @@ def main():
         planned[str(target or relative).replace('\\','/')]=(source,body)
     for path in (ROOT/'src').rglob('*'):
         if path.is_file() and path.suffix in ('.py','.html') and '__pycache__' not in path.parts:add(path)
+    for relative in ('src/demo/map.js','src/demo/map.css','src/demo/vendor/leaflet-1.9.4/leaflet.js',
+                     'src/demo/vendor/leaflet-1.9.4/leaflet.css','src/demo/vendor/leaflet-1.9.4/LICENSE',
+                     'src/demo/vendor/leaflet-1.9.4/PROVENANCE.json'):
+        add(ROOT/relative)
     for path in (ROOT/'tests').glob('*'):
         if path.suffix in ('.py','.js') and path.name not in ('test_storage_monitor.py','test_stage5_study_data.py'):
             add(path)
     for name in EXPERIMENTS:add(ROOT/'experiments'/name)
-    for name in ('Start-Project.ps1','Start-Demo.ps1','Start-Second-Rater.ps1','Start-Open-Demo.ps1','Start-Review-Demo.ps1','Start-Adjudication.ps1',
+    for name in ('Start-Project.ps1','Start-Demo.ps1','Start-Second-Rater.ps1','Start-Open-Demo.ps1','Start-Review-Demo.ps1','Start-Adjudication.ps1','Start-Assisted-Review.ps1','Start-Query-Intake.ps1',
                  'requirements.txt','requirements-gpu.txt','requirements-encoder.txt','requirements-bge-helper.txt',
                  'pytest.ini','LICENSE','AI_DISCLOSURE.md','THIRD_PARTY_NOTICES.md'):
         add(ROOT/name)
