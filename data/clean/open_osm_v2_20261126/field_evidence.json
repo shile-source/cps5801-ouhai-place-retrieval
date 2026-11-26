@@ -1,0 +1,2732 @@
+[
+  {
+    "poi_id": "osm_node_12132373350",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12132373350",
+    "source_rows": [
+      1
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/node/12132373350",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12132373350",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12132373350",
+    "source_rows": [
+      1
+    ],
+    "source_field": "tags.name",
+    "source_value": "文化公园",
+    "source_url": "https://www.openstreetmap.org/node/12132373350",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12132373350",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12132373350",
+    "source_rows": [
+      1
+    ],
+    "source_field": "lat",
+    "source_value": "27.9941545",
+    "source_url": "https://www.openstreetmap.org/node/12132373350",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12132373350",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12132373350",
+    "source_rows": [
+      1
+    ],
+    "source_field": "lon",
+    "source_value": "120.5686386",
+    "source_url": "https://www.openstreetmap.org/node/12132373350",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_778864105",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/778864105",
+    "source_rows": [
+      2
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/778864105",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_778864105",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/778864105",
+    "source_rows": [
+      2
+    ],
+    "source_field": "tags.name",
+    "source_value": "新桥文化广场",
+    "source_url": "https://www.openstreetmap.org/way/778864105",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_778864105",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/778864105",
+    "source_rows": [
+      2
+    ],
+    "source_field": "tags.name:en",
+    "source_value": "Xinqiao Park",
+    "source_url": "https://www.openstreetmap.org/way/778864105",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_778864105",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/778864105",
+    "source_rows": [
+      2
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9861952",
+    "source_url": "https://www.openstreetmap.org/way/778864105",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_778864105",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/778864105",
+    "source_rows": [
+      2
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6244856",
+    "source_url": "https://www.openstreetmap.org/way/778864105",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_848331750",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/848331750",
+    "source_rows": [
+      3
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/848331750",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_848331750",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/848331750",
+    "source_rows": [
+      3
+    ],
+    "source_field": "tags.name",
+    "source_value": "小区公园",
+    "source_url": "https://www.openstreetmap.org/way/848331750",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_848331750",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/848331750",
+    "source_rows": [
+      3
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9686951",
+    "source_url": "https://www.openstreetmap.org/way/848331750",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_848331750",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/848331750",
+    "source_rows": [
+      3
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6518988",
+    "source_url": "https://www.openstreetmap.org/way/848331750",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_866792666",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/866792666",
+    "source_rows": [
+      4
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/866792666",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_866792666",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/866792666",
+    "source_rows": [
+      4
+    ],
+    "source_field": "tags.name",
+    "source_value": "秀屿山公园",
+    "source_url": "https://www.openstreetmap.org/way/866792666",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_866792666",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/866792666",
+    "source_rows": [
+      4
+    ],
+    "source_field": "tags.name:en",
+    "source_value": "Xiuyushan Park",
+    "source_url": "https://www.openstreetmap.org/way/866792666",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_866792666",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/866792666",
+    "source_rows": [
+      4
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9789034",
+    "source_url": "https://www.openstreetmap.org/way/866792666",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_866792666",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/866792666",
+    "source_rows": [
+      4
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6055663",
+    "source_url": "https://www.openstreetmap.org/way/866792666",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867522360",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867522360",
+    "source_rows": [
+      5
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/867522360",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867522360",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867522360",
+    "source_rows": [
+      5
+    ],
+    "source_field": "tags.name",
+    "source_value": "市民广场",
+    "source_url": "https://www.openstreetmap.org/way/867522360",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867522360",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867522360",
+    "source_rows": [
+      5
+    ],
+    "source_field": "tags.name:en",
+    "source_value": "Citizen's Plaza",
+    "source_url": "https://www.openstreetmap.org/way/867522360",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867522360",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867522360",
+    "source_rows": [
+      5
+    ],
+    "source_field": "tags.place",
+    "source_value": "square",
+    "source_url": "https://www.openstreetmap.org/way/867522360",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867522360",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867522360",
+    "source_rows": [
+      5
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9689231",
+    "source_url": "https://www.openstreetmap.org/way/867522360",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867522360",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867522360",
+    "source_rows": [
+      5
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6114365",
+    "source_url": "https://www.openstreetmap.org/way/867522360",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867525440",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867525440",
+    "source_rows": [
+      6
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/867525440",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867525440",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867525440",
+    "source_rows": [
+      6
+    ],
+    "source_field": "tags.name",
+    "source_value": "滨水公园",
+    "source_url": "https://www.openstreetmap.org/way/867525440",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867525440",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867525440",
+    "source_rows": [
+      6
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9899393",
+    "source_url": "https://www.openstreetmap.org/way/867525440",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_867525440",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/867525440",
+    "source_rows": [
+      6
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6155313",
+    "source_url": "https://www.openstreetmap.org/way/867525440",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_870589267",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/870589267",
+    "source_rows": [
+      7
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/870589267",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_870589267",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/870589267",
+    "source_rows": [
+      7
+    ],
+    "source_field": "tags.name",
+    "source_value": "乐一公园",
+    "source_url": "https://www.openstreetmap.org/way/870589267",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_870589267",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/870589267",
+    "source_rows": [
+      7
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.972583",
+    "source_url": "https://www.openstreetmap.org/way/870589267",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_870589267",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/870589267",
+    "source_rows": [
+      7
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6107882",
+    "source_url": "https://www.openstreetmap.org/way/870589267",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_875749659",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/875749659",
+    "source_rows": [
+      8
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/875749659",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_875749659",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/875749659",
+    "source_rows": [
+      8
+    ],
+    "source_field": "tags.name",
+    "source_value": "世纪公园",
+    "source_url": "https://www.openstreetmap.org/way/875749659",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_875749659",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/875749659",
+    "source_rows": [
+      8
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9808779",
+    "source_url": "https://www.openstreetmap.org/way/875749659",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_875749659",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/875749659",
+    "source_rows": [
+      8
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6960824",
+    "source_url": "https://www.openstreetmap.org/way/875749659",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893003619",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893003619",
+    "source_rows": [
+      9
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/893003619",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893003619",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893003619",
+    "source_rows": [
+      9
+    ],
+    "source_field": "tags.name",
+    "source_value": "亚运公园",
+    "source_url": "https://www.openstreetmap.org/way/893003619",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893003619",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893003619",
+    "source_rows": [
+      9
+    ],
+    "source_field": "tags.name:en",
+    "source_value": "Yayun Park",
+    "source_url": "https://www.openstreetmap.org/way/893003619",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893003619",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893003619",
+    "source_rows": [
+      9
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9654021",
+    "source_url": "https://www.openstreetmap.org/way/893003619",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893003619",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893003619",
+    "source_rows": [
+      9
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6117397",
+    "source_url": "https://www.openstreetmap.org/way/893003619",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452593",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452593",
+    "source_rows": [
+      10
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/893452593",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452593",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452593",
+    "source_rows": [
+      10
+    ],
+    "source_field": "tags.name",
+    "source_value": "紫薇主题公园",
+    "source_url": "https://www.openstreetmap.org/way/893452593",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452593",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452593",
+    "source_rows": [
+      10
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9741506",
+    "source_url": "https://www.openstreetmap.org/way/893452593",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452593",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452593",
+    "source_rows": [
+      10
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.5871238",
+    "source_url": "https://www.openstreetmap.org/way/893452593",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452594",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452594",
+    "source_rows": [
+      11
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/893452594",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452594",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452594",
+    "source_rows": [
+      11
+    ],
+    "source_field": "tags.name",
+    "source_value": "南火车站广场",
+    "source_url": "https://www.openstreetmap.org/way/893452594",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452594",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452594",
+    "source_rows": [
+      11
+    ],
+    "source_field": "tags.name:en",
+    "source_value": "South Station Plaza",
+    "source_url": "https://www.openstreetmap.org/way/893452594",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452594",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452594",
+    "source_rows": [
+      11
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.96949",
+    "source_url": "https://www.openstreetmap.org/way/893452594",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_893452594",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/893452594",
+    "source_rows": [
+      11
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.5848747",
+    "source_url": "https://www.openstreetmap.org/way/893452594",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_900954276",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/900954276",
+    "source_rows": [
+      12
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/900954276",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_900954276",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/900954276",
+    "source_rows": [
+      12
+    ],
+    "source_field": "tags.name",
+    "source_value": "滨水公园",
+    "source_url": "https://www.openstreetmap.org/way/900954276",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_900954276",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/900954276",
+    "source_rows": [
+      12
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9764028",
+    "source_url": "https://www.openstreetmap.org/way/900954276",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_900954276",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/900954276",
+    "source_rows": [
+      12
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6841017",
+    "source_url": "https://www.openstreetmap.org/way/900954276",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_902320710",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/902320710",
+    "source_rows": [
+      13
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/902320710",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_902320710",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/902320710",
+    "source_rows": [
+      13
+    ],
+    "source_field": "tags.name",
+    "source_value": "会昌河畔公园",
+    "source_url": "https://www.openstreetmap.org/way/902320710",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_902320710",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/902320710",
+    "source_rows": [
+      13
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9929294",
+    "source_url": "https://www.openstreetmap.org/way/902320710",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_902320710",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/902320710",
+    "source_rows": [
+      13
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6318139",
+    "source_url": "https://www.openstreetmap.org/way/902320710",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_982937385",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/982937385",
+    "source_rows": [
+      14
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/982937385",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_982937385",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/982937385",
+    "source_rows": [
+      14
+    ],
+    "source_field": "tags.name",
+    "source_value": "西山公园",
+    "source_url": "https://www.openstreetmap.org/way/982937385",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_982937385",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/982937385",
+    "source_rows": [
+      14
+    ],
+    "source_field": "tags.name:en",
+    "source_value": "West Hill Park",
+    "source_url": "https://www.openstreetmap.org/way/982937385",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_982937385",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/982937385",
+    "source_rows": [
+      14
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.995501",
+    "source_url": "https://www.openstreetmap.org/way/982937385",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_982937385",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/982937385",
+    "source_rows": [
+      14
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6338517",
+    "source_url": "https://www.openstreetmap.org/way/982937385",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1008977206",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1008977206",
+    "source_rows": [
+      15
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/1008977206",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1008977206",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1008977206",
+    "source_rows": [
+      15
+    ],
+    "source_field": "tags.name",
+    "source_value": "荷塘月色公园",
+    "source_url": "https://www.openstreetmap.org/way/1008977206",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1008977206",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1008977206",
+    "source_rows": [
+      15
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9528399",
+    "source_url": "https://www.openstreetmap.org/way/1008977206",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1008977206",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1008977206",
+    "source_rows": [
+      15
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6772584",
+    "source_url": "https://www.openstreetmap.org/way/1008977206",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1145549215",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1145549215",
+    "source_rows": [
+      16
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/1145549215",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1145549215",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1145549215",
+    "source_rows": [
+      16
+    ],
+    "source_field": "tags.name",
+    "source_value": "申顺文体主题公园",
+    "source_url": "https://www.openstreetmap.org/way/1145549215",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1145549215",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1145549215",
+    "source_rows": [
+      16
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9813959",
+    "source_url": "https://www.openstreetmap.org/way/1145549215",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1145549215",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1145549215",
+    "source_rows": [
+      16
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6803982",
+    "source_url": "https://www.openstreetmap.org/way/1145549215",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1283326214",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1283326214",
+    "source_rows": [
+      17
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/1283326214",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1283326214",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1283326214",
+    "source_rows": [
+      17
+    ],
+    "source_field": "tags.name",
+    "source_value": "白门渡公园",
+    "source_url": "https://www.openstreetmap.org/way/1283326214",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1283326214",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1283326214",
+    "source_rows": [
+      17
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9090885",
+    "source_url": "https://www.openstreetmap.org/way/1283326214",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1283326214",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1283326214",
+    "source_rows": [
+      17
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6375981",
+    "source_url": "https://www.openstreetmap.org/way/1283326214",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1319719830",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1319719830",
+    "source_rows": [
+      18
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/1319719830",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1319719830",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1319719830",
+    "source_rows": [
+      18
+    ],
+    "source_field": "tags.name",
+    "source_value": "十八湾滨水公园",
+    "source_url": "https://www.openstreetmap.org/way/1319719830",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1319719830",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1319719830",
+    "source_rows": [
+      18
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9903949",
+    "source_url": "https://www.openstreetmap.org/way/1319719830",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1319719830",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1319719830",
+    "source_rows": [
+      18
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6067695",
+    "source_url": "https://www.openstreetmap.org/way/1319719830",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1373611868",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1373611868",
+    "source_rows": [
+      19
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/way/1373611868",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1373611868",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1373611868",
+    "source_rows": [
+      19
+    ],
+    "source_field": "tags.name",
+    "source_value": "姜宅村休闲园",
+    "source_url": "https://www.openstreetmap.org/way/1373611868",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1373611868",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1373611868",
+    "source_rows": [
+      19
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9086932",
+    "source_url": "https://www.openstreetmap.org/way/1373611868",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1373611868",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1373611868",
+    "source_rows": [
+      19
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6344002",
+    "source_url": "https://www.openstreetmap.org/way/1373611868",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_relation_11867625",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "relation/11867625",
+    "source_rows": [
+      20
+    ],
+    "source_field": "tags.leisure",
+    "source_value": "park",
+    "source_url": "https://www.openstreetmap.org/relation/11867625",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_relation_11867625",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "relation/11867625",
+    "source_rows": [
+      20
+    ],
+    "source_field": "tags.name",
+    "source_value": "龙舟公园",
+    "source_url": "https://www.openstreetmap.org/relation/11867625",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_relation_11867625",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "relation/11867625",
+    "source_rows": [
+      20
+    ],
+    "source_field": "tags.name:en",
+    "source_value": "Longzhou Park",
+    "source_url": "https://www.openstreetmap.org/relation/11867625",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_relation_11867625",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "relation/11867625",
+    "source_rows": [
+      20
+    ],
+    "source_field": "tags.type",
+    "source_value": "multipolygon",
+    "source_url": "https://www.openstreetmap.org/relation/11867625",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_relation_11867625",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "relation/11867625",
+    "source_rows": [
+      20
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9870313",
+    "source_url": "https://www.openstreetmap.org/relation/11867625",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_relation_11867625",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "relation/11867625",
+    "source_rows": [
+      20
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6336763",
+    "source_url": "https://www.openstreetmap.org/relation/11867625",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8330242776",
+    "source_rows": [
+      21
+    ],
+    "source_field": "tags.denotation",
+    "source_value": "landmark",
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8330242776",
+    "source_rows": [
+      21
+    ],
+    "source_field": "tags.leaf_type",
+    "source_value": "broadleaved",
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8330242776",
+    "source_rows": [
+      21
+    ],
+    "source_field": "tags.name",
+    "source_value": "千年大榕树",
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8330242776",
+    "source_rows": [
+      21
+    ],
+    "source_field": "tags.natural",
+    "source_value": "tree",
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8330242776",
+    "source_rows": [
+      21
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8330242776",
+    "source_rows": [
+      21
+    ],
+    "source_field": "lat",
+    "source_value": "27.9902103",
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8330242776",
+    "source_rows": [
+      21
+    ],
+    "source_field": "lon",
+    "source_value": "120.6283393",
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_10591363706",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/10591363706",
+    "source_rows": [
+      22
+    ],
+    "source_field": "tags.amenity",
+    "source_value": "shelter",
+    "source_url": "https://www.openstreetmap.org/node/10591363706",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_10591363706",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/10591363706",
+    "source_rows": [
+      22
+    ],
+    "source_field": "tags.name",
+    "source_value": "丽花亭",
+    "source_url": "https://www.openstreetmap.org/node/10591363706",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_10591363706",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/10591363706",
+    "source_rows": [
+      22
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/node/10591363706",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_10591363706",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/10591363706",
+    "source_rows": [
+      22
+    ],
+    "source_field": "lat",
+    "source_value": "27.9708892",
+    "source_url": "https://www.openstreetmap.org/node/10591363706",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_10591363706",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/10591363706",
+    "source_rows": [
+      22
+    ],
+    "source_field": "lon",
+    "source_value": "120.7056727",
+    "source_url": "https://www.openstreetmap.org/node/10591363706",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11847794502",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11847794502",
+    "source_rows": [
+      23
+    ],
+    "source_field": "tags.name",
+    "source_value": "丽塘井",
+    "source_url": "https://www.openstreetmap.org/node/11847794502",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11847794502",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11847794502",
+    "source_rows": [
+      23
+    ],
+    "source_field": "tags.ref",
+    "source_value": "丽塘井",
+    "source_url": "https://www.openstreetmap.org/node/11847794502",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11847794502",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11847794502",
+    "source_rows": [
+      23
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/node/11847794502",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11847794502",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11847794502",
+    "source_rows": [
+      23
+    ],
+    "source_field": "lat",
+    "source_value": "27.9228126",
+    "source_url": "https://www.openstreetmap.org/node/11847794502",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11847794502",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11847794502",
+    "source_rows": [
+      23
+    ],
+    "source_field": "lon",
+    "source_value": "120.6519867",
+    "source_url": "https://www.openstreetmap.org/node/11847794502",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499804",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499804",
+    "source_rows": [
+      24
+    ],
+    "source_field": "tags.name",
+    "source_value": "灯雨龙舌",
+    "source_url": "https://www.openstreetmap.org/node/12688499804",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499804",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499804",
+    "source_rows": [
+      24
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/node/12688499804",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499804",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499804",
+    "source_rows": [
+      24
+    ],
+    "source_field": "lat",
+    "source_value": "27.9225464",
+    "source_url": "https://www.openstreetmap.org/node/12688499804",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499804",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499804",
+    "source_rows": [
+      24
+    ],
+    "source_field": "lon",
+    "source_value": "120.6494116",
+    "source_url": "https://www.openstreetmap.org/node/12688499804",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499805",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499805",
+    "source_rows": [
+      25
+    ],
+    "source_field": "tags.name",
+    "source_value": "葛凯明彻",
+    "source_url": "https://www.openstreetmap.org/node/12688499805",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499805",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499805",
+    "source_rows": [
+      25
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/node/12688499805",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499805",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499805",
+    "source_rows": [
+      25
+    ],
+    "source_field": "lat",
+    "source_value": "27.9221167",
+    "source_url": "https://www.openstreetmap.org/node/12688499805",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499805",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499805",
+    "source_rows": [
+      25
+    ],
+    "source_field": "lon",
+    "source_value": "120.6504845",
+    "source_url": "https://www.openstreetmap.org/node/12688499805",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499806",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499806",
+    "source_rows": [
+      26
+    ],
+    "source_field": "tags.name",
+    "source_value": "我建犹怜",
+    "source_url": "https://www.openstreetmap.org/node/12688499806",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499806",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499806",
+    "source_rows": [
+      26
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/node/12688499806",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499806",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499806",
+    "source_rows": [
+      26
+    ],
+    "source_field": "lat",
+    "source_value": "27.9216364",
+    "source_url": "https://www.openstreetmap.org/node/12688499806",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12688499806",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12688499806",
+    "source_rows": [
+      26
+    ],
+    "source_field": "lon",
+    "source_value": "120.6504523",
+    "source_url": "https://www.openstreetmap.org/node/12688499806",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12739359585",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12739359585",
+    "source_rows": [
+      27
+    ],
+    "source_field": "tags.name",
+    "source_value": "小心石楠",
+    "source_url": "https://www.openstreetmap.org/node/12739359585",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12739359585",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12739359585",
+    "source_rows": [
+      27
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/node/12739359585",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12739359585",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12739359585",
+    "source_rows": [
+      27
+    ],
+    "source_field": "lat",
+    "source_value": "27.9246884",
+    "source_url": "https://www.openstreetmap.org/node/12739359585",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12739359585",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12739359585",
+    "source_rows": [
+      27
+    ],
+    "source_field": "lon",
+    "source_value": "120.6494271",
+    "source_url": "https://www.openstreetmap.org/node/12739359585",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1243686572",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1243686572",
+    "source_rows": [
+      28
+    ],
+    "source_field": "tags.landuse",
+    "source_value": "retail",
+    "source_url": "https://www.openstreetmap.org/way/1243686572",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1243686572",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1243686572",
+    "source_rows": [
+      28
+    ],
+    "source_field": "tags.name",
+    "source_value": "梧田老街",
+    "source_url": "https://www.openstreetmap.org/way/1243686572",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1243686572",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1243686572",
+    "source_rows": [
+      28
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "attraction",
+    "source_url": "https://www.openstreetmap.org/way/1243686572",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1243686572",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1243686572",
+    "source_rows": [
+      28
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9720258",
+    "source_url": "https://www.openstreetmap.org/way/1243686572",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1243686572",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1243686572",
+    "source_rows": [
+      28
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.675617",
+    "source_url": "https://www.openstreetmap.org/way/1243686572",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8327826124",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8327826124",
+    "source_rows": [
+      29
+    ],
+    "source_field": "tags.name",
+    "source_value": "瓯海博物馆",
+    "source_url": "https://www.openstreetmap.org/node/8327826124",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8327826124",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8327826124",
+    "source_rows": [
+      29
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "museum",
+    "source_url": "https://www.openstreetmap.org/node/8327826124",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8327826124",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8327826124",
+    "source_rows": [
+      29
+    ],
+    "source_field": "lat",
+    "source_value": "27.9683723",
+    "source_url": "https://www.openstreetmap.org/node/8327826124",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_8327826124",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/8327826124",
+    "source_rows": [
+      29
+    ],
+    "source_field": "lon",
+    "source_value": "120.6096313",
+    "source_url": "https://www.openstreetmap.org/node/8327826124",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12233993485",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12233993485",
+    "source_rows": [
+      30
+    ],
+    "source_field": "tags.name",
+    "source_value": "温州肯恩大学校史馆",
+    "source_url": "https://www.openstreetmap.org/node/12233993485",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12233993485",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12233993485",
+    "source_rows": [
+      30
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "museum",
+    "source_url": "https://www.openstreetmap.org/node/12233993485",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12233993485",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12233993485",
+    "source_rows": [
+      30
+    ],
+    "source_field": "lat",
+    "source_value": "27.91985",
+    "source_url": "https://www.openstreetmap.org/node/12233993485",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_12233993485",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/12233993485",
+    "source_rows": [
+      30
+    ],
+    "source_field": "lon",
+    "source_value": "120.648873",
+    "source_url": "https://www.openstreetmap.org/node/12233993485",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514675857",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514675857",
+    "source_rows": [
+      31
+    ],
+    "source_field": "tags.building",
+    "source_value": "yes",
+    "source_url": "https://www.openstreetmap.org/way/514675857",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514675857",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514675857",
+    "source_rows": [
+      31
+    ],
+    "source_field": "tags.name",
+    "source_value": "校史馆",
+    "source_url": "https://www.openstreetmap.org/way/514675857",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514675857",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514675857",
+    "source_rows": [
+      31
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "museum",
+    "source_url": "https://www.openstreetmap.org/way/514675857",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514675857",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514675857",
+    "source_rows": [
+      31
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9641556",
+    "source_url": "https://www.openstreetmap.org/way/514675857",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514675857",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514675857",
+    "source_rows": [
+      31
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6865729",
+    "source_url": "https://www.openstreetmap.org/way/514675857",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1311615813",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1311615813",
+    "source_rows": [
+      32
+    ],
+    "source_field": "tags.building",
+    "source_value": "yes",
+    "source_url": "https://www.openstreetmap.org/way/1311615813",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1311615813",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1311615813",
+    "source_rows": [
+      32
+    ],
+    "source_field": "tags.name",
+    "source_value": "瓯海博物馆",
+    "source_url": "https://www.openstreetmap.org/way/1311615813",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1311615813",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1311615813",
+    "source_rows": [
+      32
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "museum",
+    "source_url": "https://www.openstreetmap.org/way/1311615813",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1311615813",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1311615813",
+    "source_rows": [
+      32
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.968332",
+    "source_url": "https://www.openstreetmap.org/way/1311615813",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1311615813",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1311615813",
+    "source_rows": [
+      32
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6095978",
+    "source_url": "https://www.openstreetmap.org/way/1311615813",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891580",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891580",
+    "source_rows": [
+      33
+    ],
+    "source_field": "tags.building",
+    "source_value": "yes",
+    "source_url": "https://www.openstreetmap.org/way/1315891580",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891580",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891580",
+    "source_rows": [
+      33
+    ],
+    "source_field": "tags.name",
+    "source_value": "温州珐琅彩艺术博物馆",
+    "source_url": "https://www.openstreetmap.org/way/1315891580",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891580",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891580",
+    "source_rows": [
+      33
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "museum",
+    "source_url": "https://www.openstreetmap.org/way/1315891580",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891580",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891580",
+    "source_rows": [
+      33
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9492882",
+    "source_url": "https://www.openstreetmap.org/way/1315891580",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891580",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891580",
+    "source_rows": [
+      33
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6815731",
+    "source_url": "https://www.openstreetmap.org/way/1315891580",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891581",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891581",
+    "source_rows": [
+      34
+    ],
+    "source_field": "tags.building",
+    "source_value": "yes",
+    "source_url": "https://www.openstreetmap.org/way/1315891581",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891581",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891581",
+    "source_rows": [
+      34
+    ],
+    "source_field": "tags.name",
+    "source_value": "青灯石刻艺术博物馆南馆",
+    "source_url": "https://www.openstreetmap.org/way/1315891581",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891581",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891581",
+    "source_rows": [
+      34
+    ],
+    "source_field": "tags.tourism",
+    "source_value": "museum",
+    "source_url": "https://www.openstreetmap.org/way/1315891581",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891581",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891581",
+    "source_rows": [
+      34
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9504422",
+    "source_url": "https://www.openstreetmap.org/way/1315891581",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_1315891581",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/1315891581",
+    "source_rows": [
+      34
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6811148",
+    "source_url": "https://www.openstreetmap.org/way/1315891581",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11578994770",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11578994770",
+    "source_rows": [
+      35
+    ],
+    "source_field": "tags.amenity",
+    "source_value": "library",
+    "source_url": "https://www.openstreetmap.org/node/11578994770",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11578994770",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11578994770",
+    "source_rows": [
+      35
+    ],
+    "source_field": "tags.check_date",
+    "source_value": "2024-02-02",
+    "source_url": "https://www.openstreetmap.org/node/11578994770",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11578994770",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11578994770",
+    "source_rows": [
+      35
+    ],
+    "source_field": "tags.name",
+    "source_value": "城市书房",
+    "source_url": "https://www.openstreetmap.org/node/11578994770",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11578994770",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11578994770",
+    "source_rows": [
+      35
+    ],
+    "source_field": "tags.opening_hours",
+    "source_value": "09:00-22:00",
+    "source_url": "https://www.openstreetmap.org/node/11578994770",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11578994770",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11578994770",
+    "source_rows": [
+      35
+    ],
+    "source_field": "lat",
+    "source_value": "27.9871308",
+    "source_url": "https://www.openstreetmap.org/node/11578994770",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11578994770",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11578994770",
+    "source_rows": [
+      35
+    ],
+    "source_field": "lon",
+    "source_value": "120.6335996",
+    "source_url": "https://www.openstreetmap.org/node/11578994770",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11617938336",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11617938336",
+    "source_rows": [
+      36
+    ],
+    "source_field": "tags.amenity",
+    "source_value": "library",
+    "source_url": "https://www.openstreetmap.org/node/11617938336",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11617938336",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11617938336",
+    "source_rows": [
+      36
+    ],
+    "source_field": "tags.name",
+    "source_value": "城市书房",
+    "source_url": "https://www.openstreetmap.org/node/11617938336",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11617938336",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11617938336",
+    "source_rows": [
+      36
+    ],
+    "source_field": "lat",
+    "source_value": "27.9871254",
+    "source_url": "https://www.openstreetmap.org/node/11617938336",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_node_11617938336",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "node/11617938336",
+    "source_rows": [
+      36
+    ],
+    "source_field": "lon",
+    "source_value": "120.6734214",
+    "source_url": "https://www.openstreetmap.org/node/11617938336",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/376003430",
+    "source_rows": [
+      37
+    ],
+    "source_field": "tags.amenity",
+    "source_value": "library",
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/376003430",
+    "source_rows": [
+      37
+    ],
+    "source_field": "tags.building",
+    "source_value": "yes",
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/376003430",
+    "source_rows": [
+      37
+    ],
+    "source_field": "tags.building:levels",
+    "source_value": "4",
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/376003430",
+    "source_rows": [
+      37
+    ],
+    "source_field": "tags.name",
+    "source_value": "育英图书馆",
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/376003430",
+    "source_rows": [
+      37
+    ],
+    "source_field": "tags.name:zh",
+    "source_value": "育英图书馆",
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/376003430",
+    "source_rows": [
+      37
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9200971",
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/376003430",
+    "source_rows": [
+      37
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6988546",
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514673571",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514673571",
+    "source_rows": [
+      38
+    ],
+    "source_field": "tags.amenity",
+    "source_value": "library",
+    "source_url": "https://www.openstreetmap.org/way/514673571",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514673571",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514673571",
+    "source_rows": [
+      38
+    ],
+    "source_field": "tags.building",
+    "source_value": "yes",
+    "source_url": "https://www.openstreetmap.org/way/514673571",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514673571",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514673571",
+    "source_rows": [
+      38
+    ],
+    "source_field": "tags.name",
+    "source_value": "温州中学图书馆",
+    "source_url": "https://www.openstreetmap.org/way/514673571",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514673571",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514673571",
+    "source_rows": [
+      38
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9632654",
+    "source_url": "https://www.openstreetmap.org/way/514673571",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_514673571",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/514673571",
+    "source_rows": [
+      38
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6854504",
+    "source_url": "https://www.openstreetmap.org/way/514673571",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_895905506",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/895905506",
+    "source_rows": [
+      39
+    ],
+    "source_field": "tags.amenity",
+    "source_value": "library",
+    "source_url": "https://www.openstreetmap.org/way/895905506",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_895905506",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/895905506",
+    "source_rows": [
+      39
+    ],
+    "source_field": "tags.building",
+    "source_value": "yes",
+    "source_url": "https://www.openstreetmap.org/way/895905506",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_895905506",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/895905506",
+    "source_rows": [
+      39
+    ],
+    "source_field": "tags.name",
+    "source_value": "瓯海区图书馆",
+    "source_url": "https://www.openstreetmap.org/way/895905506",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_895905506",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/895905506",
+    "source_rows": [
+      39
+    ],
+    "source_field": "center.lat",
+    "source_value": "27.9694845",
+    "source_url": "https://www.openstreetmap.org/way/895905506",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  },
+  {
+    "poi_id": "osm_way_895905506",
+    "source_id": "open_osm_20261125",
+    "source_record_id": "way/895905506",
+    "source_rows": [
+      39
+    ],
+    "source_field": "center.lon",
+    "source_value": "120.6134851",
+    "source_url": "https://www.openstreetmap.org/way/895905506",
+    "downloaded_at": "2026-11-25T18:58:13.198867+08:00",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0"
+  }
+]

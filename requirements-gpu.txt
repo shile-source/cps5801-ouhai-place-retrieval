@@ -1,0 +1,11 @@
+# Stage 4A Windows Python 3.13; run via Start-Project.ps1
+https://download.pytorch.org/whl/cu126/torch-2.10.0%2Bcu126-cp313-cp313-win_amd64.whl#sha256=91e21e7ad572bf0136e5b7f192714f120c8abde8e128f1a0759f158951643822
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+filelock==4.1.1
+fsspec==2026.9.0
+mpmath==1.3.0
+networkx==3.7
+setuptools==84.0.0
+sympy==1.14.0
+typing_extensions==4.16.0

@@ -1,0 +1,131 @@
+{
+  "models": {
+    "encoder": {
+      "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+      "revision": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
+      "directory": "models/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "README.md",
+          "bytes": 5122,
+          "sha256": "06184100d14bfb314649996e8e68d1aae5ec2efd6ff8865a7eec7e3741736154"
+        },
+        {
+          "file": "config.json",
+          "bytes": 723,
+          "sha256": "8b94b5c10efd3c3ca667e5ccd501314eb670cefbf7a465f0a3fc0928a1a0ab87"
+        },
+        {
+          "file": "config_sentence_transformers.json",
+          "bytes": 122,
+          "sha256": "b8c64b5cece00d8424b4896ea75b512b6008576088497609dfeb6bd63e6d36b8"
+        },
+        {
+          "file": "model.safetensors",
+          "bytes": 1112201288,
+          "sha256": "b5722100700c48b74c9c199c5f39ff9493c94d1497f719e791d4bc3861d7714a"
+        },
+        {
+          "file": "modules.json",
+          "bytes": 229,
+          "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+        },
+        {
+          "file": "sentence_bert_config.json",
+          "bytes": 53,
+          "sha256": "70f4448f31320443fe3557cacea5abf2dcc4915dda8c80646bec9f3bb0aa5a1f"
+        },
+        {
+          "file": "sentencepiece.bpe.model",
+          "bytes": 5069051,
+          "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+        },
+        {
+          "file": "special_tokens_map.json",
+          "bytes": 239,
+          "sha256": "378eb3bf733eb16e65792d7e3fda5b8a4631387ca04d2015199c4d4f22ae554d"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 9081518,
+          "sha256": "2c3387be76557bd40970cec13153b3bbf80407865484b209e655e5e4729076b8"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 402,
+          "sha256": "a312d5bef89ec4c9355638520a31582e761f205d79df3002a3bd390d7077455f"
+        },
+        {
+          "file": "1_Pooling/config.json",
+          "bytes": 190,
+          "sha256": "a37f83ada23e7887be6b88f4998927dbeac0038af301553c7cd5461413bf1a56"
+        }
+      ]
+    },
+    "bge_m3": {
+      "id": "BAAI/bge-m3",
+      "revision": "694b61558aea4ae2512ed8d0e189d5cf8adc2259",
+      "directory": "models/bge-m3/694b61558aea4ae2512ed8d0e189d5cf8adc2259",
+      "license": "MIT",
+      "files": [
+        {
+          "file": "config.json",
+          "bytes": 687,
+          "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+        },
+        {
+          "file": "config_sentence_transformers.json",
+          "bytes": 123,
+          "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+        },
+        {
+          "file": "modules.json",
+          "bytes": 349,
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        {
+          "file": "sentence_bert_config.json",
+          "bytes": 54,
+          "sha256": "eb9b44b13c0f52a3b3685c3b1cbdea1ba8b04bea123b98f61610048940776eb1"
+        },
+        {
+          "file": "1_Pooling/config.json",
+          "bytes": 191,
+          "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+        },
+        {
+          "file": "special_tokens_map.json",
+          "bytes": 964,
+          "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 1313,
+          "sha256": "4c532e44f339fd1142ff026025b6a7910bef6e32aa4b5d7baa73e39a9db9fe88"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 17098108,
+          "sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08"
+        },
+        {
+          "file": "sentencepiece.bpe.model",
+          "bytes": 5069051,
+          "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+        },
+        {
+          "file": "README.md",
+          "bytes": 116,
+          "sha256": "915817516b93878154e69d3da1518fa4c90aec406a452bc6f674043d9528422e"
+        },
+        {
+          "file": "model.safetensors",
+          "bytes": 2271064456,
+          "sha256": "993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e"
+        }
+      ]
+    }
+  },
+  "weights_in_repository": false
+}

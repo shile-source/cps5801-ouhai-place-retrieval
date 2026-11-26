@@ -1,0 +1,483 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-25T10:56:32Z",
+    "timestamp_areas_base": "2026-11-25T03:47:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 12132373350,
+  "lat": 27.9941545,
+  "lon": 120.5686386,
+  "tags": {
+    "leisure": "park",
+    "name": "文化公园"
+  }
+},
+{
+  "type": "way",
+  "id": 778864105,
+  "center": {
+    "lat": 27.9861952,
+    "lon": 120.6244856
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "新桥文化广场",
+    "name:en": "Xinqiao Park"
+  }
+},
+{
+  "type": "way",
+  "id": 848331750,
+  "center": {
+    "lat": 27.9686951,
+    "lon": 120.6518988
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "小区公园"
+  }
+},
+{
+  "type": "way",
+  "id": 866792666,
+  "center": {
+    "lat": 27.9789034,
+    "lon": 120.6055663
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "秀屿山公园",
+    "name:en": "Xiuyushan Park"
+  }
+},
+{
+  "type": "way",
+  "id": 867522360,
+  "center": {
+    "lat": 27.9689231,
+    "lon": 120.6114365
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "市民广场",
+    "name:en": "Citizen's Plaza",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 867525440,
+  "center": {
+    "lat": 27.9899393,
+    "lon": 120.6155313
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "滨水公园"
+  }
+},
+{
+  "type": "way",
+  "id": 870589267,
+  "center": {
+    "lat": 27.9725830,
+    "lon": 120.6107882
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "乐一公园"
+  }
+},
+{
+  "type": "way",
+  "id": 875749659,
+  "center": {
+    "lat": 27.9808779,
+    "lon": 120.6960824
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "世纪公园"
+  }
+},
+{
+  "type": "way",
+  "id": 893003619,
+  "center": {
+    "lat": 27.9654021,
+    "lon": 120.6117397
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "亚运公园",
+    "name:en": "Yayun Park"
+  }
+},
+{
+  "type": "way",
+  "id": 893452593,
+  "center": {
+    "lat": 27.9741506,
+    "lon": 120.5871238
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "紫薇主题公园"
+  }
+},
+{
+  "type": "way",
+  "id": 893452594,
+  "center": {
+    "lat": 27.9694900,
+    "lon": 120.5848747
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "南火车站广场",
+    "name:en": "South Station Plaza"
+  }
+},
+{
+  "type": "way",
+  "id": 900954276,
+  "center": {
+    "lat": 27.9764028,
+    "lon": 120.6841017
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "滨水公园"
+  }
+},
+{
+  "type": "way",
+  "id": 902320710,
+  "center": {
+    "lat": 27.9929294,
+    "lon": 120.6318139
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "会昌河畔公园"
+  }
+},
+{
+  "type": "way",
+  "id": 982937385,
+  "center": {
+    "lat": 27.9955010,
+    "lon": 120.6338517
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "西山公园",
+    "name:en": "West Hill Park"
+  }
+},
+{
+  "type": "way",
+  "id": 1008977206,
+  "center": {
+    "lat": 27.9528399,
+    "lon": 120.6772584
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "荷塘月色公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1145549215,
+  "center": {
+    "lat": 27.9813959,
+    "lon": 120.6803982
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "申顺文体主题公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1283326214,
+  "center": {
+    "lat": 27.9090885,
+    "lon": 120.6375981
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "白门渡公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1319719830,
+  "center": {
+    "lat": 27.9903949,
+    "lon": 120.6067695
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "十八湾滨水公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1373611868,
+  "center": {
+    "lat": 27.9086932,
+    "lon": 120.6344002
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "姜宅村休闲园"
+  }
+},
+{
+  "type": "relation",
+  "id": 11867625,
+  "center": {
+    "lat": 27.9870313,
+    "lon": 120.6336763
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "龙舟公园",
+    "name:en": "Longzhou Park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "node",
+  "id": 8330242776,
+  "lat": 27.9902103,
+  "lon": 120.6283393,
+  "tags": {
+    "denotation": "landmark",
+    "leaf_type": "broadleaved",
+    "name": "千年大榕树",
+    "natural": "tree",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 10591363706,
+  "lat": 27.9708892,
+  "lon": 120.7056727,
+  "tags": {
+    "amenity": "shelter",
+    "name": "丽花亭",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 11847794502,
+  "lat": 27.9228126,
+  "lon": 120.6519867,
+  "tags": {
+    "name": "丽塘井",
+    "ref": "丽塘井",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 12688499804,
+  "lat": 27.9225464,
+  "lon": 120.6494116,
+  "tags": {
+    "name": "灯雨龙舌",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 12688499805,
+  "lat": 27.9221167,
+  "lon": 120.6504845,
+  "tags": {
+    "name": "葛凯明彻",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 12688499806,
+  "lat": 27.9216364,
+  "lon": 120.6504523,
+  "tags": {
+    "name": "我建犹怜",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 12739359585,
+  "lat": 27.9246884,
+  "lon": 120.6494271,
+  "tags": {
+    "name": "小心石楠",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 1243686572,
+  "center": {
+    "lat": 27.9720258,
+    "lon": 120.6756170
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "梧田老街",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 8327826124,
+  "lat": 27.9683723,
+  "lon": 120.6096313,
+  "tags": {
+    "name": "瓯海博物馆",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 12233993485,
+  "lat": 27.9198500,
+  "lon": 120.6488730,
+  "tags": {
+    "name": "温州肯恩大学校史馆",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 514675857,
+  "center": {
+    "lat": 27.9641556,
+    "lon": 120.6865729
+  },
+  "tags": {
+    "building": "yes",
+    "name": "校史馆",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1311615813,
+  "center": {
+    "lat": 27.9683320,
+    "lon": 120.6095978
+  },
+  "tags": {
+    "building": "yes",
+    "name": "瓯海博物馆",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1315891580,
+  "center": {
+    "lat": 27.9492882,
+    "lon": 120.6815731
+  },
+  "tags": {
+    "building": "yes",
+    "name": "温州珐琅彩艺术博物馆",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1315891581,
+  "center": {
+    "lat": 27.9504422,
+    "lon": 120.6811148
+  },
+  "tags": {
+    "building": "yes",
+    "name": "青灯石刻艺术博物馆南馆",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11578994770,
+  "lat": 27.9871308,
+  "lon": 120.6335996,
+  "tags": {
+    "amenity": "library",
+    "check_date": "2024-02-02",
+    "name": "城市书房",
+    "opening_hours": "09:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11617938336,
+  "lat": 27.9871254,
+  "lon": 120.6734214,
+  "tags": {
+    "amenity": "library",
+    "name": "城市书房"
+  }
+},
+{
+  "type": "way",
+  "id": 376003430,
+  "center": {
+    "lat": 27.9200971,
+    "lon": 120.6988546
+  },
+  "tags": {
+    "amenity": "library",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "育英图书馆",
+    "name:zh": "育英图书馆"
+  }
+},
+{
+  "type": "way",
+  "id": 514673571,
+  "center": {
+    "lat": 27.9632654,
+    "lon": 120.6854504
+  },
+  "tags": {
+    "amenity": "library",
+    "building": "yes",
+    "name": "温州中学图书馆"
+  }
+},
+{
+  "type": "way",
+  "id": 895905506,
+  "center": {
+    "lat": 27.9694845,
+    "lon": 120.6134851
+  },
+  "tags": {
+    "amenity": "library",
+    "building": "yes",
+    "name": "瓯海区图书馆"
+  }
+}
+
+  ]
+}

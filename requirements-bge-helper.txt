@@ -1,0 +1,4 @@
+# Optional direct-to-GPU loader helper. Install only after explicit approval.
+# Resolve with configs/retain_runtime_20261125.txt to preserve the existing runtime.
+accelerate==1.12.0
+psutil==7.2.2

@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+.cache/
+.pytest_cache/
+models/
+outputs/
+apps/
+data/labels/
+data/queries/
+.env
+.env.*
+*.key
+*.pem
+*.partial

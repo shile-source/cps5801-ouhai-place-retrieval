@@ -1,0 +1,342 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CPS5801 | Place Search</title><style>
+*{box-sizing:border-box}body{font:16px/1.65 "Segoe UI","Microsoft YaHei",sans-serif;margin:0;background:#eff4f2;color:#193a3e}header{background:#123f43;color:white;padding:25px max(22px,calc((100vw - 1160px)/2))}h1{font-size:27px;margin:0 0 8px}header p{margin:0;color:#d8e8e4}main{max-width:1200px;padding:22px;margin:auto}.panel{background:white;border:1px solid #d7e3dc;border-radius:12px;padding:20px;margin-bottom:18px}label{font-weight:600}textarea{display:block;width:100%;min-height:85px;resize:vertical;font:inherit;padding:12px;border:1px solid #a8c0b5;border-radius:8px;margin:10px 0}.buttons,.examples{display:flex;gap:10px;flex-wrap:wrap}button{font:inherit;border:1px solid #bfd1c7;background:#f5f9f6;border-radius:7px;padding:10px 17px;cursor:pointer;color:#214d48}button.primary{background:#156859;color:white;border-color:#156859}button:disabled{cursor:wait;opacity:.6}.examples{margin:12px 0}.examples button{font-size:13px;padding:6px 10px}.muted{color:#627970;font-size:13px}.notice{background:#fff2ce;border-left:4px solid #bd9227;padding:11px 14px;margin:12px 0}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:17px}.method h2{font-size:20px;margin:0 0 6px}.result{padding:15px 0;border-top:1px solid #e2eae5}.result h3{font-size:17px;margin:0 0 6px}.result p{margin:5px 0}.score{font-variant-numeric:tabular-nums;color:#166553;font-weight:600}.id{font:12px monospace;color:#62776e;word-break:break-all}.description{white-space:pre-wrap;font-size:14px}a{color:#12685b}.error{background:#fff0ed;color:#8b2b1c;padding:12px;border-radius:7px;white-space:pre-wrap}.state{font-size:14px;color:#48675b}.busy{color:#835b00}footer{font-size:13px;color:#61776b}@media(max-width:760px){.cols{grid-template-columns:1fr}h1{font-size:23px}main{padding:14px}}
+
+select{font:inherit;padding:7px;border-radius:6px}header select{float:right}.language-note{margin-top:10px}
+input[type=search],input[name=origin]{font:inherit;padding:9px 12px;border:1px solid #a8c0b5;border-radius:7px;max-width:100%}
+#placeFilters:not([hidden]){display:grid;grid-template-columns:auto minmax(180px,1fr);gap:10px 16px;align-items:center;margin:16px 0}
+#placeFilters>label:has(input),#placeCount{grid-column:1/-1;margin:0}
+#routeForm{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+:focus-visible{outline:3px solid #287b9c;outline-offset:3px}
+@media(max-width:600px){#placeFilters:not([hidden]){grid-template-columns:1fr}#routeForm input{width:100%}}
+.overview{width:100%;max-height:380px;background:#f1f7f5;border:1px solid #c4d8d0;border-radius:8px}.overview [role=button]{cursor:pointer;fill:#156859;stroke:white;stroke-width:2}.overview [role=button]:focus{stroke:#c67800;stroke-width:5;outline:none}.map-actions{display:flex;flex-wrap:wrap;gap:16px}.overview text{font:12px "Segoe UI",sans-serif;fill:#254c47}.section-nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:18px}.section-nav a{font-weight:600}#exploreForm{display:flex;flex-wrap:wrap;gap:10px}#exploreQuery{flex:1;min-width:180px}.external-link{display:inline-block;padding:8px 0}details{margin-top:10px}summary{cursor:pointer;font-weight:600}
+[hidden]{display:none!important}
+.point-legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin:10px 0}.point-legend button{text-align:left;font-size:14px;padding:8px}
+#hardFilterFields{border:0;padding:8px 0 14px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}#hardFilterFields label{display:block;font-size:14px}#hardFilterFields input{display:block;width:100%;padding:9px;border:1px solid #a8c0b5;border-radius:6px;font:inherit;margin-top:5px}@media(max-width:760px){#hardFilterFields{grid-template-columns:1fr}}
+</style></head><body>
+<header><select id="language" aria-label="Interface language"><option value="en">English</option><option value="zh">中文</option></select><h1 data-t="title">CPS5801 | Place Search</h1><p data-t="subtitle"></p></header><main>
+<nav class="section-nav"><a href="#localSearch" id="navLocal"></a><a href="#explorePanel" id="navExplore"></a><a href="#placesPanel" id="navPlaces"></a></nav>
+<section class="panel" id="localSearch"><div id="status" class="state" role="status"></div><label for="query" data-t="queryLabel"></label><textarea id="query" maxlength="500" placeholder="Enter a Chinese query"></textarea>
+<details id="hardFilterPanel" hidden><summary data-t="filterTitle"></summary><p data-t="filterHelp" class="muted"></p><fieldset id="hardFilterFields"><label><span data-t="filterCategory"></span> <input id="hardCategory" type="text" maxlength="80"></label><label><span data-t="filterSeats"></span> <input id="hardSeats" type="number" min="0" step="1"></label><label><span data-t="filterHoldings"></span> <input id="hardHoldings" type="number" min="0" step="1"></label></fieldset><button id="suggestConditions" type="button" data-t="suggestConditions"></button><p id="constraintProposal" class="muted" role="status"></p></details>
+<div class="buttons"><button id="bm25" class="primary" data-t="bm25"></button><button id="encoder" class="primary" data-t="encoder"></button><button id="bge_m3" class="primary" data-t="bge" hidden></button><button id="both" data-t="both"></button></div>
+<div class="examples"><button data-query="找一处适合阅读书籍的地方。" data-t="example1"></button><button data-query="潘桥有哪些城市书房？" data-t="example2"></button><button data-query="找一个适合安静学习的地方。" data-t="example3"></button></div>
+<div class="muted" data-t="hint"></div><div class="muted language-note" data-t="sourceLanguage"></div><div class="notice" data-t="notice"></div></section>
+<div class="cols"><section id="bm25Result" class="panel method"><h2 data-t="bm25Title"></h2><div class="content muted"></div></section><section id="encoderResult" class="panel method"><h2 data-t="encoderTitle"></h2><div class="content muted"></div></section><section id="bge_m3Result" class="panel method" hidden><h2 data-t="bgeTitle"></h2><div class="content muted"></div></section></div><footer data-t="footer"></footer>
+<section class="panel" id="explorePanel" aria-labelledby="exploreTitle">
+  <h2 id="exploreTitle"></h2><p id="exploreNote"></p>
+  <form id="exploreForm" action="https://api.map.baidu.com/place/search" method="get" target="_blank" rel="noopener noreferrer">
+    <label for="exploreQuery" id="exploreLabel"></label>
+    <input id="exploreQuery" name="query" type="search" required maxlength="150" autocomplete="off">
+    <input type="hidden" name="region" value="瓯海区"><input type="hidden" name="output" value="html"><input type="hidden" name="src" value="webapp.cps5801.placesearch">
+    <button id="exploreBaidu" type="submit" class="primary"></button>
+  </form>
+  <a id="exploreAmap" class="external-link" target="_blank" rel="noopener noreferrer" hidden></a>
+  <p id="explorePrivacy" class="muted"></p>
+</section>
+<section class="panel" id="placesPanel">
+  <button id="browsePlaces" type="button"></button>
+  <p id="inventoryNote" class="muted"></p>
+  <div id="placeFilters" hidden>
+    <label for="placeText" id="placeTextLabel"></label>
+    <input id="placeText" type="search" maxlength="150" autocomplete="off">
+    <label for="placeCategory" id="placeCategoryLabel"></label>
+    <select id="placeCategory"></select>
+    <label><input id="previewOnly" type="checkbox"> <span id="previewOnlyLabel"></span></label>
+    <p id="placeCount" role="status" aria-live="polite"></p>
+  </div>
+  <p id="overviewNote" class="muted" hidden></p>
+  <svg id="placeOverview" class="overview" viewBox="0 0 800 340" role="group" hidden></svg>
+  <div id="pointLegend" class="point-legend" hidden></div>
+  <div id="inventory" hidden></div>
+</section>
+<section id="mapPanel" class="panel" hidden aria-labelledby="mapTitle">
+  <h2 id="mapTitle"></h2>
+  <p id="mapAddress"></p>
+  <p id="mapHint" class="muted"></p>
+  <p id="previewNote" class="muted"></p>
+  <p id="previewFallback" class="muted" hidden></p>
+  <button id="loadMapPreview" type="button" hidden></button>
+  <iframe id="mapPreview" title="OpenStreetMap location preview" referrerpolicy="no-referrer" style="width:100%;height:320px;border:0;margin-top:12px" hidden></iframe>
+  <p class="map-actions"><a id="openMap" target="_blank" rel="noopener noreferrer"></a><a id="openAmap" target="_blank" rel="noopener noreferrer"></a><a id="mapSource" target="_blank" rel="noopener noreferrer"></a></p>
+  <p id="photoNote" class="muted"></p>
+  <details><summary id="destinationEvidenceTitle"></summary><p id="destinationEvidence"></p></details>
+  <form id="routeForm" action="https://api.map.baidu.com/direction" method="get" target="_blank" rel="noopener noreferrer">
+    <label for="routeOrigin" id="originLabel"></label>
+    <input id="routeOrigin" name="origin" required maxlength="100" autocomplete="off">
+    <label for="routeMode" id="modeLabel"></label>
+    <select id="routeMode" name="mode"></select>
+    <input type="hidden" name="destination" id="routeDestination">
+    <input type="hidden" name="region" value="温州">
+    <input type="hidden" name="output" value="html">
+    <input type="hidden" name="coord_type" value="bd09ll">
+    <input type="hidden" name="src" value="webapp.cps5801.placesearch">
+    <button type="submit" class="primary" id="openRoute"></button>
+  </form>
+</section>
+</main><script>
+'use strict';
+const $=id=>document.getElementById(id);
+const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
+const translations={en:{
+title:'CPS5801 | Place Search',subtitle:'Compare live keyword and semantic search for places in Ouhai District, Wenzhou.',queryLabel:'What kind of place are you looking for? (Chinese queries)',placeholder:'Enter a Chinese query, or choose an example below',bm25:'Search with BM25',encoder:'Search with Multilingual Encoder',both:'Run both methods',example1:'Example 1: A place to read',example2:'Example 2: Panqiao reading rooms',example3:'Example 3: A quiet place to study',hint:'Examples fill the query box. Click a search button to compute new Top-5 results. Semantic models load only when enabled; paused controls cannot start them.',sourceLanguage:'The interface is available in English and Chinese. Original place names, queries and source text remain in Chinese; changing language does not translate or alter the research data.',notice:'These {count} source-backed candidate records are not fully verified. Text relevance does not establish quietness, fees, opening status or distance. This is a functional demonstration, not a formal accuracy evaluation.',bm25Title:'BM25 | Keyword matching',encoderTitle:'Multilingual Encoder | Semantic matching',footer:'Local research use. OSM: © OpenStreetMap contributors, ODbL; official open-data conditions also apply. Both methods use the same {count} candidates and the same name, category, address and description fields.',waiting:'Click a search button to see live results.',connecting:'Connecting to the local backend…',connected:'Live backend connected',candidates:'candidates',ready:'ready',onDemand:'loads on demand',guard:'Model storage protection is active',query:'Query',searchTime:'Query computation',loadTime:'Initial model load',totalTime:'Backend total',request:'Live request',score:'Raw relevance score',category:'Category',address:'Address',missing:'Not recorded',noDescription:'No description supplied by the source.',matches:'Matched query tokens',zero:'None; tied zero scores are ordered by ID.',cosine:'Ranked by cosine similarity between query and place text embeddings. This is not accuracy or a probability of meeting constraints.',verification:'District membership, location and current operation require independent verification.',changed:'The query has changed. Run this method again.',loading:'Computing live results… The first semantic request may take several seconds.',failed:'The live request failed. No saved ranking was substituted.',statusFailed:'Unable to read backend status.',inconsistent:'The backend returned an inconsistent query or live-computation flag.',warning:'Ranking indicates text relevance only. Fees, opening status, distance and quietness are not verified; hard-constraint filtering is not applied.',quiet:'The data does not verify quietness or suitability for study.',zeroWarning:'BM25 returned zero scores. Places without matching query words are hidden.',technical:'Technical detail (original backend message)'},zh:{
+title:'CPS5801 | 地点检索',subtitle:'现场比较温州市瓯海区地点的关键词检索与语义检索。',queryLabel:'你想找什么地点？（中文查询）',placeholder:'输入中文查询，或选择下方示例',bm25:'BM25 检索',encoder:'多语言语义检索',both:'运行两种方法',example1:'示例1：阅读书籍',example2:'示例2：潘桥书房',example3:'示例3：安静学习',hint:'示例只填写查询。点击按钮才计算新的Top-5；模型仅在启用时按需加载；暂停的按钮不会启动模型。',sourceLanguage:'界面支持中英文切换。地点名称、查询和来源文本保留中文；切换语言不会翻译或修改研究数据。',notice:'{count}条来源候选尚未完全核验。文本相关不证明安静、费用、开放状态或距离；此页为功能演示，不是正式准确率评价。',bm25Title:'BM25 | 关键词匹配',encoderTitle:'Multilingual Encoder | 语义匹配',footer:'仅限本地研究。OSM：© OpenStreetMap contributors，ODbL；官方开放数据条件继续适用。两种方法共用{count}条候选及名称、类别、地址、描述四字段。',waiting:'点击检索按钮查看实时结果。',connecting:'正在连接本地后端…',connected:'真实后端已连接',candidates:'条候选',ready:'已就绪',onDemand:'按需加载',guard:'已触发模型空间保护',query:'本次查询',searchTime:'查询计算',loadTime:'首次模型加载',totalTime:'后端总计',request:'现场请求',score:'原始相关性得分',category:'类别',address:'地址',missing:'未记录',noDescription:'来源未提供描述。',matches:'实际命中查询词',zero:'无；零分同分按ID排序。',cosine:'按查询与地点文本向量的余弦相似度排序，不是准确率或满足约束的概率。',verification:'区属、位置与当前运营仍待独立核验。',changed:'查询已改变，请重新运行此方法。',loading:'正在实时计算，首次语义请求可能需要数秒…',failed:'真实请求失败；没有用历史排名替代。',statusFailed:'无法读取后端状态。',inconsistent:'后端查询或现场计算标志不一致。',warning:'排序仅表示文本相关性，不证明费用、开放状态、距离或安静程度；未应用硬约束过滤。',quiet:'数据未核实安静程度或是否适合学习。',zeroWarning:'BM25 返回零分，未命中查询词的地点已隐藏。',technical:'技术详情（原始后端消息）'}};
+translations.en.stopped='stopped; see request error';translations.zh.stopped='已停止，请查看请求错误';
+Object.assign(translations.en,{bge:'Search with BGE-M3',bgeTitle:'BGE-M3 | Dense semantic matching',all:'Run all three methods',stopped:'stopped',disabled:'paused',footer:'Local research use. OSM: © OpenStreetMap contributors, ODbL; other source conditions also apply. Available methods use the same {count} candidates and the same name, category, address and description fields.'});
+Object.assign(translations.zh,{bge:'BGE-M3 检索',bgeTitle:'BGE-M3 | 稠密语义匹配',all:'运行三种方法',stopped:'已停止',disabled:'已暂停',footer:'仅限本地研究。OSM：© OpenStreetMap contributors，ODbL；其他来源条件继续适用。可用方法共用{count}条候选及名称、类别、地址、描述四字段。'});
+let language='en',busy=0,backend=null;
+const methods=['bm25','encoder','bge_m3'];
+const results={},errors={},lastQuery={bm25:null,encoder:null,bge_m3:null};
+const t=key=>translations[language][key==='both'&&backend?.bge_available?'all':key].replaceAll('{count}', backend ? backend.candidate_count : '—');
+let selectedPlace = null;
+const mapCopy = {
+    en: {select:'Map & directions',title:'Selected destination',addressHint:'Baidu Maps searches the source-reported address. Confirm the matched destination before traveling.',nameHint:'Address unavailable. Baidu Maps searches by name in Ouhai District. Check for namesakes before using the route.',map:'Find on Baidu Maps',source:'Place data source',origin:'Starting point in Wenzhou',placeholder:'Enter a place or address in Chinese',mode:'Travel mode',route:'Open route planner',walking:'Walking',transit:'Public transport',driving:'Driving'},
+    zh: {select:'地图与导航',title:'已选目的地',addressHint:'百度地图会按来源资料中的地址查找目的地，请核对后再出发。',nameHint:'这条记录暂无地址。百度地图会在瓯海区按名称查找，请核对是否为同名地点，再使用路线。',map:'在百度地图上查找',source:'地点资料来源',origin:'温州市内的出发地',placeholder:'输入中文地点或地址',mode:'出行方式',route:'打开路线规划',walking:'步行',transit:'公交',driving:'驾车'}
+};
+const inventoryCopy = {
+    en: {button:'Browse all places',note:'Review source records by name and select a destination. Original Chinese place details are shown below.',loading:'Loading places…',failed:'Could not load the place list.',empty:'No records available.'},
+    zh: {button:'浏览全部地点',note:'按名称浏览来源记录，选择地点后查看地图或路线。',loading:'正在加载地点…',failed:'地点列表加载失败。',empty:'暂无地点记录。'}
+};
+let inventoryRows = null;
+function updateExplore() {
+    const en = language === 'en';
+    for (const [id, text] of Object.entries(en ? {
+        navLocal:'Compare local search', navExplore:'Explore Ouhai', navPlaces:'Browse local records',
+        exploreTitle:'Find more places in Ouhai',
+        exploreNote:'Search a map provider beyond this local research sample. Choose a matching place there to view its details and plan a route. Provider coverage and current place information are not verified by this project.',
+        exploreLabel:'Place name or category', exploreBaidu:'Search Baidu Maps', exploreAmap:'Search Amap instead',
+        explorePrivacy:'Your query is sent to the selected map provider when you open it. External results are separate from BM25 / Encoder results and are not added to the research dataset.'
+    } : {
+        navLocal:'比较本地检索', navExplore:'探索瓯海地点', navPlaces:'浏览本地记录',
+        exploreTitle:'查找更多瓯海地点',
+        exploreNote:'在地图服务商中搜索本地研究样本之外的地点，再选择匹配的地点查看详情、规划路线。服务商覆盖范围及地点现状未经本项目核验。',
+        exploreLabel:'地点名称或类别', exploreBaidu:'在百度地图搜索', exploreAmap:'改用高德地图搜索',
+        explorePrivacy:'打开外部地图时，查询词会发送给所选地图服务商。外部结果与BM25／Encoder结果分开，不会加入研究数据。'
+    })) $(id).textContent = text;
+    $('exploreQuery').placeholder = en ? 'Chinese keywords, e.g. 公园、餐厅、书房' : '例如：公园、餐厅、书房';
+    updateExploreLink();
+}
+function updateExploreLink() {
+    const query = $('exploreQuery').value.trim();
+    $('exploreAmap').hidden = !query;
+    if (!query) {$('exploreAmap').removeAttribute('href'); return;}
+    const url = new URL('https://uri.amap.com/search');
+    url.search = new URLSearchParams({keyword:'温州市瓯海区 ' + query,city:'温州',view:'map',src:'cps5801'});
+    $('exploreAmap').href = url.href;
+}
+$('exploreQuery').addEventListener('input', updateExploreLink);
+$('exploreForm').addEventListener('submit', event => {
+    $('exploreQuery').value = $('exploreQuery').value.trim();
+    if (!$('exploreQuery').value) {event.preventDefault(); $('exploreQuery').reportValidity();}
+});
+function updateOverview(rows) {
+    const svg = $('placeOverview');
+    svg.replaceChildren();
+    const legend = $('pointLegend');
+    legend.replaceChildren();
+    const points = rows.filter(row => row.map_preview);
+    $('overviewNote').hidden = false;
+    $('overviewNote').textContent = language === 'en'
+        ? `${points.length} source positions in this view. Select a marker or a name below; nearby markers may overlap. This overview has no street basemap; positions and entrances remain unverified.`
+        : `当前视图有${points.length}个来源点位。可点击标记或下方名称；相近点位可能重叠。概览不含街道底图，位置及入口仍待核验。`;
+    svg.setAttribute('aria-label', language === 'en' ? 'Source location overview; select a place' : '来源点位概览，选择地点');
+    legend.hidden = !points.length;
+    if (!points.length) {svg.setAttribute('hidden', ''); return;}
+    svg.removeAttribute('hidden');
+    const make = (tag, attrs, text) => {
+        const item = document.createElementNS('http://www.w3.org/2000/svg', tag);
+        for (const [key, value] of Object.entries(attrs)) item.setAttribute(key, value);
+        if (text !== undefined) item.textContent = text;
+        return item;
+    };
+    const cosine = Math.cos(points.reduce((sum, r) => sum + r.map_preview.latitude, 0) / points.length * Math.PI / 180);
+    const xs = points.map(r => r.map_preview.longitude * cosine), ys = points.map(r => r.map_preview.latitude);
+    const xmin = Math.min(...xs), xmax = Math.max(...xs), ymin = Math.min(...ys), ymax = Math.max(...ys);
+    const scale = Math.min(660 / Math.max(xmax - xmin, .001), 240 / Math.max(ymax - ymin, .001));
+    const positions = points.map((row, i) => ({
+        x:60 + (660 - (xmax - xmin) * scale) / 2 + (xs[i] - xmin) * scale,
+        y:55 + (240 - (ymax - ymin) * scale) / 2 + (ymax - ys[i]) * scale,
+    }));
+    svg.append(make('text', {x:18,y:24}, language === 'en' ? 'N ↑ · source positions' : '北 ↑ · 来源点位'));
+    points.forEach((row, i) => {
+        const {x, y} = positions[i];
+        const label = `${i+1}. ${row.name}`;
+        const marker = make('circle', {cx:x,cy:y,r:8,tabindex:0,role:'button','aria-label':label,'data-poi-id':row.poi_id});
+        marker.append(make('title', {}, label));
+        marker.addEventListener('click', () => selectPlace(row));
+        marker.addEventListener('keydown', event => {if (event.key === 'Enter' || event.key === ' ') {event.preventDefault(); selectPlace(row);}});
+        svg.append(marker);
+        if (!positions.some((p,j) => j!==i && Math.hypot(p.x-x,p.y-y)<24))
+            svg.append(make('text', {x:x+12,y:y+4,'pointer-events':'none'}, String(i+1)));
+        const choice = node('button', label);
+        choice.type = 'button';
+        choice.title = row.poi_id;
+        choice.addEventListener('click', () => selectPlace(row));
+        legend.append(choice);
+    });
+}
+function updatePlaceFilters() {
+    const en = language === 'en';
+    $('placeTextLabel').textContent = en ? 'Place name, address or source text' : '地点名称、地址或来源文字';
+    $('placeText').placeholder = en ? 'Enter Chinese words, such as 书房 or 潘桥' : '输入书房、潘桥等关键词';
+    $('placeCategoryLabel').textContent = en ? 'Source category' : '来源类别';
+    $('previewOnlyLabel').textContent = en ? 'With a source map point' : '有来源地图标记';
+    const selected = $('placeCategory').value;
+    $('placeCategory').replaceChildren();
+    const all = node('option', en ? 'All categories' : '全部类别');
+    all.value = '';
+    $('placeCategory').append(all);
+    const categories = [...new Set((inventoryRows || []).map(row => row.category).filter(Boolean))].sort();
+    for (const category of categories) {
+        const option = node('option', category);
+        option.value = category;
+        $('placeCategory').append(option);
+    }
+    $('placeCategory').value = categories.includes(selected) ? selected : '';
+}
+function updateInventory() {
+    $('browsePlaces').textContent = inventoryCopy[language].button;
+    $('inventoryNote').textContent = inventoryCopy[language].note;
+    if (!inventoryRows) return;
+    $('placeFilters').hidden = false;
+    const words = $('placeText').value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+    const category = $('placeCategory').value;
+    const rows = inventoryRows.filter(row => {
+        const text = [row.name, row.address, row.category, row.description].join('\n').toLocaleLowerCase();
+        return words.every(word => text.includes(word))
+            && (!category || row.category === category)
+            && (!$('previewOnly').checked || Boolean(row.map_preview));
+    });
+    $('placeCount').textContent = language === 'en'
+        ? `${rows.length} of ${inventoryRows.length} source records shown`
+        : `显示 ${rows.length} / ${inventoryRows.length} 条来源记录`;
+    const target = $('inventory');
+    target.replaceChildren();
+    if (!rows.length) target.append(node('p', language === 'en'
+        ? 'No records match these filters. Try fewer words or another category.'
+        : '当前条件没有匹配记录，可减少关键词或更换类别。'));
+    for (const row of rows) {
+        const article = node('article', undefined, 'result');
+        article.append(node('h3', row.name), node('p', row.category + ' | ' + (row.address || t('missing'))));
+        article.append(node('p', row.description, 'description'));
+        const button = node('button', mapCopy[language].select);
+        button.type = 'button';
+        button.addEventListener('click', () => selectPlace(row));
+        article.append(button);
+        target.append(article);
+    }
+    updateOverview(rows);
+}
+$('placeText').addEventListener('input', updateInventory);
+$('placeCategory').addEventListener('change', updateInventory);
+$('previewOnly').addEventListener('change', updateInventory);
+$('routeForm').addEventListener('submit', event => {
+    const origin = $('routeOrigin');
+    origin.value = origin.value.trim();
+    if (!origin.value) {
+        event.preventDefault();
+        origin.reportValidity();
+    }
+});
+$('browsePlaces').addEventListener('click', async () => {
+    const target = $('inventory');
+    target.hidden = false;
+    target.textContent = inventoryCopy[language].loading;
+    try {
+        const response = await fetch('/api/places', {cache:'no-store'});
+        if (!response.ok) throw new Error('Inventory request failed');
+        const payload = await response.json();
+        if (backend && payload.corpus_sha256 !== backend.corpus_sha256) throw new Error('Corpus changed');
+        inventoryRows = payload.places;
+        updatePlaceFilters();
+        updateInventory();
+    } catch (error) {
+        target.textContent = inventoryCopy[language].failed;
+    }
+});
+function updateMapLabels() {
+    const copy = mapCopy[language];
+    $('mapTitle').textContent = copy.title + ' · ' + selectedPlace.name;
+    $('mapAddress').textContent = selectedPlace.address || t('missing');
+    $('mapHint').textContent = selectedPlace.address ? copy.addressHint : copy.nameHint;
+    const en = language === 'en';
+    $('previewNote').textContent = selectedPlace.point
+        ? (en ? 'OpenStreetMap source location. The entrance is still unverified.' : '地图标记来自 OpenStreetMap，实际入口仍待核验。')
+        : (en ? 'Map preview unavailable for this record. Use the address or name to find it in Baidu Maps.' : '该记录暂无可预览的地图标记，可用地址或名称在百度地图中查找。');
+    $('loadMapPreview').textContent = en ? 'Load OpenStreetMap preview' : '加载 OpenStreetMap 地图';
+    $('previewFallback').textContent = en ? 'If the street tiles stay blank, use the map links below. The source-point overview also works without external tiles.' : '若街道底图一直空白，可使用下方地图入口；来源点位概览不依赖外部瓦片。';
+    $('openAmap').textContent = en ? 'Find on Amap' : '在高德地图上查找';
+    $('photoNote').textContent = en ? 'Photos are not included in this local source record. Check the matched provider listing for any available photos.' : '本地来源记录未包含照片，可在地图服务商匹配的地点详情中查看是否有照片。';
+    $('destinationEvidenceTitle').textContent = en ? 'Destination source details' : '目的地来源详情';
+    const nav = selectedPlace.navigation;
+    $('destinationEvidence').textContent = (nav?.has_supplement
+        ? (en ? 'Navigation address from a separate publisher notice; retrieval text and the frozen evaluation remain unchanged. ' : '导航地址来自单独核查的馆方公告，检索文本和冻结评分数据保持原样。')
+        : (en ? 'Destination uses the source-reported address, or a name search when no address is recorded. ' : '目的地使用来源地址；缺失地址时按名称搜索。'))
+        + (nav?.source_checked_on ? (en ? 'Source checked: ' : '来源核查日期：') + nav.source_checked_on + '. ' : '')
+        + (selectedPlace.point ? `WGS84: ${selectedPlace.point.latitude}, ${selectedPlace.point.longitude}. ` : '')
+        + (en ? 'Confirm the provider’s matched place and entrance before traveling.' : '出发前核对服务商匹配的地点及实际入口。');
+    for (const [id, key] of Object.entries({openMap:'map',mapSource:'source',originLabel:'origin',modeLabel:'mode',openRoute:'route'})) {
+        $(id).textContent = copy[key];
+    }
+    $('routeOrigin').placeholder = copy.placeholder;
+    for (const option of $('routeMode').options) option.textContent = copy[option.value];
+}
+$('loadMapPreview').addEventListener('click', () => {
+    const point = selectedPlace?.point;
+    if (!point) return;
+    const {latitude: lat, longitude: lon} = point;
+    const url = new URL('https://www.openstreetmap.org/export/embed.html');
+    url.search = new URLSearchParams({
+        bbox: [lon - 0.004, lat - 0.003, lon + 0.004, lat + 0.003].join(','),
+        marker: [lat, lon].join(','),
+        layer: 'mapnik',
+    });
+    $('mapPreview').src = url.href;
+    $('mapPreview').hidden = false;
+    $('previewFallback').hidden = false;
+    $('loadMapPreview').hidden = true;
+});
+function selectPlace(row) {
+    const name = row.name.trim();
+    const address = (row.navigation?.address ?? row.address ?? '').trim();
+    const source = row.navigation?.address_source_url || row.source_url || '';
+    selectedPlace = {name, address, point: row.map_preview, navigation: row.navigation};
+    $('mapPreview').hidden = true;
+    $('mapPreview').removeAttribute('src');
+    $('previewFallback').hidden = true;
+    $('loadMapPreview').hidden = !selectedPlace.point;
+    const url = new URL('https://api.map.baidu.com/place/search');
+    url.search = new URLSearchParams({query:[name,address].filter(Boolean).join(' '),region:'瓯海区',output:'html',src:'webapp.cps5801.placesearch'});
+    $('openMap').href = row.navigation?.search_links?.baidu || url.href;
+    const amap = new URL('https://uri.amap.com/search');
+    amap.search = new URLSearchParams({keyword:'温州市瓯海区 '+[name,address].filter(Boolean).join(' '),city:'温州',view:'map',src:'cps5801'});
+    $('openAmap').href = row.navigation?.search_links?.amap || amap.href;
+    $('routeDestination').value = address || '温州市瓯海区' + name;
+    $('mapSource').hidden = !/^https?:\/\//i.test(source);
+    if ($('mapSource').hidden) $('mapSource').removeAttribute('href');
+    else $('mapSource').href = source;
+    updateMapLabels();
+    $('mapPanel').hidden = false;
+    $('mapPanel').scrollIntoView({block:'nearest'});
+}
+for (const mode of ['walking', 'transit', 'driving']) {
+    const option = node('option', mapCopy.en[mode]);
+    option.value = mode;
+    $('routeMode').append(option);
+}
+function showStatus(){ $('status').textContent=backend?`${t('connected')} · ${backend.candidate_count} ${t('candidates')} · BM25 ${t('ready')} · Encoder ${t(backend.encoder_state==='disabled'?'disabled':backend.encoder_state==='stopped'?'stopped':backend.encoder_ready?'ready':'onDemand')} ${backend.bge_available?' · BGE-M3 '+t(backend.dense_states?.bge_m3==='disabled'?'disabled':backend.dense_states?.bge_m3==='ready'?'ready':backend.dense_states?.bge_m3==='stopped'?'stopped':'onDemand'):''} · C: ${backend.disk_free_gib.C} GiB / D: ${backend.disk_free_gib.D} GiB${backend.disk_free_gib.C<backend.encoder_min_c_gib?' · '+t('guard'):''}`:t('connecting'); }
+async function status(){try{const r=await fetch('/api/status',{cache:'no-store'});if(!r.ok)throw Error();backend=await r.json();for(const id of ['encoder','bge_m3','both'])$(id).disabled=backend.encoder_enabled===false;$('hardFilterPanel').hidden=!backend.explicit_hard_filter_available;$('bge_m3').hidden=!backend.bge_available;$('bge_m3Result').hidden=!backend.bge_available;showStatus();for(const element of document.querySelectorAll('[data-t]'))element.textContent=t(element.dataset.t);}catch(e){$('status').textContent=t('statusFailed');}}
+function render(method,data){const target=$(method+'Result').querySelector('.content');target.replaceChildren();target.className='content';target.append(node('p',t('query')+': '+data.query),node('p',`${t('searchTime')}: ${data.search_ms.toFixed(2)} ms | ${t('loadTime')}: ${data.load_ms.toFixed(2)} ms | ${t('totalTime')}: ${data.elapsed_ms.toFixed(2)} ms`,'muted'),node('p',t('request')+' '+data.request_id+' · '+data.executed_at,'id'));if(data.hard_filter)target.append(node('p',t('filterResult')+': '+data.hard_filter.eligible_ids.length+' / '+data.hard_filter.unknown_ids.length+' / '+data.hard_filter.unmet_ids.length,'notice'));target.append(node('div',t(data.hard_filter?'filterWarning':'warning'),'notice'));if(/安静|学习/.test(data.query))target.append(node('div',t('quiet'),'notice'));if(method==='bm25'&&data.results.length&&data.results.every(r=>r.score===0))target.append(node('div',t('zeroWarning'),'notice')); const visibleResults = method === 'bm25' ? data.results.filter(row => row.matched_tokens.length > 0) : data.results; for(const row of visibleResults){const article=node('article',undefined,'result');article.append(node('h3',row.rank+'. '+row.name),node('div',t('score')+': '+row.score.toFixed(6),'score'),node('div',row.poi_id,'id'),node('p',`${t('category')}: ${row.category||t('missing')} | ${t('address')}: ${row.address||t('missing')}`),node('p',row.description||t('noDescription'),'description'),node('p',method==='bm25'?t('matches')+': '+(row.matched_tokens.join(', ')||t('zero')):t('cosine'),'muted'),node('p',t('verification'),'muted'));if (row.name.trim()) {
+    const button = node('button', mapCopy[language].select);
+    button.type = 'button';
+    button.addEventListener('click', () => selectPlace(row));
+    article.append(button);
+}target.append(article);}}
+Object.assign(translations.en,{filterTitle:'Optional required conditions',filterHelp:'Use only mandatory conditions. Leave preferences in the query. Exact source category and recorded counts are checked; unknown facts are excluded. This does not confirm current conditions.',filterCategory:'Exact recorded category',filterSeats:'Recorded seats at least',filterHoldings:'Recorded books at least',filterResult:'Source filter: eligible / unknown / unmet',filterWarning:'Required conditions were applied to recorded source facts; unknown facts were excluded. This does not verify current operations, fees, distance or quietness.'});
+Object.assign(translations.zh,{filterTitle:'可选：必须满足的条件',filterHelp:'这里只填必须条件；希望、优先等偏好写在查询里。按来源记载的类别与数量判断，未知不通过；不代表实时情况。留空则不筛选。',filterCategory:'来源类别（精确匹配）',filterSeats:'记载座位至少',filterHoldings:'记载藏书至少',filterResult:'来源筛选：符合／未知／不符合',filterWarning:'已按明确条件筛选来源记载，未知不通过。筛选不证明当前营业、费用、距离或安静程度。'});
+Object.assign(translations.en,{suggestConditions:'Suggest required conditions from my query',suggestReady:'Suggestions filled in. Review the fields, then search. Preferences, ambiguous values and unsupported attributes were not added.',suggestFailed:'Could not prepare suggestions; enter conditions manually.'});
+Object.assign(translations.zh,{suggestConditions:'从查询填写条件建议（请核对）',suggestReady:'已填写能识别的建议，请核对上方条件后再检索。偏好、歧义或无证据的属性不会自动加入。',suggestFailed:'建议未完成，请手动填写必须条件。'});
+function explicitConstraints(){if(!backend?.explicit_hard_filter_available)return [];const out=[];const category=$('hardCategory').value.trim();if(category)out.push({field:'category',operator:'eq',value:category});for(const [id,field] of [['hardSeats','seats'],['hardHoldings','holdings']]){const value=$(id).value.trim();if(value)out.push({field,operator:'gte',value:Number(value)});}return out;}
+function setLanguage(value){language=value;document.documentElement.lang=value==='en'?'en':'zh-CN';document.title=t('title');for(const element of document.querySelectorAll('[data-t]'))element.textContent=t(element.dataset.t);$('query').placeholder=t('placeholder');showStatus();updateExplore();updatePlaceFilters();updateInventory();for(const method of methods){if(results[method])render(method,results[method]);else{const target=$(method+'Result').querySelector('.content');target.textContent=errors[method]?t('failed')+' '+errors[method]:t('waiting');}}}
+async function run(method, requestedQuery, requestedConstraints){const constraints=requestedConstraints??explicitConstraints();const query=requestedQuery ?? $('query').value.trim();if(!query){$('query').focus();return;}const identity=JSON.stringify([query,constraints]);for(const other of methods)if(lastQuery[other]!==null&&lastQuery[other]!==identity){delete results[other];delete errors[other];$(other+'Result').querySelector('.content').textContent=t('changed');lastQuery[other]=null;}lastQuery[method]=identity;delete results[method];delete errors[method];const target=$(method+'Result').querySelector('.content');target.className='content busy';target.textContent=t('loading');busy++;$('query').readOnly=true;$('hardFilterFields').disabled=true;for(const b of [...document.querySelectorAll('#bm25,#encoder,#both,[data-query]'),$('bge_m3')])b.disabled=true;try{const r=await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({method,query,constraints}),cache:'no-store'});const data=await r.json();if(!r.ok)throw Error(data.code==='STORAGE_GUARD'?t('guard'):(language==='en'?'Backend error (HTTP '+r.status+'). '+t('technical')+': '+(data.error||''):data.error));if(data.query!==query||data.saved_results_used!==false||data.live_computation!==true)throw Error(t('inconsistent'));results[method]=data;render(method,data);}catch(e){errors[method]=e.message;target.className='content error';target.textContent=t('failed')+'\n'+e.message;}finally{busy--;if(!busy){$('query').readOnly=false;$('hardFilterFields').disabled=false;for(const b of [...document.querySelectorAll('#bm25,#encoder,#both,[data-query]'),$('bge_m3')])b.disabled=false;}status();}}
+$('suggestConditions').addEventListener('click',async()=>{if(busy)return;const query=$('query').value.trim();if(!query){$('query').focus();return;}busy++;$('suggestConditions').disabled=true;$('query').readOnly=true;$('hardFilterFields').disabled=true;for(const id of ['bm25','encoder','bge_m3','both'])$(id).disabled=true;try{const response=await fetch('/api/constraints/propose',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query})});const value=await response.json();if(!response.ok)throw Error(value.error);for(const id of ['hardCategory','hardSeats','hardHoldings'])$(id).value='';const ids={category:'hardCategory',seats:'hardSeats',holdings:'hardHoldings'};for(const item of value.constraints)if(ids[item.field])$(ids[item.field]).value=String(item.value);for(const method of methods){delete results[method];delete errors[method];lastQuery[method]=null;$(method+'Result').querySelector('.content').textContent=t('changed');}$('constraintProposal').textContent=t('suggestReady');}catch(error){$('constraintProposal').textContent=t('suggestFailed');}finally{busy--;$('suggestConditions').disabled=false;$('query').readOnly=false;$('hardFilterFields').disabled=false;for(const id of ['bm25','encoder','bge_m3','both'])$(id).disabled=false;await status();}});
+$('language').addEventListener('change',e=>{setLanguage(e.target.value);if(!document.getElementById('mapPanel').hidden)updateMapLabels();});$('bm25').addEventListener('click',()=>run('bm25'));$('encoder').addEventListener('click',()=>run('encoder'));$('bge_m3').addEventListener('click',()=>run('bge_m3'));$('both').addEventListener('click',async()=>{const query=$('query').value.trim();if(!query){$('query').focus();return;}const conditions=explicitConstraints();for(const method of (backend?.bge_available?methods:['bm25','encoder']))await run(method,query,conditions);});for(const b of document.querySelectorAll('[data-query]'))b.addEventListener('click',()=>{$('query').value=b.dataset.query;});setLanguage('en');status();
+</script></body></html>

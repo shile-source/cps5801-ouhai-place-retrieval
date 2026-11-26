@@ -1,0 +1,91 @@
+{
+  "purpose": "post_publication_sampled_agreement_NOT_full_dual_annotation",
+  "sample_size": 80,
+  "queries": 8,
+  "pairs_per_query": 10,
+  "second_numeric": 78,
+  "second_unknown": 2,
+  "statistics": {
+    "original_human_pairs_only": {
+      "n": 71,
+      "exact_agreement": 0.9436619718309859,
+      "linear": {
+        "n": 71,
+        "kappa": 0.8754385964912281,
+        "reason": null,
+        "weights": "linear"
+      },
+      "quadratic": {
+        "n": 71,
+        "kappa": 0.8851132686084142,
+        "reason": null,
+        "weights": "quadratic"
+      },
+      "confusion_matrix_0_1_2": [
+        [
+          51,
+          1,
+          2
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          12
+        ]
+      ]
+    },
+    "including_AI_assisted_first_rater_sensitivity": {
+      "n": 74,
+      "exact_agreement": 0.918918918918919,
+      "linear": {
+        "n": 74,
+        "kappa": 0.8423855165069223,
+        "reason": null,
+        "weights": "linear"
+      },
+      "quadratic": {
+        "n": 74,
+        "kappa": 0.8648813146682897,
+        "reason": null,
+        "weights": "quadratic"
+      },
+      "confusion_matrix_0_1_2": [
+        [
+          51,
+          3,
+          2
+        ],
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          12
+        ]
+      ]
+    }
+  },
+  "pairwise_unknown_exclusions": 6,
+  "numeric_disagreements": 6,
+  "review_queue_size": 12,
+  "adjudications_completed": 0,
+  "original_ranking_metrics_changed": false,
+  "second_packet_sha256": "e1d141ccf18ea25a153e7b988c75967edf4d093bc7f134496abaecc6456c85a2",
+  "first_log_sha256": "bb2a2e566e7bb56ebe89f0e6600523e0fabcfe3f8e83796cb937e20860182c09",
+  "second_log_sha256": "9652e69caced4f38bb02db0c1f91114add20b7714fb39e4b0245c7d8ad68229d",
+  "identities_independently_verified": false,
+  "limitations": [
+    "Second rater added after original model results were published.",
+    "Convenience AI-assisted queries, not independent held-out intents.",
+    "Uniform sampled pairs can be severely label-imbalanced; no complete-query effectiveness claim.",
+    "Kappa is descriptive; overlapping candidates and intents are not independent sampling units."
+  ]
+}

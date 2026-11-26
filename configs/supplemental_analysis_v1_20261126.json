@@ -1,0 +1,18 @@
+{
+  "purpose": "post_publication_supplemental_sample_analysis_not_preregistered_formal_study",
+  "first_session": "data/labels/pilot_human_v0_1_20261102",
+  "first_log_sha256": "bb2a2e566e7bb56ebe89f0e6600523e0fabcfe3f8e83796cb937e20860182c09",
+  "second_session": "data/labels/supplemental_rater_b_sample80_v1_20261125",
+  "second_packet_sha256": "e1d141ccf18ea25a153e7b988c75967edf4d093bc7f134496abaecc6456c85a2",
+  "sample": {"queries":8,"per_query":10,"total":80,"seed":5801,"selection_used_labels_or_rankings":false},
+  "interim_statistics": "not_computed_before_all_80_pairs_handled",
+  "unknown_policy": "exclude_from_numeric_paired_agreement_and_report_counts_never_impute_zero",
+  "primary_group": "latest_first_rater_source_user_local_ui_only",
+  "sensitivity_group": "include_latest_first_rater_AI_assisted_corrections_with_explicit_disclosure",
+  "statistics": ["exact_agreement","linear_weighted_cohen_kappa","quadratic_weighted_cohen_kappa","confusion_matrix"],
+  "undefined_kappa": "report_null_and_degenerate_marginals_reason",
+  "adjudication": "blank_final_labels_for_actual_human_resolution_no_automatic_consensus",
+  "ranking_metrics_on_80_pair_sample": false,
+  "claims_full_dual_annotation_or_held_out_test": false,
+  "new_original_publication_or_label_overwrite": false
+}

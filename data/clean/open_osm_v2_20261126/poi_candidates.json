@@ -1,0 +1,2836 @@
+[
+  {
+    "poi_id": "osm_node_12132373350",
+    "name": "文化公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：文化公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：文化公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：文化公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.5686386,
+    "latitude": 27.9941545,
+    "original_longitude_text": "120.5686386",
+    "original_latitude_text": "27.9941545",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/12132373350"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/12132373350",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "文化公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_778864105",
+    "name": "新桥文化广场",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：新桥文化广场；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：新桥文化广场；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：新桥文化广场",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6244856,
+    "latitude": 27.9861952,
+    "original_longitude_text": "120.6244856",
+    "original_latitude_text": "27.9861952",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/778864105"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/778864105",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "新桥文化广场",
+      "name:en": "Xinqiao Park"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_848331750",
+    "name": "小区公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：小区公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：小区公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：小区公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6518988,
+    "latitude": 27.9686951,
+    "original_longitude_text": "120.6518988",
+    "original_latitude_text": "27.9686951",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/848331750"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/848331750",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "小区公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_866792666",
+    "name": "秀屿山公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：秀屿山公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：秀屿山公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：秀屿山公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6055663,
+    "latitude": 27.9789034,
+    "original_longitude_text": "120.6055663",
+    "original_latitude_text": "27.9789034",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/866792666"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/866792666",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "秀屿山公园",
+      "name:en": "Xiuyushan Park"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_867522360",
+    "name": "市民广场",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：市民广场；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：市民广场；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：市民广场",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6114365,
+    "latitude": 27.9689231,
+    "original_longitude_text": "120.6114365",
+    "original_latitude_text": "27.9689231",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/867522360"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/867522360",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "市民广场",
+      "name:en": "Citizen's Plaza",
+      "place": "square"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_867525440",
+    "name": "滨水公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：滨水公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：滨水公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：滨水公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6155313,
+    "latitude": 27.9899393,
+    "original_longitude_text": "120.6155313",
+    "original_latitude_text": "27.9899393",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/867525440"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/867525440",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "滨水公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_870589267",
+    "name": "乐一公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：乐一公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：乐一公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：乐一公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6107882,
+    "latitude": 27.972583,
+    "original_longitude_text": "120.6107882",
+    "original_latitude_text": "27.972583",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/870589267"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/870589267",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "乐一公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_875749659",
+    "name": "世纪公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：世纪公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：世纪公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：世纪公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6960824,
+    "latitude": 27.9808779,
+    "original_longitude_text": "120.6960824",
+    "original_latitude_text": "27.9808779",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/875749659"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/875749659",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "世纪公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_893003619",
+    "name": "亚运公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：亚运公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：亚运公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：亚运公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6117397,
+    "latitude": 27.9654021,
+    "original_longitude_text": "120.6117397",
+    "original_latitude_text": "27.9654021",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/893003619"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/893003619",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "亚运公园",
+      "name:en": "Yayun Park"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_893452593",
+    "name": "紫薇主题公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：紫薇主题公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：紫薇主题公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：紫薇主题公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.5871238,
+    "latitude": 27.9741506,
+    "original_longitude_text": "120.5871238",
+    "original_latitude_text": "27.9741506",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/893452593"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/893452593",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "紫薇主题公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_893452594",
+    "name": "南火车站广场",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：南火车站广场；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：南火车站广场；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：南火车站广场",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.5848747,
+    "latitude": 27.96949,
+    "original_longitude_text": "120.5848747",
+    "original_latitude_text": "27.96949",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/893452594"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/893452594",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "南火车站广场",
+      "name:en": "South Station Plaza"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_900954276",
+    "name": "滨水公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：滨水公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：滨水公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：滨水公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6841017,
+    "latitude": 27.9764028,
+    "original_longitude_text": "120.6841017",
+    "original_latitude_text": "27.9764028",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/900954276"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/900954276",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "滨水公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_902320710",
+    "name": "会昌河畔公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：会昌河畔公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：会昌河畔公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：会昌河畔公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6318139,
+    "latitude": 27.9929294,
+    "original_longitude_text": "120.6318139",
+    "original_latitude_text": "27.9929294",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/902320710"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/902320710",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "会昌河畔公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_982937385",
+    "name": "西山公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：西山公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：西山公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：西山公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6338517,
+    "latitude": 27.995501,
+    "original_longitude_text": "120.6338517",
+    "original_latitude_text": "27.995501",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/982937385"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/982937385",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "西山公园",
+      "name:en": "West Hill Park"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1008977206",
+    "name": "荷塘月色公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：荷塘月色公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：荷塘月色公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：荷塘月色公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6772584,
+    "latitude": 27.9528399,
+    "original_longitude_text": "120.6772584",
+    "original_latitude_text": "27.9528399",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1008977206"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1008977206",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "荷塘月色公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1145549215",
+    "name": "申顺文体主题公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：申顺文体主题公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：申顺文体主题公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：申顺文体主题公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6803982,
+    "latitude": 27.9813959,
+    "original_longitude_text": "120.6803982",
+    "original_latitude_text": "27.9813959",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1145549215"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1145549215",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "申顺文体主题公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1283326214",
+    "name": "白门渡公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：白门渡公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：白门渡公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：白门渡公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6375981,
+    "latitude": 27.9090885,
+    "original_longitude_text": "120.6375981",
+    "original_latitude_text": "27.9090885",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1283326214"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1283326214",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "白门渡公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1319719830",
+    "name": "十八湾滨水公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：十八湾滨水公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：十八湾滨水公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：十八湾滨水公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6067695,
+    "latitude": 27.9903949,
+    "original_longitude_text": "120.6067695",
+    "original_latitude_text": "27.9903949",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1319719830"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1319719830",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "十八湾滨水公园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1373611868",
+    "name": "姜宅村休闲园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：姜宅村休闲园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：姜宅村休闲园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：姜宅村休闲园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6344002,
+    "latitude": 27.9086932,
+    "original_longitude_text": "120.6344002",
+    "original_latitude_text": "27.9086932",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1373611868"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1373611868",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "姜宅村休闲园"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_relation_11867625",
+    "name": "龙舟公园",
+    "category": "公园",
+    "address": "",
+    "description": "OSM 来源记载：名称：龙舟公园；类别标签：leisure=park（公园）。",
+    "description_zh": "OSM 来源记载：名称：龙舟公园；类别标签：leisure=park（公园）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：龙舟公园",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：leisure=park（公园）",
+        "source_fields": [
+          "leisure"
+        ]
+      }
+    ],
+    "longitude": 120.6336763,
+    "latitude": 27.9870313,
+    "original_longitude_text": "120.6336763",
+    "original_latitude_text": "27.9870313",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "relation/11867625"
+    ],
+    "source_url": "https://www.openstreetmap.org/relation/11867625",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "leisure": "park",
+      "name": "龙舟公园",
+      "name:en": "Longzhou Park",
+      "type": "multipolygon"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_8330242776",
+    "name": "千年大榕树",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：千年大榕树；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：千年大榕树；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：千年大榕树",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6283393,
+    "latitude": 27.9902103,
+    "original_longitude_text": "120.6283393",
+    "original_latitude_text": "27.9902103",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/8330242776"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/8330242776",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "denotation": "landmark",
+      "leaf_type": "broadleaved",
+      "name": "千年大榕树",
+      "natural": "tree",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_10591363706",
+    "name": "丽花亭",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：丽花亭；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：丽花亭；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：丽花亭",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.7056727,
+    "latitude": 27.9708892,
+    "original_longitude_text": "120.7056727",
+    "original_latitude_text": "27.9708892",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/10591363706"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/10591363706",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "amenity": "shelter",
+      "name": "丽花亭",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_11847794502",
+    "name": "丽塘井",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：丽塘井；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：丽塘井；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：丽塘井",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6519867,
+    "latitude": 27.9228126,
+    "original_longitude_text": "120.6519867",
+    "original_latitude_text": "27.9228126",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/11847794502"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/11847794502",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "name": "丽塘井",
+      "ref": "丽塘井",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_12688499804",
+    "name": "灯雨龙舌",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：灯雨龙舌；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：灯雨龙舌；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：灯雨龙舌",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6494116,
+    "latitude": 27.9225464,
+    "original_longitude_text": "120.6494116",
+    "original_latitude_text": "27.9225464",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/12688499804"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/12688499804",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "name": "灯雨龙舌",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_12688499805",
+    "name": "葛凯明彻",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：葛凯明彻；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：葛凯明彻；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：葛凯明彻",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6504845,
+    "latitude": 27.9221167,
+    "original_longitude_text": "120.6504845",
+    "original_latitude_text": "27.9221167",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/12688499805"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/12688499805",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "name": "葛凯明彻",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_12688499806",
+    "name": "我建犹怜",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：我建犹怜；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：我建犹怜；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：我建犹怜",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6504523,
+    "latitude": 27.9216364,
+    "original_longitude_text": "120.6504523",
+    "original_latitude_text": "27.9216364",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/12688499806"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/12688499806",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "name": "我建犹怜",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_12739359585",
+    "name": "小心石楠",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：小心石楠；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：小心石楠；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：小心石楠",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6494271,
+    "latitude": 27.9246884,
+    "original_longitude_text": "120.6494271",
+    "original_latitude_text": "27.9246884",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/12739359585"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/12739359585",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "name": "小心石楠",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1243686572",
+    "name": "梧田老街",
+    "category": "景点",
+    "address": "",
+    "description": "OSM 来源记载：名称：梧田老街；类别标签：tourism=attraction（景点）。",
+    "description_zh": "OSM 来源记载：名称：梧田老街；类别标签：tourism=attraction（景点）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：梧田老街",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=attraction（景点）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.675617,
+    "latitude": 27.9720258,
+    "original_longitude_text": "120.675617",
+    "original_latitude_text": "27.9720258",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1243686572"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1243686572",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "landuse": "retail",
+      "name": "梧田老街",
+      "tourism": "attraction"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_8327826124",
+    "name": "瓯海博物馆",
+    "category": "博物馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：瓯海博物馆；类别标签：tourism=museum（博物馆）。",
+    "description_zh": "OSM 来源记载：名称：瓯海博物馆；类别标签：tourism=museum（博物馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：瓯海博物馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=museum（博物馆）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6096313,
+    "latitude": 27.9683723,
+    "original_longitude_text": "120.6096313",
+    "original_latitude_text": "27.9683723",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/8327826124"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/8327826124",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "name": "瓯海博物馆",
+      "tourism": "museum"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_12233993485",
+    "name": "温州肯恩大学校史馆",
+    "category": "博物馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：温州肯恩大学校史馆；类别标签：tourism=museum（博物馆）。",
+    "description_zh": "OSM 来源记载：名称：温州肯恩大学校史馆；类别标签：tourism=museum（博物馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：温州肯恩大学校史馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=museum（博物馆）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.648873,
+    "latitude": 27.91985,
+    "original_longitude_text": "120.648873",
+    "original_latitude_text": "27.91985",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/12233993485"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/12233993485",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "name": "温州肯恩大学校史馆",
+      "tourism": "museum"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_514675857",
+    "name": "校史馆",
+    "category": "博物馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：校史馆；类别标签：tourism=museum（博物馆）。",
+    "description_zh": "OSM 来源记载：名称：校史馆；类别标签：tourism=museum（博物馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：校史馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=museum（博物馆）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6865729,
+    "latitude": 27.9641556,
+    "original_longitude_text": "120.6865729",
+    "original_latitude_text": "27.9641556",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/514675857"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/514675857",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "building": "yes",
+      "name": "校史馆",
+      "tourism": "museum"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1311615813",
+    "name": "瓯海博物馆",
+    "category": "博物馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：瓯海博物馆；类别标签：tourism=museum（博物馆）。",
+    "description_zh": "OSM 来源记载：名称：瓯海博物馆；类别标签：tourism=museum（博物馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：瓯海博物馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=museum（博物馆）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6095978,
+    "latitude": 27.968332,
+    "original_longitude_text": "120.6095978",
+    "original_latitude_text": "27.968332",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1311615813"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1311615813",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "building": "yes",
+      "name": "瓯海博物馆",
+      "tourism": "museum"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1315891580",
+    "name": "温州珐琅彩艺术博物馆",
+    "category": "博物馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：温州珐琅彩艺术博物馆；类别标签：tourism=museum（博物馆）。",
+    "description_zh": "OSM 来源记载：名称：温州珐琅彩艺术博物馆；类别标签：tourism=museum（博物馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：温州珐琅彩艺术博物馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=museum（博物馆）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6815731,
+    "latitude": 27.9492882,
+    "original_longitude_text": "120.6815731",
+    "original_latitude_text": "27.9492882",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1315891580"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1315891580",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "building": "yes",
+      "name": "温州珐琅彩艺术博物馆",
+      "tourism": "museum"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_1315891581",
+    "name": "青灯石刻艺术博物馆南馆",
+    "category": "博物馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：青灯石刻艺术博物馆南馆；类别标签：tourism=museum（博物馆）。",
+    "description_zh": "OSM 来源记载：名称：青灯石刻艺术博物馆南馆；类别标签：tourism=museum（博物馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：青灯石刻艺术博物馆南馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：tourism=museum（博物馆）",
+        "source_fields": [
+          "tourism"
+        ]
+      }
+    ],
+    "longitude": 120.6811148,
+    "latitude": 27.9504422,
+    "original_longitude_text": "120.6811148",
+    "original_latitude_text": "27.9504422",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/1315891581"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/1315891581",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "building": "yes",
+      "name": "青灯石刻艺术博物馆南馆",
+      "tourism": "museum"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_11578994770",
+    "name": "城市书房",
+    "category": "图书馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：城市书房；类别标签：amenity=library（图书馆）。",
+    "description_zh": "OSM 来源记载：名称：城市书房；类别标签：amenity=library（图书馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：城市书房",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：amenity=library（图书馆）",
+        "source_fields": [
+          "amenity"
+        ]
+      }
+    ],
+    "longitude": 120.6335996,
+    "latitude": 27.9871308,
+    "original_longitude_text": "120.6335996",
+    "original_latitude_text": "27.9871308",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": "09:00-22:00",
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/11578994770"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/11578994770",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "amenity": "library",
+      "check_date": "2024-02-02",
+      "name": "城市书房",
+      "opening_hours": "09:00-22:00"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_node_11617938336",
+    "name": "城市书房",
+    "category": "图书馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：城市书房；类别标签：amenity=library（图书馆）。",
+    "description_zh": "OSM 来源记载：名称：城市书房；类别标签：amenity=library（图书馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：城市书房",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：amenity=library（图书馆）",
+        "source_fields": [
+          "amenity"
+        ]
+      }
+    ],
+    "longitude": 120.6734214,
+    "latitude": 27.9871254,
+    "original_longitude_text": "120.6734214",
+    "original_latitude_text": "27.9871254",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "node_position",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "node/11617938336"
+    ],
+    "source_url": "https://www.openstreetmap.org/node/11617938336",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "amenity": "library",
+      "name": "城市书房"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_376003430",
+    "name": "育英图书馆",
+    "category": "图书馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：育英图书馆；类别标签：amenity=library（图书馆）。",
+    "description_zh": "OSM 来源记载：名称：育英图书馆；类别标签：amenity=library（图书馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：育英图书馆",
+        "source_fields": [
+          "name:zh"
+        ]
+      },
+      {
+        "text": "类别标签：amenity=library（图书馆）",
+        "source_fields": [
+          "amenity"
+        ]
+      }
+    ],
+    "longitude": 120.6988546,
+    "latitude": 27.9200971,
+    "original_longitude_text": "120.6988546",
+    "original_latitude_text": "27.9200971",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/376003430"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/376003430",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "amenity": "library",
+      "building": "yes",
+      "building:levels": "4",
+      "name": "育英图书馆",
+      "name:zh": "育英图书馆"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_514673571",
+    "name": "温州中学图书馆",
+    "category": "图书馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：温州中学图书馆；类别标签：amenity=library（图书馆）。",
+    "description_zh": "OSM 来源记载：名称：温州中学图书馆；类别标签：amenity=library（图书馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：温州中学图书馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：amenity=library（图书馆）",
+        "source_fields": [
+          "amenity"
+        ]
+      }
+    ],
+    "longitude": 120.6854504,
+    "latitude": 27.9632654,
+    "original_longitude_text": "120.6854504",
+    "original_latitude_text": "27.9632654",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/514673571"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/514673571",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "amenity": "library",
+      "building": "yes",
+      "name": "温州中学图书馆"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  },
+  {
+    "poi_id": "osm_way_895905506",
+    "name": "瓯海区图书馆",
+    "category": "图书馆",
+    "address": "",
+    "description": "OSM 来源记载：名称：瓯海区图书馆；类别标签：amenity=library（图书馆）。",
+    "description_zh": "OSM 来源记载：名称：瓯海区图书馆；类别标签：amenity=library（图书馆）。",
+    "description_method": "osm_explicit_tag_facts_v1",
+    "description_clauses": [
+      {
+        "text": "名称：瓯海区图书馆",
+        "source_fields": [
+          "name"
+        ]
+      },
+      {
+        "text": "类别标签：amenity=library（图书馆）",
+        "source_fields": [
+          "amenity"
+        ]
+      }
+    ],
+    "longitude": 120.6134851,
+    "latitude": 27.9694845,
+    "original_longitude_text": "120.6134851",
+    "original_latitude_text": "27.9694845",
+    "original_crs": "WGS84",
+    "crs_evidence": [
+      "https://osmdata.openstreetmap.de/info/projections.html"
+    ],
+    "coordinate_kind": "overpass_bounding_box_center",
+    "coordinate_kind_evidence": "https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)",
+    "wgs84_longitude": null,
+    "wgs84_latitude": null,
+    "coordinate_conversion_method": null,
+    "coordinate_status": "plausible_unverified",
+    "coordinate_verified": false,
+    "coordinate_verification_evidence": [],
+    "district_verified": false,
+    "district_assertion": "Returned by OSM area query for relation 3289417; not independent verification",
+    "district_verification_evidence": [],
+    "operational_status": "UNKNOWN",
+    "opening_hours": null,
+    "ticket_info": null,
+    "current_operation_verified": false,
+    "map_ready": false,
+    "is_synthetic": false,
+    "source_ids": [
+      "open_osm_20261125"
+    ],
+    "source_record_ids": [
+      "way/895905506"
+    ],
+    "source_url": "https://www.openstreetmap.org/way/895905506",
+    "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+    "osm_data_timestamp": "2026-11-25T10:56:32Z",
+    "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+    "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "source_tags": {
+      "amenity": "library",
+      "building": "yes",
+      "name": "瓯海区图书馆"
+    },
+    "entity_identity_verified": false,
+    "record_status": "source_backed_candidate_pending_independent_verification",
+    "quality_flags": [
+      "administrative_boundary_not_independently_checked",
+      "current_operation_not_independently_checked",
+      "coordinate_not_independently_checked"
+    ]
+  }
+]

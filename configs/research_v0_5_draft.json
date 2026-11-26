@@ -1,0 +1,90 @@
+{
+  "schema": "cps5801_controlled_retrieval_draft_v1",
+  "phase": "planning_not_frozen_or_formal",
+  "corpus": "data/clean/research_review_v0_5_20261125/poi_candidates.json",
+  "canonical_facts": "outputs/evidence_audit_20261125/source_facts.json",
+  "query_intake": "outputs/independent_study_preparation_20261125/query_author_form.html",
+  "queries_received": false,
+  "independent_raters_available_user_report": 2,
+  "labels_collected": false,
+  "common_text_fields": [
+    "name",
+    "category",
+    "address",
+    "description"
+  ],
+  "methods": {
+    "bm25": {
+      "tokenizer": "jieba",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25
+    },
+    "encoder": {
+      "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+      "revision": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
+      "dimension": 768,
+      "pooling": "published_mean",
+      "max_length": 128,
+      "batch_size": 4,
+      "loader": "strict_streamed_original_weights",
+      "precision": "float32",
+      "device": "cuda:0",
+      "safe_tensor_read_backend": "pread"
+    },
+    "bge_m3": {
+      "id": "BAAI/bge-m3",
+      "revision": "694b61558aea4ae2512ed8d0e189d5cf8adc2259",
+      "dimension": 1024,
+      "pooling": "published_CLS",
+      "max_length": 128,
+      "batch_size": 4,
+      "outputs": "dense_only",
+      "download_status": "consult_actual_deployment_manifest",
+      "loader": "strict_streamed_original_weights",
+      "precision": "float32",
+      "device": "cuda:0",
+      "safe_tensor_read_backend": "pread"
+    }
+  },
+  "hard_filter": {
+    "scope": "source_snapshot_only",
+    "supported_fields": [
+      "name",
+      "category",
+      "address",
+      "seats",
+      "holdings"
+    ],
+    "unknown_policy": "exclude_from_eligible_pool_and_report_separately",
+    "natural_language_parser_implemented": false,
+    "constraint_interpretations_need_human_review": true
+  },
+  "evaluation": {
+    "gain": "2^grade-1",
+    "binary_relevance_threshold": 2,
+    "metrics": [
+      "ndcg_at_5",
+      "precision_at_3",
+      "mrr",
+      "recall_at_5_if_exhaustive"
+    ],
+    "annotation": "independent_two_rater_no_AI_filled_grades",
+    "query_grouping_required_before_freeze": true,
+    "bootstrap_seed_proposed": 5801,
+    "bootstrap_unit": "independent_intent_group_after_review",
+    "post_result_protocol_changes_forbidden": true
+  },
+  "requires_before_run": [
+    "source identity and duplicate review",
+    "licensing and publication decision",
+    "independently authored queries received and evidence reviewed",
+    "development/test intent groups separated",
+    "common pools and protocol reviewed and frozen",
+    "both independent ratings and adjudication completed",
+    "BGE-M3 complete hash and guarded function check passed"
+  ],
+  "engineering_function_evidence": "outputs/three_method_live_check_20261125_201215/summary.json",
+  "engineering_function_is_effectiveness_result": false,
+  "current_bge_service_state": "stopped_after_supplemental_check_storage_guard_no_automatic_retry"
+}

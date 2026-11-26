@@ -1,0 +1,57 @@
+{
+  "purpose": "previous_function_check_NOT_effectiveness_or_performance_benchmark",
+  "checks": [
+    {
+      "method": "bm25",
+      "rows": 5,
+      "load_ms": 0,
+      "search_ms": 0.3209999995306134,
+      "config": null
+    },
+    {
+      "method": "encoder",
+      "rows": 5,
+      "load_ms": 8296.574299994973,
+      "search_ms": 9.142599999904633,
+      "config": {
+        "type": "ready",
+        "load_ms": 8296.574299994973,
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "dimension": 768,
+        "backend": "encoder",
+        "max_length": 128,
+        "batch_size": 4,
+        "direct_gpu_load": false,
+        "parameter_dtype": "torch.float32",
+        "safetensors_backend": "mmap",
+        "loader": "streamed",
+        "maximum_document_tokens": 103,
+        "documents_truncated_at_128": 0
+      }
+    },
+    {
+      "method": "bge_m3",
+      "rows": 5,
+      "load_ms": 8932.271700003184,
+      "search_ms": 16.20589999947697,
+      "config": {
+        "type": "ready",
+        "load_ms": 8932.271700003184,
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "dimension": 1024,
+        "backend": "bge_m3",
+        "max_length": 128,
+        "batch_size": 4,
+        "direct_gpu_load": true,
+        "parameter_dtype": "torch.float32",
+        "safetensors_backend": "pread",
+        "loader": "streamed",
+        "maximum_document_tokens": 103,
+        "documents_truncated_at_128": 0
+      }
+    }
+  ],
+  "corpus_sha256": "b96ebb2e68a22b4b905e410e2750934edc1737d2f8eb5f49d05992d47da9efe5",
+  "metadata_correction": "Encoder used streamed pread despite the original ready payload reporting mmap; original local evidence retained.",
+  "later_service_state": "BGE stopped after a later supplemental synthetic check triggered protection; no automatic retry"
+}

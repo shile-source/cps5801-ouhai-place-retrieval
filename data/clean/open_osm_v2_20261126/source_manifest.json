@@ -1,0 +1,26 @@
+{
+  "license": "ODbL-1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "source_url": "https://www.openstreetmap.org/copyright",
+  "source_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+  "source_date": "2026-11-25T10:56:32Z",
+  "source_element_count": 39,
+  "independently_verified_unique_entities": null,
+  "purpose": "open_data_functional_demonstration_NOT_reported_49_record_experiment",
+  "labels_created": 0,
+  "import_counts": {
+    "raw_records": 39,
+    "unique_osm_elements": 39,
+    "exact_duplicate_elements": 0,
+    "named_candidates": 39,
+    "invalid_rows": [],
+    "independent_entities_verified": 0,
+    "category_counts": {
+      "公园": 20,
+      "景点": 8,
+      "博物馆": 6,
+      "图书馆": 5
+    }
+  }
+}
