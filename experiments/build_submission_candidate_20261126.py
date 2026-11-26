@@ -17,7 +17,8 @@ EXPERIMENTS=(
     'finalize_sampled_review_20261126.py','reproduce_agreement_summary.py',
     'run_keyword_supplement_20261126.py','reproduce_keyword_supplement.py',
     'finalize_bge_supplement_20261126.py','reproduce_bge_supplement.py',
-    'verify_streamed_equivalence_20261125.py')
+    'verify_streamed_equivalence_20261125.py','prepare_adjudication_20261126.py','verify_fresh_cpu_20261126.py',
+    'finalize_adjudication_20261126.py','reproduce_review_sensitivity.py')
 BLOCKED_PARTS={'apps','.venv','.cache','.git','__pycache__','labels','queries'}
 TOKEN=re.compile(rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9]{35,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -41,19 +42,19 @@ def main():
         if path.suffix in ('.py','.js') and path.name not in ('test_storage_monitor.py','test_stage5_study_data.py'):
             add(path)
     for name in EXPERIMENTS:add(ROOT/'experiments'/name)
-    for name in ('Start-Project.ps1','Start-Demo.ps1','Start-Second-Rater.ps1','Start-Open-Demo.ps1','Start-Review-Demo.ps1',
+    for name in ('Start-Project.ps1','Start-Demo.ps1','Start-Second-Rater.ps1','Start-Open-Demo.ps1','Start-Review-Demo.ps1','Start-Adjudication.ps1',
                  'requirements.txt','requirements-gpu.txt','requirements-encoder.txt','requirements-bge-helper.txt',
                  'pytest.ini','LICENSE','AI_DISCLOSURE.md','THIRD_PARTY_NOTICES.md'):
         add(ROOT/name)
     add(ROOT/'docs/reproducibility_README.md','README.md')
     add(ROOT/'data/README.md')
-    for name in ('research_v0_5_draft.json','model_artifacts.json','retain_runtime_20261125.txt','supplemental_analysis_v1_20261126.json','runtime_recorded_20261126.json','keyword_supplement_v1_20261126.json','completed_pilot_v1_20261126.json'):
+    for name in ('research_v0_5_draft.json','model_artifacts.json','retain_runtime_20261125.txt','supplemental_analysis_v1_20261126.json','runtime_recorded_20261126.json','keyword_supplement_v1_20261126.json','completed_pilot_v1_20261126.json','completed_reviewed_pilot_v2_20261126.json'):
         add(ROOT/'configs'/name)
     for name in ('response.json','query.overpassql','request.json'):
         add(ROOT/'data/raw/osm_expansion_20261125_get'/name)
     for path in (ROOT/'data/clean/open_osm_v2_20261126').glob('*.json'):add(path)
-    for name in ('pilot_metric_inputs.json','three_method_function.json','sampled_agreement_summary.json','keyword_supplement_v1_20261126.json','bge_supplement_v1_20261126.json'):add(ROOT/'results'/name)
-    for name in ('submission_checklist_20261126.md','second_rater_20261125.md','FINAL_REPORT_20261126.md','DEMO_GUIDE_ZH.md'):
+    for name in ('pilot_metric_inputs.json','three_method_function.json','sampled_agreement_summary.json','keyword_supplement_v1_20261126.json','bge_supplement_v1_20261126.json','post_review_sensitivity_v1_20261126.json'):add(ROOT/'results'/name)
+    for name in ('submission_checklist_20261126.md','second_rater_20261125.md','FINAL_REPORT_20261126.md','DEMO_GUIDE_ZH.md','REVIEW_AND_AUDIT_20261126.md'):
         add(ROOT/'docs'/name)
     manifest={}
     for relative,(source,body) in sorted(planned.items()):

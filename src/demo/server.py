@@ -80,7 +80,7 @@ class SearchEngine:
     def storage_guard(self):
         c, d = self.space('C'), self.space('D')
         if c < self.min_c_gib * 1024**3 or d < 10 * 1024**3:
-            raise StorageGuardError(f'C盘可用 {c/1024**3:.2f} GiB，模型保护线 {self.min_c_gib:g} GiB；D盘可用 {d/1024**3:.2f} GiB（需≥10）。本次没有加载模型或返回静态替代结果。')
+            raise StorageGuardError(f'C盘可用 {c/1024**3:.2f} GiB，模型保护线 {self.min_c_gib:g} GiB；D盘可用 {d/1024**3:.2f} GiB（需≥10）。本次模型操作未完成，不返回静态替代结果。')
         if self.model_baseline and self.model_baseline-c > (0.25 if self.min_c_gib < 5 else 1)*1024**3:
             raise StorageGuardError('模型运行期间C盘空间下降达到保护限额，已停止模型工作器。')
 

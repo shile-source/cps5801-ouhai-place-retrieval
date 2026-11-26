@@ -1,0 +1,20 @@
+{
+  "phase": "completed_author_reviewed_pilot_v2",
+  "historical_configuration": "completed_pilot_v1_20261126.json",
+  "original_pairs": 392,
+  "review_completed_and_locked": true,
+  "reviewed_pairs": 12,
+  "numeric_review_decisions": 9,
+  "unknown_review_decisions": 3,
+  "changed_from_original": 7,
+  "revised_numeric_pairs": 352,
+  "revised_unknown_pairs": 40,
+  "eligible_effectiveness_queries": [],
+  "numeric_final_effectiveness_metrics": null,
+  "complete_judgment_rule_changed": false,
+  "original_publication_and_labels_modified": false,
+  "reviewer_role": "first_rater_post_publication_reviewer",
+  "independent_blind_third_rater": false,
+  "original_kappa_recomputed_after_review": false,
+  "all_original_proposal_objectives_achieved": false
+}

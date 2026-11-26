@@ -30,6 +30,7 @@ def main():
            ('agreement',['-m','experiments.reproduce_agreement_summary']),
            ('keyword_supplement',['-m','experiments.reproduce_keyword_supplement']),
            ('bge_supplement',['-m','experiments.reproduce_bge_supplement']),
+           ('review_sensitivity',['-m','experiments.reproduce_review_sensitivity']),
            ('open_data',['-m','experiments.prepare_open_osm_20261126']),
            ('bm25',['-m','experiments.run_retrieval_snapshot','--method','bm25','--query','公园']),
            ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园'])]

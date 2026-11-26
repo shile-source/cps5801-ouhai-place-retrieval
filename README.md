@@ -6,6 +6,8 @@ This repository implements a Chinese place-search prototype for Ouhai, Wenzhou, 
 
 ## Evidence and scope
 
+**Latest author review:** all 12 follow-up cases are complete and locked (9 numeric, 3 unknown). Applying these separate author decisions leaves 352 numeric and 40 unknown pairs in the revised392-pair packet. No query remains fully judged under the unchanged rule. Consequently this reviewed version reports **no final numeric effectiveness comparison**. The numeric tables below preserve the historical original-label results.
+
 The completed preliminary evaluation used 49 source records and eight AI-assisted convenience queries. Of 392 handled pairs, 349 had numeric grades and 43 were explicitly unknown. The frozen complete-judgment rule admitted **only P02**, a named-place query. Seven queries were excluded rather than treating unknowns as zero. The original packet contains 23 latest judgments from user-requested AI-assisted corrections; it is not independent human ground truth.
 
 | Method | Eligible queries | nDCG@5 | P@3 | Full-ranking MRR | Recall@5 |
@@ -13,7 +15,7 @@ The completed preliminary evaluation used 49 source records and eight AI-assiste
 | BM25 | 1 | 0.9241332080 | 0.3333333333 | 1 | 1 |
 | Multilingual Sentence Encoder | 1 | 0.7262287618 | 0.3333333333 | 1 | 1 |
 
-These original results do not establish general semantic-search superiority. A separately declared post-publication supplement on the same fully judged P02 query gives keyword overlap nDCG@5 **0.9515234566** and BGE-M3 **0.7262287618**; both P@3=1/3, MRR=1 and Recall@5=1. The original two-method publication remains unchanged. Read `docs/FINAL_REPORT_20261126.md` for results, timing, error analysis and limitations. The later second-rater task is a frozen80-pair sample, ten pairs per query, added after original result publication. All80 are handled (78 numeric,2 unknown). The UI-origin first-rater subset has71 numeric pairs,67 exact agreements (94.4%), linear weighted kappa0.8754 and quadratic weighted kappa0.8851. Including assisted first-rater corrections gives74 numeric pairs,68 exact agreements (91.9%), linear kappa0.8424 and quadratic kappa0.8649. Six unknown pairs are excluded; six numeric disagreements and six unknown-involving cases remain unadjudicated. This is descriptive sampled consistency evidence, not full dual annotation or a new held-out test. The 76-record development corpus and open 39-record demonstration below are distinct from the 49-record evaluated corpus. The original 150–200-place / held-out-query study plan was not achieved.
+These original results do not establish general semantic-search superiority. A separately declared post-publication supplement on the same fully judged P02 query gives keyword overlap nDCG@5 **0.9515234566** and BGE-M3 **0.7262287618**; both P@3=1/3, MRR=1 and Recall@5=1. The original two-method publication remains unchanged. Read `docs/FINAL_REPORT_20261126.md` for results, timing, error analysis and limitations. The later second-rater task is a frozen80-pair sample, ten pairs per query, added after original result publication. All80 are handled (78 numeric,2 unknown). The UI-origin first-rater subset has71 numeric pairs,67 exact agreements (94.4%), linear weighted kappa0.8754 and quadratic weighted kappa0.8851. Including assisted first-rater corrections gives74 numeric pairs,68 exact agreements (91.9%), linear kappa0.8424 and quadratic kappa0.8649. Six unknown pairs are excluded from the original agreement calculation. The resulting12-case queue was subsequently reviewed by the original first rater with access to both opinions; all12 are handled, including3 explicit unknowns. That separate author review is not independent blind adjudication, and pre-review kappa is not recalculated after aligning decisions. This is descriptive sampled consistency evidence, not full dual annotation or a new held-out test. The 76-record development corpus and open 39-record demonstration below are distinct from the 49-record evaluated corpus. The original 150–200-place / held-out-query study plan was not achieved.
 
 ## Repository structure
 
@@ -125,7 +127,7 @@ Optional **explicitly confirmed hard conditions** use the same eligible pool for
 
 A limited rule-based helper can suggest explicit category and Arabic-integer minimum-count conditions from Chinese text after a user clicks its control. Suggestions fill visible fields for inspection before retrieval; preference language, conflicting counts, unsupported attributes and unrecognized expressions are not silently resolved. The76-record review interface has an actual browser-checked BM25 example: seats>=40 yields11 source-supported eligible records,54 unknown and11 unmet. No new GPU inference or relevance metric is implied by this application check.
 
-The independent held-out query plan, full data identity/geographic review, broader three-method effectiveness comparison and human adjudication are not replaced by test success. A single eligible query cannot support a useful query-bootstrap generalization claim. Code for uncertainty estimation is provided without fabricating a confidence interval for missing experiments.
+The independent held-out query plan, full data identity/geographic review, broader three-method effectiveness comparison and independent human adjudication are not replaced by test success. A single eligible query cannot support a useful query-bootstrap generalization claim. Code for uncertainty estimation is provided without fabricating a confidence interval for missing experiments.
 
 ### Latest local model availability (26 November)
 
@@ -149,3 +151,15 @@ The first two commands use public anonymous rankings and actual frozen grades. T
 ```
 
 See `AI_DISCLOSURE.md` and `THIRD_PARTY_NOTICES.md`. The implementation was developed with substantial AI assistance; submitted teaching-example queries and corrections are disclosed. Students must understand the implementation and explain all reported experiments. Test-generated synthetic grades exist only in tests. Personal files, participant action logs, credentials, installed applications, caches and large model weights must not be published.
+
+## Reproduce the completed author review sensitivity
+
+```powershell
+.\Start-Project.ps1 -m experiments.reproduce_review_sensitivity
+```
+
+Expected status: `post_review_exclusion_reproduced_without_imputation`. All four saved P02 rankings are excluded because the reviewed judgments include an unknown. There is no numeric post-review effectiveness result. `results/post_review_sensitivity_v1_20261126.json` contains anonymous revised P02 grades and aggregate coverage; personal decision logs and free-text reasons remain private. The original tables and original agreement matrices retain their pre-review versions.
+
+## Fresh CPU environment verification
+
+An isolated D-drive environment was created using the existing Python 3.13.2 and exact `requirements.txt` from official PyPI, with no system-site packages, user packages or Torch. On the audited source snapshot,332 tests passed and1 historical-data test was skipped; saved arithmetic, open39-record rebuilding and actual keyword/BM25 search passed. Later added review-sensitivity checks are separately verified. This is fresh CPU workflow evidence only. It does not validate a fresh CUDA installation, school A5000 or original mixed-data end-to-end retrieval. See `docs/REVIEW_AND_AUDIT_20261126.md` for scope and the source-copy verifier.

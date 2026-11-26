@@ -5,7 +5,7 @@ import subprocess
 import pytest
 
 
-@pytest.mark.parametrize('script', ['demo_ui_checks.js', 'annotation_ui_checks.js'])
+@pytest.mark.parametrize('script', ['demo_ui_checks.js', 'annotation_ui_checks.js','adjudication_ui_checks.js'])
 def test_demo_interaction_regressions(script):
     node = shutil.which('node')
     if not node:
