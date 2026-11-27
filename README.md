@@ -2,6 +2,8 @@
 
 ## Current application and delivery version 27 November 2026
 
+**Subsequent lifecycle repair:** a newly authorized changed configuration passed two real151-record BGE FP16 loads, a warm query and two healthy60-second idle releases. The earlier stopped configuration and its receipt are retained. `Start-Demo.ps1` now uses60-second healthy idle release, with an exact-source/configuration validation receipt and a separate persistent stop record. Models load only on an explicit dense query; first/after-idle requests took39–62 seconds in this check, while the observed warm query was35.907 ms. These are finite engineering observations, not new effectiveness scores or unlimited-uptime evidence. Current idle state `not_loaded` means released and available for the next explicit search. The pause described in the next paragraph is the pre-repair checkpoint, not the latest runtime status. See `docs/storage_guard_repair_20261127.md` and `results/residency_repair_function_20261127.json`. No guard/system setting was relaxed.
+
 **Latest runtime caveat:** after the successful finite151-record request, a later residency check found BGE stopped by the unchanged C-drive-decline guard. The cause and exact transient minimum were not established. Dense inference is now paused with no automatic retry; lexical search and annotation remain available. A local stop checkpoint prevents `Start-Demo.ps1` from clearing the failure on restart; `Start-Demo.ps1 -LexicalOnly` restores the local mixed151 application without models. The successful timing below is historical finite evidence, not a claim of current sustained availability.
 
 Public source repository: [shile-source/cps5801-ouhai-place-retrieval](https://github.com/shile-source/cps5801-ouhai-place-retrieval).

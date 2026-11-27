@@ -1,0 +1,64 @@
+{
+  "purpose": "finite_engineering_lifecycle_check_NOT_relevance_evaluation",
+  "status": "passed_two_loads_and_two_healthy_idle_releases",
+  "configuration": {
+    "strategy": "streamed_FP16_healthy_idle_release_60_seconds_v1",
+    "corpus_sha256": "dcaf5420ef267e1803de46293cb5cda31b4b59d182254f703eaab93a79e6a8eb",
+    "source_sha256": {
+      "src/demo/server.py": "1897d41f1fe5fd41e8d7eabdcd1fa2d2c973f777826ccf8631f6eb1b6089f76c",
+      "src/demo/runtime_telemetry.py": "2886d4c33010087db1015483e39ea924b9895452d4c424ba9832f7f93f0c118b",
+      "src/demo/runtime_policy.py": "7bc5f1d02aa7c94b5c5a2bb91e997292e52831c465fb904023b58e5aaa284e38",
+      "src/demo/encoder_worker.py": "3d1fe66e252d4afd78b4b1b94c69f1d848cd42647aaa4fc094f70d31f38593b0",
+      "src/retrieval/streamed_bge.py": "46d3523bc99357e9d90d59836b65c907764999b9d45ecab9525e6aa55552de69",
+      "Start-Demo.ps1": "4aa9c98de865a10e53413b0d724150199e8dc84f90540c4da737853ef4554a77"
+    },
+    "c_min_gib": 5,
+    "d_min_gib": 10,
+    "c_decline_limit_gib": 1,
+    "dense_idle_seconds": 60
+  },
+  "candidate_count": 151,
+  "cold_load_count": 2,
+  "healthy_idle_release_count": 2,
+  "first_load_ms": 61933.46400000155,
+  "warm_query_ms": 35.90700001223013,
+  "second_load_ms": 39386.074399983045,
+  "repeat_top10_order_equal": true,
+  "maximum_repeat_score_difference": 0.0,
+  "minimum_c_free_bytes": 8421396480,
+  "maximum_observed_c_decline_bytes": 1064960,
+  "new_human_judgments": 0,
+  "new_effectiveness_metrics": null,
+  "automatic_retries": 0,
+  "system_changes": false,
+  "original_failure_retained": true,
+  "original_labels_unchanged": true,
+  "new_stop_record_exists": false,
+  "continuous_or_unlimited_availability_proven": false,
+  "model_check_identity": {
+    "strategy": "streamed_FP16_healthy_idle_release_60_seconds_v1",
+    "corpus_sha256": "dcaf5420ef267e1803de46293cb5cda31b4b59d182254f703eaab93a79e6a8eb",
+    "source_sha256": {
+      "src/demo/server.py": "1897d41f1fe5fd41e8d7eabdcd1fa2d2c973f777826ccf8631f6eb1b6089f76c",
+      "src/demo/runtime_telemetry.py": "2886d4c33010087db1015483e39ea924b9895452d4c424ba9832f7f93f0c118b",
+      "src/demo/runtime_policy.py": "7bc5f1d02aa7c94b5c5a2bb91e997292e52831c465fb904023b58e5aaa284e38",
+      "src/demo/encoder_worker.py": "3d1fe66e252d4afd78b4b1b94c69f1d848cd42647aaa4fc094f70d31f38593b0",
+      "src/retrieval/streamed_bge.py": "46d3523bc99357e9d90d59836b65c907764999b9d45ecab9525e6aa55552de69",
+      "Start-Demo.ps1": "28f3e661a775d5ed04383a12a146ac9eda90d3fedbd2eb61f1762a9176aebaa9"
+    },
+    "c_min_gib": 5,
+    "d_min_gib": 10,
+    "c_decline_limit_gib": 1,
+    "dense_idle_seconds": 60
+  },
+  "launcher_only_followup": {
+    "changed_files": [
+      "Start-Demo.ps1"
+    ],
+    "reason": "CIM port enumeration is unavailable in this execution environment; direct socket probe prevents a duplicate listener.",
+    "existing_port_probe_passed_without_starting_model": true,
+    "all_actual_model_runtime_source_hashes_unchanged": true,
+    "additional_model_loads": 0,
+    "original_receipt_sha256": "f93f9614025aaff4692c39e9a284761c5209f2d0ca41642bf981f7ff7a952313"
+  }
+}

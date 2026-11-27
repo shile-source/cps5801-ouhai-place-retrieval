@@ -41,7 +41,7 @@ function render(rows,search=null){
   if(!rows.length)el('results').append(text('p','没有找到符合当前条件的记录。可以减少必须条件；未知资料不会被当作满足。','small'));
 }
 function conditions(){const out=[];if(el('category').value)out.push({field:'category',operator:'eq',value:el('category').value});for(const [id,field] of [['seats','seats'],['books','holdings']])if(el(id).value!=='')out.push({field,operator:'gte',value:Number(el(id).value)});return out;}
-async function status(){const r=await fetch('/api/status',{cache:'no-store'});if(!r.ok)throw Error('本机搜索服务无法连接');state=await r.json();el('service').textContent=`已连接 · ${state.candidate_count}条来源候选 · ${state.dense_precision==='float16'?'FP16节省内存演示（与原FP32实验分开）':'FP32原精度'} · AI按需加载，首次搜索可能需要较长时间。`;
+async function status(){const r=await fetch('/api/status',{cache:'no-store'});if(!r.ok)throw Error('本机搜索服务无法连接');state=await r.json();el('service').textContent=`已连接 · ${state.candidate_count}条来源候选 · ${state.dense_precision==='float16'?'FP16节省内存演示（与原FP32实验分开）':'FP32原精度'} · AI按需加载${state.dense_idle_seconds?'，空闲'+state.dense_idle_seconds+'秒后自动释放；首次和释放后的搜索需要重新加载模型':'，首次搜索可能需要较长时间'}。`;
   for(const option of el('method').options){if(['encoder','bge_m3'].includes(option.value)){option.disabled=!state.encoder_enabled||(option.value==='bge_m3'&&!state.bge_available)||['disabled','stopped'].includes(state.dense_states?.[option.value]);}}
   const option=el('method').selectedOptions[0];if(option.disabled){el('notice').hidden=false;const warning='所选AI模型目前不可用，不会自动重试或改用其他方法。你可以手动选择可用方法。';if(!el('notice').textContent.includes(warning))el('notice').textContent+=' '+warning;}
   el('conditions').hidden=!state.explicit_hard_filter_available;

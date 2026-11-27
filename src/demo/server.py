@@ -57,7 +57,7 @@ def validate_request(value):
     return value['method'], query.strip()
 
 class SearchEngine:
-    def __init__(self, corpus, run_dir, min_c_gib=5.0, space=None, encoder_enabled=True,allow_bge=False,safe_streaming=False,facts_binding=None,dense_precision='float32'):
+    def __init__(self, corpus, run_dir, min_c_gib=5.0, space=None, encoder_enabled=True,allow_bge=False,safe_streaming=False,facts_binding=None,dense_precision='float32',dense_idle_seconds=0,stop_checkpoint=None):
         from src.data.load_candidates import load_candidates
         from src.retrieval.bm25 import BM25Retriever
         from src.retrieval.keyword import KeywordRetriever
@@ -83,6 +83,19 @@ class SearchEngine:
         self.dense_precision=dense_precision
         self.worker_backend='encoder'
         self.backend_failures={}
+        if type(dense_idle_seconds) not in (int,float) or not 0<=dense_idle_seconds<=3600:
+            raise ValueError('Idle release must be explicitly0–3600 seconds')
+        self.dense_idle_seconds=dense_idle_seconds
+        self.last_dense_activity=None
+        self.idle_release_count=0
+        self.last_release_reason=None
+        self.audit_lock=threading.Lock()
+        self.stop_checkpoint=Path(stop_checkpoint) if stop_checkpoint else None
+        if self.stop_checkpoint and self.stop_checkpoint.exists():
+            stopped=json.loads(self.stop_checkpoint.read_text(encoding='utf-8'))
+            if stopped['configuration']!=self.runtime_configuration():
+                raise ValueError('Recorded failure belongs to another configuration; investigate before starting')
+            self.backend_failures.update(stopped['failures'])
         self.reader_thread=None
         self.space = space or (lambda drive: shutil.disk_usage(drive + ':/').free)
         self.lock = threading.Lock()
@@ -93,7 +106,35 @@ class SearchEngine:
         self.stderr_handle = None
         self.stop_monitor = threading.Event()
         self.model_baseline = None
+        self.releasing_worker=None
         threading.Thread(target=self._monitor,daemon=True).start()
+
+    def runtime_configuration(self):
+        return {'corpus_sha256':self.corpus_hash,'precision':self.dense_precision,
+                'safe_streaming':self.safe_streaming,'dense_idle_seconds':self.dense_idle_seconds,
+                'c_min_gib':self.min_c_gib,'d_min_gib':10,'c_decline_limit_gib':1 if self.min_c_gib>=5 else .25}
+
+    def _record_runtime(self,event,worker=None):
+        from src.demo.runtime_telemetry import resource_snapshot
+        sample={'event':event,'backend':self.worker_backend,'baseline_c_bytes':self.model_baseline,
+                'c_free_bytes':self.space('C'),'d_free_bytes':self.space('D')}
+        try:sample.update(resource_snapshot(getattr(worker,'pid',None)))
+        except Exception as exc:sample['resource_sample_error']=str(exc)
+        with (self.run_dir/'runtime_telemetry.jsonl').open('a',encoding='utf-8') as file:
+            file.write(json.dumps(sample,ensure_ascii=False)+'\n')
+        return sample
+
+    def _record_failure(self,backend,error):
+        with self.audit_lock:
+            self.backend_failures[backend]=str(error)
+            sample=self._record_runtime('model_operation_stopped',self.worker)
+            if self.stop_checkpoint:
+                self.stop_checkpoint.parent.mkdir(parents=True,exist_ok=True)
+                value={'configuration':self.runtime_configuration(),'failures':dict(self.backend_failures),
+                       'resource_sample':sample,'automatic_retry':False}
+                temporary=self.stop_checkpoint.with_suffix('.pending')
+                temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
+                os.replace(temporary,self.stop_checkpoint)
 
     def storage_guard(self):
         c, d = self.space('C'), self.space('D')
@@ -104,16 +145,38 @@ class SearchEngine:
 
     def _monitor(self):
         while not self.stop_monitor.wait(1):
-            worker, backend = self.worker, self.worker_backend
-            if worker and worker.poll() is None:
-                try:
-                    self.storage_guard()
-                except StorageGuardError as exc:
-                    if self.worker is not worker:
-                        continue  # A completed backend switch must not stop its replacement.
-                    self.worker_error = str(exc)
-                    self.backend_failures[backend]=str(exc)
-                    worker.terminate()  # 仅终止本演示自己创建的模型进程。
+            self._monitor_once()
+
+    def _monitor_once(self,now=None):
+        worker,backend=self.worker,self.worker_backend
+        if worker is None or worker is self.releasing_worker:return
+        if worker.poll() is not None:
+            if self.worker is worker and backend not in self.backend_failures:
+                self.worker_error='模型工作器意外退出；已记录停止，不自动重启'
+                self._record_failure(backend,self.worker_error)
+            return
+        self._record_runtime('resident_sample',worker)
+        try:self.storage_guard()
+        except StorageGuardError as exc:
+            if self.worker is worker:
+                self.worker_error=str(exc);self._record_failure(backend,exc)
+                worker.terminate()
+            return
+        now=time.monotonic() if now is None else now
+        if (not self.dense_idle_seconds or self.last_dense_activity is None
+                or now-self.last_dense_activity<self.dense_idle_seconds):return
+        # Never interrupt a load/query. Do not turn a failed worker into a clean idle release.
+        if not self.lock.acquire(blocking=False):return
+        try:
+            if (self.worker is worker and worker.poll() is None and self.worker_info is not None
+                    and not self.worker_error and backend not in self.backend_failures
+                    and self.last_dense_activity is not None
+                    and now-self.last_dense_activity>=self.dense_idle_seconds):
+                self._record_runtime('healthy_idle_release_started',worker)
+                self._release_worker()
+                self.idle_release_count+=1;self.last_release_reason='healthy_idle_timeout'
+                self._record_runtime('healthy_idle_release_completed')
+        finally:self.lock.release()
 
     def _receive(self, timeout=150):
         deadline = time.monotonic()+timeout
@@ -134,6 +197,7 @@ class SearchEngine:
         raise RuntimeError('模型响应超过150秒，已停止本次工作器；不会自动重试')
 
     def _release_worker(self):
+        self.releasing_worker=self.worker
         if self.worker and self.worker.poll() is None:
             self.worker.terminate();self.worker.wait(timeout=10)
         if self.reader_thread:
@@ -142,6 +206,8 @@ class SearchEngine:
             self.stderr_handle.close()
         self.worker=None;self.worker_info=None;self.worker_error=None;self.stderr_handle=None
         self.reader_thread=None;self.messages=queue.Queue();self.model_baseline=None
+        self.last_dense_activity=None
+        self.releasing_worker=None
 
     def _load_encoder(self,backend='encoder'):
         if not self.encoder_enabled:
@@ -161,6 +227,8 @@ class SearchEngine:
             return 0.0
         self.model_baseline = self.space('C')
         self.worker_backend=backend
+        self.last_release_reason=None
+        self._record_runtime('model_load_started')
         self.stderr_handle = (self.run_dir / (backend+'_stderr_'+uuid.uuid4().hex[:8]+'.log')).open('x',encoding='utf-8')
         env = dict(os.environ, HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',PYTHONIOENCODING='utf-8',
                    PYTHONDONTWRITEBYTECODE='1',OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1')
@@ -200,6 +268,8 @@ class SearchEngine:
             'encoder_enabled':self.encoder_enabled,
             'bge_available':self.allow_bge,'dense_states':states,'safe_streaming':self.safe_streaming,
             'dense_precision':self.dense_precision,'historical_fp32_comparison_unchanged':True,
+            'dense_idle_seconds':self.dense_idle_seconds,'idle_release_count':self.idle_release_count,
+            'last_release_reason':self.last_release_reason,
             'explicit_hard_filter_available':self.source_facts is not None,
             'active_dense_backend':self.worker_backend if self.worker and self.worker.poll() is None else None,
             'disk_free_gib':{d:round(self.space(d)/1024**3,2) for d in ('C','D')},
@@ -253,8 +323,9 @@ class SearchEngine:
                         raise RuntimeError('模型没有返回检索结果')
                     rows, search_ms = message['rows'], message['search_ms']
                     self.storage_guard()
+                    self.last_dense_activity=time.monotonic()
                 except Exception as exc:
-                    self.backend_failures[method]=str(exc)
+                    self._record_failure(method,exc)
                     if self.worker is not None and self.worker_backend==method:
                         self.worker_error = str(exc)
                         if self.worker.poll() is None:
@@ -379,6 +450,8 @@ def main():
     parser.add_argument('--safe-streaming',action='store_true')
     parser.add_argument('--facts-binding',type=Path)
     parser.add_argument('--dense-precision',choices=('float32','float16'),default='float32')
+    parser.add_argument('--dense-idle-seconds',type=int,default=0)
+    parser.add_argument('--stop-checkpoint',type=Path)
     args=parser.parse_args()
     if not 2 <= args.min_c_gib <= 20:
         raise ValueError('Model C protection threshold must be between 2 and 20 GiB')
@@ -390,8 +463,11 @@ def main():
     corpus=args.corpus.resolve()
     if not corpus.is_relative_to(ROOT / 'data' / 'clean'):
         raise ValueError('Demo corpus must be a project data/clean snapshot')
+    if args.stop_checkpoint and not args.stop_checkpoint.resolve().is_relative_to(ROOT/'outputs'):
+        raise ValueError('Runtime stop checkpoint must remain in project outputs')
     engine=SearchEngine(corpus,run_dir,args.min_c_gib,encoder_enabled=not args.disable_encoder,
-                        allow_bge=args.enable_bge,safe_streaming=args.safe_streaming,facts_binding=args.facts_binding,dense_precision=args.dense_precision)
+                        allow_bge=args.enable_bge,safe_streaming=args.safe_streaming,facts_binding=args.facts_binding,dense_precision=args.dense_precision,
+                        dense_idle_seconds=args.dense_idle_seconds,stop_checkpoint=args.stop_checkpoint)
     server=ThreadingHTTPServer(('127.0.0.1',args.port),make_handler(engine))
     startup={'url':f'http://127.0.0.1:{args.port}/','pid':os.getpid(),'run_dir':str(run_dir),**engine.status()}
     (run_dir/'startup.json').write_text(json.dumps(startup,ensure_ascii=False,indent=2),encoding='utf-8')
