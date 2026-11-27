@@ -21,7 +21,8 @@ EXPERIMENTS=(
     'finalize_adjudication_20261126.py','reproduce_review_sensitivity.py',
     'run_ai_query_smoke_20261126.py','prepare_assisted_review_20261126.py',
     'prepare_user30_spotcheck_20261127.py','prepare_open_activity_20261127.py',
-    'fetch_activity_places_20261126.py','prepare_activity_snapshot_20261126.py')
+    'fetch_activity_places_20261126.py','prepare_activity_snapshot_20261126.py',
+    'summarize_spotcheck_20261127.py')
 BLOCKED_PARTS={'apps','.venv','.cache','.git','__pycache__','labels','queries'}
 TOKEN=re.compile(rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9]{35,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 

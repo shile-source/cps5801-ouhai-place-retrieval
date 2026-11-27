@@ -39,6 +39,8 @@ The user's submitted30 requests are retained privately with self-reported author
 
 Latest manuscript: `docs/CONFERENCE_PAPER_20261127.md` (15 scholarly references; student source reading pending). Chinese defense notes: `docs/DEFENSE_NOTES_ZH_20261127.md`. Submission readiness: `docs/submission_checklist_20261126.md`. Earlier report sections and the39-record workflow below are preserved historical material, not the latest catalogue size. AI assistance and participant provenance are disclosed in `AI_DISCLOSURE.md`.
 
+A later read-only check on27 November found **1/60 saved human decisions**, with the task still unlocked. Once the participant finishes and personally locks it, `python -m experiments.summarize_spotcheck_20261127` can produce a separate private descriptive summary. The command refuses incomplete or unlocked tasks, preserves unknowns, excludes either-unknown pairs from numeric agreement, and never reports full-corpus relevance metrics or converts unreviewed suggestions into human labels. No final spotcheck statistic has been computed.
+
 ## Evidence and scope
 
 **Latest author review:** all 12 follow-up cases are complete and locked (9 numeric, 3 unknown). Applying these separate author decisions leaves 352 numeric and 40 unknown pairs in the revised392-pair packet. No query remains fully judged under the unchanged rule. Consequently this reviewed version reports **no final numeric effectiveness comparison**. The numeric tables below preserve the historical original-label results.
