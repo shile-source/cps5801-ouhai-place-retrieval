@@ -1,6 +1,10 @@
 # Data preparation and expected inputs
 
-## Open reproducible demonstration
+## Current public OSM activity demonstration
+
+`python -m experiments.prepare_open_activity_20261127` deterministically rebuilds114 source records from the archived39-element and75-element OSM responses. New raw input: `raw/osm_activities_20261126/response.json`, SHA256 `cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426`. The accompanying query, request record and copyright evidence retain timestamps, ODbL and attribution. Output: `clean/open_activity_v1_20261127/{poi_candidates,field_evidence,source_manifest}.json`. Source IDs are unique across these two batches; this is not independent physical-entity deduplication. No human labels are created, no new network request is made, and the mixed151 catalogue is not reconstructed by this public path. Run `Start-Open-Activity-Demo.ps1` for CPU lexical search at8779.
+
+## Historical open reproducible demonstration
 
 `raw/osm_expansion_20261125_get/response.json` is the frozen39-element response, SHA256
 `90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150`.

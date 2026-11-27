@@ -1,0 +1,18 @@
+{
+  "scope": "single_live_function_check_NOT_effectiveness_benchmark",
+  "method": "bge_m3",
+  "precision": "float16",
+  "source_record_count": 151,
+  "corpus_sha256": "dcaf5420ef267e1803de46293cb5cda31b4b59d182254f703eaab93a79e6a8eb",
+  "result_count": 10,
+  "live_computation": true,
+  "saved_results_used": false,
+  "load_ms": 39224.29660000489,
+  "search_ms": 88.99160000146367,
+  "new_human_judgments": 0,
+  "effectiveness_metrics": null,
+  "automatic_retries": 0,
+  "c_free_before": 8622276608,
+  "c_free_after": 8622116864,
+  "school_A5000_tested": false
+}

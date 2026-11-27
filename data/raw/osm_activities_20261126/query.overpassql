@@ -1,0 +1,10 @@
+[out:json][timeout:50];
+rel(3289417);map_to_area->.ouhai;
+nwr(area.ouhai)["name"]["amenity"="karaoke_box"];out tags center 10;
+nwr(area.ouhai)["name"]["amenity"~"^(cinema|theatre|nightclub)$"];out tags center 6;
+nwr(area.ouhai)["name"]["leisure"~"^(amusement_arcade|bowling_alley|water_park)$"];out tags center 8;
+nwr(area.ouhai)["name"]["leisure"~"^(sports_centre|stadium|pitch|fitness_centre|swimming_pool|playground)$"];out tags center 44;
+nwr(area.ouhai)["name"]["shop"="mall"];out tags center 8;
+nwr(area.ouhai)["name"]["landuse"="retail"];out tags center 8;
+nwr(area.ouhai)["name"]["highway"="pedestrian"];out tags center 8;
+nwr(area.ouhai)["name"]["amenity"~"^(restaurant|cafe|ice_cream)$"];out tags center 32;

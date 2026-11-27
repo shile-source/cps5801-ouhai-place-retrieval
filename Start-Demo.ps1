@@ -2,9 +2,9 @@
 & (Join-Path $PSScriptRoot 'Start-Project.ps1') -PythonArgs @(
     '-u', '-m', 'src.demo.server',
     '--port', '8770',
-    '--corpus', 'data/clean/research_review_v0_5_20261125/poi_candidates.json',
+    '--corpus', 'data/clean/activity_review_v0_6_20261126/poi_candidates.json',
     '--enable-bge', '--safe-streaming',
     '--dense-precision', 'float16',
-    '--facts-binding', 'configs/research_v0_5_facts_binding.json'
+    '--facts-binding', 'configs/activity_v0_6_facts_binding.json'
 )
 exit $LASTEXITCODE

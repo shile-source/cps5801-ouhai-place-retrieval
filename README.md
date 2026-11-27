@@ -1,18 +1,43 @@
-# CPS5801: source-text place retrieval
+# CPS5801 source text place retrieval
 
-## Interactive map application update
-
-The local search server now serves a Chinese map application at `/` (also `/map`), with the previous bilingual method-comparison view at `/compare`. Natural-language requests use the selected real backend, required source conditions are applied before ranking, and result cards link to numbered map markers and source details. The application does not silently substitute lexical retrieval for failed dense inference. Leaflet 1.9.4 is vendored locally with its BSD license and SHA receipts. Optional OSM street tiles depend on external network access and normal browser caching; local numbered markers remain usable without tiles.
-
-Only explicitly WGS84 OSM source positions are plotted. Nodes are source points; way/relation bounding-box centres are separately styled approximate area positions, not verified entrances and not guaranteed to lie inside the feature. Original unknown-CRS government records are not plotted or silently converted. The 76-record author development snapshot has39 displayable OSM positions and37 unplotted records; this is not a count of independently verified unique entities. The public open-only39-record snapshot remains separate.
-
-**Initial FP32 map validation:** real BM25 result-to-map/detail checks passed, but OSM street tiles failed to load. BGE loading stopped; a subsequent Encoder selection was rejected by the retained guard before its worker was constructed. That failed configuration and logs are preserved, with no automatic retry.
-
-**Subsequent explicitly authorized memory repair:** the user delegated fixing space protection. A separate streamed-pread FP16 configuration passed a single new76-record check (three queries, no new labels/metrics); C free space declined by131,072 bytes during that check. Only after this success was the demo switched to explicit FP16. The actual map then completed a new BGE query in27.8 ms after37,823.9 ms loading, returning10 records and8 source map positions. `Start-Demo.ps1` now selects this reduced-memory demonstration; the generic server/experiment default stays FP32. FP16 can change numerical values/rankings and is not mixed with the historical FP32 evaluation. The original weights and labels are retained. The C/D minimum5/10 GiB and1 GiB decline guard remain; no pagefile/system setting changed. C remained about8 GiB free, not restored to20 GiB. This finite success is not a guarantee for every future memory state. External street tiles remain unavailable in the inspected browser; the original research objectives remain incomplete.
+## Current application and delivery version 27 November 2026
 
 Public source repository: [shile-source/cps5801-ouhai-place-retrieval](https://github.com/shile-source/cps5801-ouhai-place-retrieval).
 
-This repository implements a Chinese place-search prototype for Ouhai, Wenzhou, comparing BM25, a multilingual Sentence Encoder and BGE-M3 dense retrieval under shared text fields. It uses pretrained inference; **there is no model-training stage or newly trained checkpoint**. The map is an application demonstration, not independent evidence of current operations, entrances or district membership.
+This is a source-aware Chinese place-search prototype using fixed pretrained models, **not a newly trained model**. The root page links natural-language retrieval to source details and map markers; `/compare` retains method comparison. Keyword overlap, BM25, multilingual MPNet and BGE-M3 use the same four fields. Unknown facts do not pass explicit hard conditions; model similarity does not verify an actual destination.
+
+The local product catalogue now has **151 source records** across reading, culture, parks, shopping, dining, entertainment and sport. A real BGE-M3 FP16 request on this catalogue passed, returning10 live results; observed load39,224.3 ms and search89.0 ms are one-run functional timings, not a benchmark. The original FP32 experiments, weights and judgments were not overwritten. `Start-Demo.ps1` requires the author's lawful mixed151 inputs, which are **not included in this public repository**.
+
+For a fresh public checkout, use the separate **114-record OSM-only activity demo** below. It includes the two archived OSM responses, import code, evidence and ODbL attribution; no private participant inputs or mixed database are required. The original39-record open demo remains available as a historical workflow. These are source-record counts, not independently verified unique destinations or an enlarged evaluated benchmark. Local151 has114 source positions and37 unplotted records. OSM nodes and bounding-box centres use different markers; centres are not entrances and may lie outside the feature. Government coordinates with unknown CRS are not guessed. External OSM street tiles failed in the inspected browser; map markers, source cards and external-map handoff remain usable. Photographs, live business status and route optimization are not implemented as verified capabilities.
+
+### Minimal public CPU run
+
+```powershell
+git clone https://github.com/shile-source/cps5801-ouhai-place-retrieval.git
+cd cps5801-ouhai-place-retrieval
+py -3.13 -m venv .venv
+.\Start-Project.ps1 -m pip install -r requirements.txt
+.\Start-Project.ps1 -m experiments.prepare_open_activity_20261127
+.\Start-Open-Activity-Demo.ps1
+```
+
+Open `http://127.0.0.1:8779/`, select BM25 or keyword, and try `KTV`, `篮球` or `公园`. This starts no model and requires no GPU. Expected rebuilding output:114 records under `data/clean/open_activity_v1_20261127`. Synthetic test fixtures remain separate. Acquisition scripts are archived for provenance; rebuilding uses the saved responses and makes no new Overpass request.
+
+Optional dense inference needs the pinned model artifacts and GPU dependencies described below. After lawful model download and artifact verification, the public OSM corpus can be selected explicitly:
+
+```powershell
+.\Start-Project.ps1 -m src.demo.server --port 8779 --corpus data/clean/open_activity_v1_20261127/poi_candidates.json --enable-bge --safe-streaming --dense-precision float16
+```
+
+Stop the CPU demo normally before reusing its port. The above public114 GPU command is a documented path, **not a fresh114/A5000 GPU validation**. The actual latest GPU check used the local151 corpus. Historical research used FP32; the reduced-memory FP16 demo can change numerical scores/ranks. The generic server default remains FP32. All project models, caches and temporary files are redirected to the project before imports; Windows paging can still grow on C. Guards remain C≥5GiB, D≥10GiB and C decline≤1GiB. A stopped model is not automatically retried. No system paging or partition changes are part of reproduction.
+
+### Current judgment scope
+
+The original49×8 Pilot and80-pair second-rater audit are preserved. After the locked12-case author review, the revised392-pair version contains352 numeric and40 unknown judgments, so **zero queries qualify for final effectiveness metrics** under the unchanged complete-judgment rule. Historical numbers below are not final reviewed estimates or evidence of a general model winner.
+
+The user's submitted30 requests are retained privately with self-reported authorship and a known result-exposure caveat. Assistant-authored explicit rules prepared4,530 development suggestions:1,494 grade0,6 grade1,40 grade2 and2,990 unknown. These are neither4,530 human judgments nor4,530 independent LLM calls. Two uniform records per query form a fixed60-pair assisted human spotcheck, initially0/60. Unreviewed4,470 suggestions never count as human labels; no new accuracy/agreement or effectiveness result is reported. `Start-Spotcheck.ps1` requires the private frozen task and binds actual user actions separately. No real participant inputs are included in the public release.
+
+Latest manuscript: `docs/CONFERENCE_PAPER_20261127.md` (15 scholarly references; student source reading pending). Chinese defense notes: `docs/DEFENSE_NOTES_ZH_20261127.md`. Submission readiness: `docs/submission_checklist_20261126.md`. Earlier report sections and the39-record workflow below are preserved historical material, not the latest catalogue size. AI assistance and participant provenance are disclosed in `AI_DISCLOSURE.md`.
 
 ## Evidence and scope
 
@@ -41,7 +66,7 @@ These original results do not establish general semantic-search superiority. A s
 
 ## Hardware and software
 
-Verified environment: Windows x64, Python 3.13.2, NVIDIA RTX 4060 Laptop GPU with 8GiB VRAM, driver 572.83, Torch 2.10.0+cu126, Transformers 4.57.6, Sentence-Transformers 5.2.0. Versions are pinned in the requirements files. GPU inference uses batch4, max_length128 and FP32. Current 76-record functional inputs had maximum103 document tokens and no truncation; this must be rechecked for changed inputs. The implementation streams original checkpoint tensors to one GPU worker at a time to reduce Windows staging pressure.
+Verified environment: Windows x64, Python 3.13.2, NVIDIA RTX 4060 Laptop GPU with 8GiB VRAM, driver 572.83, Torch 2.10.0+cu126, Transformers 4.57.6, Sentence-Transformers 5.2.0. Versions are pinned in the requirements files. Historical research inference used batch4, max_length128 and FP32; current map inference explicitly uses streamed FP16. Current 76-record functional inputs had maximum103 document tokens and no truncation; this must be rechecked for changed inputs. The implementation streams original checkpoint tensors to one GPU worker at a time to reduce Windows staging pressure.
 
 The course RTX A5000 is a deployment target, **not a tested device in this submission**. Linux/A5000 installation and inference have not been executed. The checked-in GPU wheel URL is specifically for Windows CPython3.13; use an official platform-appropriate PyTorch build on a different OS and record the resulting environment as a new validation.
 

@@ -45,6 +45,7 @@ async function status(){const r=await fetch('/api/status',{cache:'no-store'});if
   for(const option of el('method').options){if(['encoder','bge_m3'].includes(option.value)){option.disabled=!state.encoder_enabled||(option.value==='bge_m3'&&!state.bge_available)||['disabled','stopped'].includes(state.dense_states?.[option.value]);}}
   const option=el('method').selectedOptions[0];if(option.disabled){el('notice').hidden=false;const warning='所选AI模型目前不可用，不会自动重试或改用其他方法。你可以手动选择可用方法。';if(!el('notice').textContent.includes(warning))el('notice').textContent+=' '+warning;}
   el('conditions').hidden=!state.explicit_hard_filter_available;
+  el('scopeCount').textContent=state.candidate_count;
   el('search').disabled=busy||option.disabled;
 }
 async function search(event){event.preventDefault();if(busy)return;const query=el('query').value.trim();if(!query)return;busy=true;const method=el('method').value;el('search').disabled=true;el('query').readOnly=true;el('method').disabled=true;el('notice').hidden=false;el('notice').textContent=['encoder','bge_m3'].includes(method)?'AI正在计算。首次需要载入本地模型，请稍候；失败不会显示伪造或旧结果。':'正在检索来源资料…';

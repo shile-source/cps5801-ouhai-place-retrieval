@@ -1,0 +1,916 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-26T15:57:02Z",
+    "timestamp_areas_base": "2026-11-26T11:21:45Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 11637753447,
+  "lat": 27.9648375,
+  "lon": 120.6069798,
+  "tags": {
+    "amenity": "karaoke_box",
+    "name": "伯爵量贩KTV"
+  }
+},
+{
+  "type": "node",
+  "id": 12142822612,
+  "lat": 27.9663040,
+  "lon": 120.6129408,
+  "tags": {
+    "amenity": "karaoke_box",
+    "name": "魅KTV"
+  }
+},
+{
+  "type": "node",
+  "id": 8281822514,
+  "lat": 27.9834092,
+  "lon": 120.6222117,
+  "tags": {
+    "amenity": "cinema",
+    "name": "威尼斯电影院"
+  }
+},
+{
+  "type": "node",
+  "id": 12183256610,
+  "lat": 27.9539535,
+  "lon": 120.6808261,
+  "tags": {
+    "leisure": "amusement_arcade",
+    "name": "趣玩咖&GAME HOUSE"
+  }
+},
+{
+  "type": "node",
+  "id": 12183294727,
+  "lat": 27.9575564,
+  "lon": 120.6814794,
+  "tags": {
+    "leisure": "amusement_arcade",
+    "name": "星际传奇"
+  }
+},
+{
+  "type": "node",
+  "id": 11637756046,
+  "lat": 27.9653683,
+  "lon": 120.6059956,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "坚蛋健身"
+  }
+},
+{
+  "type": "node",
+  "id": 11946855286,
+  "lat": 27.9204325,
+  "lon": 120.6524650,
+  "tags": {
+    "leisure": "swimming_pool",
+    "name": "Natatorium 游泳馆"
+  }
+},
+{
+  "type": "node",
+  "id": 12134434518,
+  "lat": 27.9722790,
+  "lon": 120.6120925,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "中田健身房工作室"
+  }
+},
+{
+  "type": "node",
+  "id": 12134434538,
+  "lat": 27.9724145,
+  "lon": 120.6123108,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "坚蛋健身"
+  }
+},
+{
+  "type": "node",
+  "id": 12140824834,
+  "lat": 27.9655491,
+  "lon": 120.6046647,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "哇塞健身工作室"
+  }
+},
+{
+  "type": "node",
+  "id": 12142822123,
+  "lat": 27.9657929,
+  "lon": 120.6084502,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "思迈健身"
+  }
+},
+{
+  "type": "node",
+  "id": 12142822607,
+  "lat": 27.9668686,
+  "lon": 120.6131664,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "温州乐豪体育",
+    "sport": "fitness"
+  }
+},
+{
+  "type": "node",
+  "id": 12142822608,
+  "lat": 27.9669764,
+  "lon": 120.6126817,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "伍嘉体育"
+  }
+},
+{
+  "type": "node",
+  "id": 12183294744,
+  "lat": 27.9570255,
+  "lon": 120.6815203,
+  "tags": {
+    "leisure": "pitch",
+    "name": "阿特锐射箭馆"
+  }
+},
+{
+  "type": "node",
+  "id": 12183295130,
+  "lat": 27.9555135,
+  "lon": 120.6816873,
+  "tags": {
+    "leisure": "playground",
+    "name": "泡泡米POPOME益智乐园"
+  }
+},
+{
+  "type": "node",
+  "id": 12183295151,
+  "lat": 27.9552121,
+  "lon": 120.6818030,
+  "tags": {
+    "leisure": "playground",
+    "name": "泡泡堂儿童乐园"
+  }
+},
+{
+  "type": "node",
+  "id": 13371912545,
+  "lat": 27.9829995,
+  "lon": 120.6246351,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "bocpoc网球"
+  }
+},
+{
+  "type": "way",
+  "id": 514673567,
+  "center": {
+    "lat": 27.9643041,
+    "lon": 120.6842123
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "篮球场",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 514681182,
+  "center": {
+    "lat": 27.9612240,
+    "lon": 120.6845347
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "网球场",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 891571379,
+  "center": {
+    "lat": 27.9198791,
+    "lon": 120.6472561
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tennis Court 网球场",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 891571380,
+  "center": {
+    "lat": 27.9218728,
+    "lon": 120.6472555
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Basketball Court 篮球场",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 893358230,
+  "center": {
+    "lat": 27.9723757,
+    "lon": 120.5508354
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "奥林匹克射击中心",
+    "name:en": "Olympic Shooting Center"
+  }
+},
+{
+  "type": "way",
+  "id": 1128380006,
+  "center": {
+    "lat": 27.9591981,
+    "lon": 120.6084838
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "温州龙舟运动中心"
+  }
+},
+{
+  "type": "way",
+  "id": 1128380007,
+  "center": {
+    "lat": 27.9608525,
+    "lon": 120.6120289
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "温州奥体中心"
+  }
+},
+{
+  "type": "way",
+  "id": 1242884986,
+  "center": {
+    "lat": 27.9911916,
+    "lon": 120.6283358
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "乐滑天地",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 1315643622,
+  "center": {
+    "lat": 27.9205671,
+    "lon": 120.6529977
+  },
+  "tags": {
+    "leisure": "stadium",
+    "name": "WKU Stadium 室外田径场"
+  }
+},
+{
+  "type": "way",
+  "id": 1458069511,
+  "center": {
+    "lat": 27.9828265,
+    "lon": 120.6245469
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "温匹克球运动中心"
+  }
+},
+{
+  "type": "node",
+  "id": 8269489233,
+  "lat": 27.9564297,
+  "lon": 120.6813919,
+  "tags": {
+    "name": "万象城",
+    "name:en": "Wanxiang City",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 8278871041,
+  "lat": 27.9657829,
+  "lon": 120.6000620,
+  "tags": {
+    "name": "大西洋银泰百货",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 12134434528,
+  "lat": 27.9731273,
+  "lon": 120.6121066,
+  "tags": {
+    "name": "中梁亿象商业广场",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 375962108,
+  "center": {
+    "lat": 27.9209411,
+    "lon": 120.7013884
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "3",
+    "name": "温州大学城商务中心",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 839848498,
+  "center": {
+    "lat": 27.9562615,
+    "lon": 120.6813311
+  },
+  "tags": {
+    "building": "retail",
+    "building:levels": "5",
+    "name": "温州万象城",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 893986420,
+  "center": {
+    "lat": 27.9835348,
+    "lon": 120.6227595
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "梦多多小镇"
+  }
+},
+{
+  "type": "way",
+  "id": 894885361,
+  "center": {
+    "lat": 27.9694767,
+    "lon": 120.6844457
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "阿外楼度假酒店"
+  }
+},
+{
+  "type": "way",
+  "id": 899611724,
+  "center": {
+    "lat": 27.9507518,
+    "lon": 120.6587635
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "红星国际家居广场"
+  }
+},
+{
+  "type": "way",
+  "id": 899611725,
+  "center": {
+    "lat": 27.9521899,
+    "lon": 120.6578168
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "温州灯饰城"
+  }
+},
+{
+  "type": "way",
+  "id": 1007137022,
+  "center": {
+    "lat": 27.9649230,
+    "lon": 120.5997871
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "大西洋银泰百货"
+  }
+},
+{
+  "type": "way",
+  "id": 1009329230,
+  "center": {
+    "lat": 27.9619533,
+    "lon": 120.5837226
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "温州站南商贸城"
+  }
+},
+{
+  "type": "way",
+  "id": 1009329231,
+  "center": {
+    "lat": 27.9635406,
+    "lon": 120.5820790
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "大象城国际商贸中心"
+  }
+},
+{
+  "type": "way",
+  "id": 1026259135,
+  "center": {
+    "lat": 27.9854450,
+    "lon": 120.6311903
+  },
+  "tags": {
+    "landuse": "retail",
+    "name": "印象里"
+  }
+},
+{
+  "type": "way",
+  "id": 311157801,
+  "center": {
+    "lat": 27.9858273,
+    "lon": 120.6216818
+  },
+  "tags": {
+    "highway": "pedestrian",
+    "name": "金虹东街"
+  }
+},
+{
+  "type": "way",
+  "id": 514673572,
+  "center": {
+    "lat": 27.9632125,
+    "lon": 120.6846741
+  },
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "南广场",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1273082943,
+  "center": {
+    "lat": 27.9260720,
+    "lon": 120.6493952
+  },
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "Commercial Street of Banyan Hall 榕楼商业街",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "node",
+  "id": 10556551350,
+  "lat": 27.9859307,
+  "lon": 120.6168338,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-15",
+    "name": "东池便当"
+  }
+},
+{
+  "type": "node",
+  "id": 10558579609,
+  "lat": 27.9836606,
+  "lon": 120.6147558,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-16",
+    "cuisine": "chinese",
+    "name": "金勺子"
+  }
+},
+{
+  "type": "node",
+  "id": 10558867218,
+  "lat": 27.9873402,
+  "lon": 120.6234590,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "瑞幸咖啡",
+    "brand:en": "Luckin Coffee",
+    "brand:wikidata": "Q56811344",
+    "brand:zh": "瑞幸咖啡",
+    "check_date": "2024-02-06",
+    "cuisine": "coffee_shop",
+    "name": "瑞幸咖啡",
+    "name:en": "Luckin Coffee",
+    "name:zh": "瑞幸咖啡",
+    "opening_hours": "07:00-19:00",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10572173212,
+  "lat": 27.9928094,
+  "lon": 120.6260379,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-21",
+    "name": "沙县小吃"
+  }
+},
+{
+  "type": "node",
+  "id": 10572338352,
+  "lat": 27.9845323,
+  "lon": 120.6245129,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-21",
+    "cuisine": "chinese",
+    "name": "胡记羊肉馆"
+  }
+},
+{
+  "type": "node",
+  "id": 10593185580,
+  "lat": 27.9849434,
+  "lon": 120.6216260,
+  "tags": {
+    "addr:housenumber": "37",
+    "amenity": "restaurant",
+    "brand": "杨国福麻辣烫",
+    "brand:en": "Yangguofu Spicy Hot Pot",
+    "brand:wikidata": "Q108210209",
+    "brand:zh": "杨国福麻辣烫",
+    "check_date": "2023-01-30",
+    "cuisine": "chinese;malatang",
+    "name": "杨国福麻辣烫",
+    "name:en": "Yangguofu Spicy Hot Pot",
+    "name:zh": "杨国福麻辣烫"
+  }
+},
+{
+  "type": "node",
+  "id": 10593185581,
+  "lat": 27.9850246,
+  "lon": 120.6216246,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-02-07",
+    "cuisine": "chinese",
+    "name": "阿青泥炉羊肉"
+  }
+},
+{
+  "type": "node",
+  "id": 10593225765,
+  "lat": 27.9852080,
+  "lon": 120.6216324,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-02-03",
+    "cuisine": "noodle",
+    "name": "兰州拉面"
+  }
+},
+{
+  "type": "node",
+  "id": 10593229454,
+  "lat": 27.9848964,
+  "lon": 120.6217902,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2023-02-06",
+    "fixme": "草原烤羊腿",
+    "name": "幸运咖"
+  }
+},
+{
+  "type": "node",
+  "id": 10595917525,
+  "lat": 27.9849118,
+  "lon": 120.6169181,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-31",
+    "cuisine": "chinese",
+    "name": "柳州螺狮粉"
+  }
+},
+{
+  "type": "node",
+  "id": 10595917526,
+  "lat": 27.9848803,
+  "lon": 120.6169191,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-31",
+    "cuisine": "noodle",
+    "name": "重庆小面"
+  }
+},
+{
+  "type": "node",
+  "id": 10595917529,
+  "lat": 27.9850957,
+  "lon": 120.6169122,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-31",
+    "name": "贴口福"
+  }
+},
+{
+  "type": "node",
+  "id": 10595917531,
+  "lat": 27.9852168,
+  "lon": 120.6169083,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-31",
+    "name": "黄焖鸡米饭"
+  }
+},
+{
+  "type": "node",
+  "id": 10595917532,
+  "lat": 27.9852761,
+  "lon": 120.6169064,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-01-31",
+    "cuisine": "noodle",
+    "name": "新桥面馆"
+  }
+},
+{
+  "type": "node",
+  "id": 10600384443,
+  "lat": 27.9842193,
+  "lon": 120.6182568,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-02-02",
+    "cuisine": "noodle",
+    "name": "记得面馆"
+  }
+},
+{
+  "type": "node",
+  "id": 10600411632,
+  "lat": 27.9843580,
+  "lon": 120.6210821,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-02-02",
+    "cuisine": "steak_house",
+    "name": "金太子牛排"
+  }
+},
+{
+  "type": "node",
+  "id": 10600411633,
+  "lat": 27.9843237,
+  "lon": 120.6204364,
+  "tags": {
+    "addr:housenumber": "1252",
+    "amenity": "restaurant",
+    "check_date": "2023-02-02",
+    "cuisine": "seafood",
+    "name": "王者龙虾"
+  }
+},
+{
+  "type": "node",
+  "id": 10603430576,
+  "lat": 27.9850397,
+  "lon": 120.6217869,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-02-06",
+    "name": "阿敏农家乐"
+  }
+},
+{
+  "type": "node",
+  "id": 10603430577,
+  "lat": 27.9851018,
+  "lon": 120.6217882,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-02-03",
+    "cuisine": "steak_house",
+    "name": "初客牛排"
+  }
+},
+{
+  "type": "node",
+  "id": 10603430578,
+  "lat": 27.9851694,
+  "lon": 120.6217864,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-02-03",
+    "name": "胡记肠粉"
+  }
+},
+{
+  "type": "node",
+  "id": 10603432509,
+  "lat": 27.9852361,
+  "lon": 120.6217833,
+  "tags": {
+    "addr:housenumber": "48",
+    "addr:street": "金虹东街",
+    "amenity": "cafe",
+    "brand": "蜜雪冰城",
+    "brand:en": "MIXUEBINGCHENG",
+    "brand:wikidata": "Q107406476",
+    "brand:zh": "蜜雪冰城",
+    "check_date": "2023-02-03",
+    "cuisine": "ice_cream;bubble_tea",
+    "name": "蜜雪冰城",
+    "name:en": "MIXUEBINGCHENG",
+    "name:zh": "蜜雪冰城",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10607923622,
+  "lat": 27.9839532,
+  "lon": 120.6227823,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "星巴克",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:zh": "星巴克",
+    "check_date": "2023-02-05",
+    "cuisine": "coffee_shop",
+    "name": "星巴克",
+    "name:en": "Starbucks",
+    "name:zh": "星巴克",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10607923623,
+  "lat": 27.9837226,
+  "lon": 120.6223889,
+  "tags": {
+    "amenity": "restaurant",
+    "brand": "必胜客",
+    "brand:en": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:zh": "必胜客",
+    "check_date": "2023-02-05",
+    "cuisine": "pizza",
+    "name": "必胜客",
+    "name:en": "Pizza Hut",
+    "name:zh": "必胜客"
+  }
+},
+{
+  "type": "node",
+  "id": 10607937224,
+  "lat": 27.9868542,
+  "lon": 120.6215280,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-01-30",
+    "name": "小个子美食阁"
+  }
+},
+{
+  "type": "node",
+  "id": 10610274549,
+  "lat": 27.9844178,
+  "lon": 120.6215057,
+  "tags": {
+    "addr:housenumber": "1998",
+    "amenity": "restaurant",
+    "check_date": "2024-02-06",
+    "name": "凉小西"
+  }
+},
+{
+  "type": "node",
+  "id": 10610280307,
+  "lat": 27.9838278,
+  "lon": 120.6196442,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-02-06",
+    "name": "一号码头美食坊"
+  }
+},
+{
+  "type": "node",
+  "id": 10610289942,
+  "lat": 27.9847057,
+  "lon": 120.6216165,
+  "tags": {
+    "addr:housenumber": "31",
+    "amenity": "cafe",
+    "check_date": "2023-02-06",
+    "cuisine": "bubble_tea",
+    "name": "谷茗"
+  }
+},
+{
+  "type": "node",
+  "id": 10610297428,
+  "lat": 27.9847121,
+  "lon": 120.6217991,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-02-06",
+    "name": "绝味鸭脖"
+  }
+},
+{
+  "type": "node",
+  "id": 11064026579,
+  "lat": 27.9258605,
+  "lon": 120.7030919,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "亿源智慧餐厅"
+  }
+},
+{
+  "type": "node",
+  "id": 11549910722,
+  "lat": 27.9845430,
+  "lon": 120.6250353,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-01-25",
+    "name": "河南饭店"
+  }
+},
+{
+  "type": "node",
+  "id": 11549910723,
+  "lat": 27.9845588,
+  "lon": 120.6253911,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-01-25",
+    "name": "旋转小火锅"
+  }
+},
+{
+  "type": "node",
+  "id": 11549930335,
+  "lat": 27.9847488,
+  "lon": 120.6288564,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-01-25",
+    "name": "悦和慧"
+  }
+}
+
+  ]
+}

@@ -32,6 +32,7 @@ def main():
            ('bge_supplement',['-m','experiments.reproduce_bge_supplement']),
            ('review_sensitivity',['-m','experiments.reproduce_review_sensitivity']),
            ('open_data',['-m','experiments.prepare_open_osm_20261126']),
+           ('open_activity_data',['-m','experiments.prepare_open_activity_20261127']),
            ('bm25',['-m','experiments.run_retrieval_snapshot','--method','bm25','--query','公园']),
            ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园']),
            ('repackage',['-m','experiments.build_submission_candidate_20261126'])]

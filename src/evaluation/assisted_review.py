@@ -19,6 +19,6 @@ class AssistedReview(Adjudication):
 
     def export(self):
         value = super().export()
-        value.update(query_authorship='AI_assistant', suggestions_authorship='assistant_authored_explicit_rules',
+        value.update(query_authorship=self.packet.get('query_authorship','AI_assistant'), suggestions_authorship='assistant_authored_explicit_rules',
                      independently_blind=False, human_confirmed_count=value['handled'])
         return value

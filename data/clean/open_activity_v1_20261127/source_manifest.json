@@ -1,0 +1,62 @@
+{
+  "license": "ODbL-1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "source_url": "https://www.openstreetmap.org/copyright",
+  "source_record_count": 114,
+  "sources": [
+    {
+      "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+      "sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+      "count": 39,
+      "import_counts": {
+        "raw_records": 39,
+        "unique_osm_elements": 39,
+        "exact_duplicate_elements": 0,
+        "named_candidates": 39,
+        "invalid_rows": [],
+        "independent_entities_verified": 0,
+        "category_counts": {
+          "公园": 20,
+          "景点": 8,
+          "博物馆": 6,
+          "图书馆": 5
+        }
+      }
+    },
+    {
+      "raw_path": "data/raw/osm_activities_20261126/response.json",
+      "sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+      "count": 75,
+      "import_counts": {
+        "raw_records": 75,
+        "unique_osm_elements": 75,
+        "exact_duplicate_elements": 0,
+        "named_candidates": 75,
+        "invalid_rows": [],
+        "independent_entities_verified": 0,
+        "category_counts": {
+          "KTV": 2,
+          "电影院": 1,
+          "游戏娱乐场所": 2,
+          "健身场所": 7,
+          "游泳场馆": 1,
+          "运动场": 6,
+          "游乐场": 2,
+          "体育中心": 5,
+          "体育场": 1,
+          "购物中心": 5,
+          "商业区域": 8,
+          "步行区域": 3,
+          "餐饮店": 27,
+          "咖啡饮品店": 5
+        }
+      }
+    }
+  ],
+  "mixed_sources": false,
+  "independently_verified_unique_entities": null,
+  "current_operations_verified": false,
+  "purpose": "OSM_only_activity_functional_demo_NOT_the_mixed_151_or_original_49_experiment",
+  "labels_created": 0
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "authors": "Robertson, S., and Zaragoza, H.",
+    "year": "2009",
+    "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+    "venue": "Foundations and Trends in Information Retrieval",
+    "url": "https://doi.org/10.1561/1500000019",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 2,
+    "authors": "Reimers, N., and Gurevych, I.",
+    "year": "2019",
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "venue": "EMNLP-IJCNLP",
+    "url": "https://aclanthology.org/D19-1410/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 3,
+    "authors": "Reimers, N., and Gurevych, I.",
+    "year": "2020",
+    "title": "Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation",
+    "venue": "EMNLP",
+    "url": "https://aclanthology.org/2020.emnlp-main.365/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 4,
+    "authors": "Karpukhin, V., et al.",
+    "year": "2020",
+    "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+    "venue": "EMNLP",
+    "url": "https://aclanthology.org/2020.emnlp-main.550/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 5,
+    "authors": "Gao, T., Yao, X., and Chen, D.",
+    "year": "2021",
+    "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+    "venue": "EMNLP",
+    "url": "https://aclanthology.org/2021.emnlp-main.552/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 6,
+    "authors": "Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., and Liu, Z.",
+    "year": "2024",
+    "title": "M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",
+    "venue": "Findings of ACL",
+    "url": "https://aclanthology.org/2024.findings-acl.137/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 7,
+    "authors": "Muennighoff, N., Tazi, N., Magne, L., and Reimers, N.",
+    "year": "2023",
+    "title": "MTEB: Massive Text Embedding Benchmark",
+    "venue": "EACL",
+    "url": "https://aclanthology.org/2023.eacl-main.148/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 8,
+    "authors": "Zhang, X., et al.",
+    "year": "2023",
+    "title": "MIRACL: A Multilingual Retrieval Dataset Covering 18 Diverse Languages",
+    "venue": "TACL",
+    "url": "https://aclanthology.org/2023.tacl-1.63/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 9,
+    "authors": "Enevoldsen, K., et al.",
+    "year": "2025",
+    "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+    "venue": "ICLR",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/fc0e3f908a2116ba529ad0a1530a3675-Abstract-Conference.html",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 10,
+    "authors": "Izacard, G., et al.",
+    "year": "2022",
+    "title": "Unsupervised Dense Information Retrieval with Contrastive Learning",
+    "venue": "TMLR; author manuscript arXiv:2112.09118",
+    "url": "https://arxiv.org/abs/2112.09118",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 11,
+    "authors": "Thakur, N., Reimers, N., Rücklé, A., Srivastava, A., and Gurevych, I.",
+    "year": "2021",
+    "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+    "venue": "NeurIPS Datasets and Benchmarks; author manuscript",
+    "url": "https://arxiv.org/abs/2104.08663",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 12,
+    "authors": "Järvelin, K., and Kekäläinen, J.",
+    "year": "2002",
+    "title": "Cumulated Gain-based Evaluation of IR Techniques",
+    "venue": "ACM Transactions on Information Systems 20(4), 422–446",
+    "url": "https://researchportal.tuni.fi/en/publications/cumulated-gain-based-evaluation-of-ir-techniques",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 13,
+    "authors": "Tang, Y., et al.",
+    "year": "2024",
+    "title": "ItiNera: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning",
+    "venue": "EMNLP Industry Track",
+    "url": "https://aclanthology.org/2024.emnlp-industry.104/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 14,
+    "authors": "Li, Z., Zhou, W., Chiang, Y.-Y., and Chen, M.",
+    "year": "2023",
+    "title": "GeoLM: Empowering Language Models for Geospatially Grounded Language Understanding",
+    "venue": "EMNLP",
+    "url": "https://aclanthology.org/2023.emnlp-main.317/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  },
+  {
+    "id": 15,
+    "authors": "Li, Z., Kim, J., Chiang, Y.-Y., and Chen, M.",
+    "year": "2022",
+    "title": "SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation",
+    "venue": "Findings of EMNLP",
+    "url": "https://aclanthology.org/2022.findings-emnlp.200/",
+    "assistant_primary_metadata_checked": "2026-11-27",
+    "scope": "bibliographic metadata and abstract or primary institutional record; not student reading",
+    "student_personally_opened_and_verified": null
+  }
+]

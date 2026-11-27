@@ -17,7 +17,7 @@ CATEGORY_TAGS = (
 CRS_EVIDENCE = 'https://osmdata.openstreetmap.de/info/projections.html'
 CENTER_EVIDENCE = 'https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Print_(out)'
 
-def build_candidates(payload, manifest, *, max_elements=28, source_id='osm_pilot_20261031'):
+def build_candidates(payload, manifest, *, max_elements=28, source_id='osm_pilot_20261031', category_tags=None):
     """仅将实际标签整理为事实文本，缺失和硬约束资格保持未知。"""
     if manifest.get('license') != 'ODbL-1.0' or not manifest.get('license_evidence_sha256'):
         raise ValueError('OSM license evidence is required')
@@ -53,7 +53,7 @@ def build_candidates(payload, manifest, *, max_elements=28, source_id='osm_pilot
         if not name:
             errors.append({'source_position': position, 'reason':'missing_name'})
             continue
-        categories = [(k,v,label) for k,v,label in CATEGORY_TAGS if tags.get(k) == v]
+        categories = [(k,v,label) for k,v,label in (CATEGORY_TAGS if category_tags is None else category_tags) if tags.get(k) == v]
         category = ' / '.join(label for _,_,label in categories)
         address_fields = ['addr:full'] if tags.get('addr:full') else [
             key for key in ('addr:country','addr:province','addr:city','addr:district',
