@@ -22,7 +22,8 @@ EXPERIMENTS=(
     'run_ai_query_smoke_20261126.py','prepare_assisted_review_20261126.py',
     'prepare_user30_spotcheck_20261127.py','prepare_open_activity_20261127.py',
     'fetch_activity_places_20261126.py','prepare_activity_snapshot_20261126.py',
-    'summarize_spotcheck_20261127.py','check_residency_repair_20261127.py')
+    'summarize_spotcheck_20261127.py','check_residency_repair_20261127.py',
+    'prepare_public_study_20261128.py','run_public_study_20261128.py','reproduce_public_engineering_20261128.py')
 BLOCKED_PARTS={'apps','.venv','.cache','.git','__pycache__','labels','queries'}
 TOKEN=re.compile(rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9]{35,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -71,6 +72,13 @@ def main():
     add(ROOT/'results/activity_function_20261127.json')
     add(ROOT/'results/residency_repair_function_20261127.json')
     add(ROOT/'docs/storage_guard_repair_20261127.md')
+    for name in ('public_functional_study_20261128.json','public_functional_queries_20261128.json','open_activity_study_binding_20261128.json'):
+        add(ROOT/'configs'/name)
+    for path in (ROOT/'data/clean/open_activity_study_v1_20261128').glob('*.json'):add(path)
+    for name in ('public_engineering_20261128.json','public_engineering_observations_20261128.jsonl','public_engineering_resources_20261128.json'):
+        add(ROOT/'results'/name)
+    for name in ('PUBLIC_ENGINEERING_20261128.md','CONFERENCE_PAPER_20261128.md','DEFENSE_NOTES_ZH_20261128.md'):
+        add(ROOT/'docs'/name)
     for name in ('pilot_metric_inputs.json','three_method_function.json','sampled_agreement_summary.json','keyword_supplement_v1_20261126.json','bge_supplement_v1_20261126.json','post_review_sensitivity_v1_20261126.json'):add(ROOT/'results'/name)
     for name in ('submission_checklist_20261126.md','second_rater_20261125.md','FINAL_REPORT_20261126.md','DEMO_GUIDE_ZH.md','REVIEW_AND_AUDIT_20261126.md'):
         add(ROOT/'docs'/name)

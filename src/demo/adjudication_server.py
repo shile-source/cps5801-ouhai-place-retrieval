@@ -36,6 +36,17 @@ def handler(review,page):
         def do_POST(self):
             origin=self.headers.get('Origin')
             if not self.local() or (origin is not None and origin!=f'http://127.0.0.1:{self.server.server_port}') or not secrets.compare_digest(self.headers.get('X-Review-Token',''),token):
+                # Closing with unread request bytes can reset the TCP connection before
+                # Windows clients receive the 403. Discard bounded bytes, never parse
+                # or act on them, and never wait indefinitely for a rejected client.
+                previous=self.connection.gettimeout()
+                try:
+                    size=int(self.headers.get('Content-Length','0'))
+                    if 0<size<=20000:
+                        self.connection.settimeout(2)
+                        self.rfile.read(size)
+                except (ValueError,OSError):pass
+                finally:self.connection.settimeout(previous)
                 self.send(403,{'error':'Local review token and origin required'});return
             try:
                 size=int(self.headers.get('Content-Length','0'))

@@ -33,6 +33,8 @@ def main():
            ('review_sensitivity',['-m','experiments.reproduce_review_sensitivity']),
            ('open_data',['-m','experiments.prepare_open_osm_20261126']),
            ('open_activity_data',['-m','experiments.prepare_open_activity_20261127']),
+           ('public_source_facts',['-m','experiments.prepare_public_study_20261128']),
+           ('public_engineering',['-m','experiments.reproduce_public_engineering_20261128']),
            ('bm25',['-m','experiments.run_retrieval_snapshot','--method','bm25','--query','公园']),
            ('keyword',['-m','experiments.run_retrieval_snapshot','--method','keyword','--query','公园']),
            ('repackage',['-m','experiments.build_submission_candidate_20261126'])]

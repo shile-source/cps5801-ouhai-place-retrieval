@@ -1,0 +1,5993 @@
+{
+  "osm_node_12132373350": {
+    "name": {
+      "value": "文化公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "文化公园",
+          "source_url": "https://www.openstreetmap.org/node/12132373350",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/node/12132373350",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_778864105": {
+    "name": {
+      "value": "新桥文化广场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "新桥文化广场",
+          "source_url": "https://www.openstreetmap.org/way/778864105",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/778864105",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_848331750": {
+    "name": {
+      "value": "小区公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "小区公园",
+          "source_url": "https://www.openstreetmap.org/way/848331750",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/848331750",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_866792666": {
+    "name": {
+      "value": "秀屿山公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "秀屿山公园",
+          "source_url": "https://www.openstreetmap.org/way/866792666",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/866792666",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_867522360": {
+    "name": {
+      "value": "市民广场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "市民广场",
+          "source_url": "https://www.openstreetmap.org/way/867522360",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/867522360",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_867525440": {
+    "name": {
+      "value": "滨水公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "滨水公园",
+          "source_url": "https://www.openstreetmap.org/way/867525440",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/867525440",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_870589267": {
+    "name": {
+      "value": "乐一公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "乐一公园",
+          "source_url": "https://www.openstreetmap.org/way/870589267",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/870589267",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_875749659": {
+    "name": {
+      "value": "世纪公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "世纪公园",
+          "source_url": "https://www.openstreetmap.org/way/875749659",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/875749659",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_893003619": {
+    "name": {
+      "value": "亚运公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "亚运公园",
+          "source_url": "https://www.openstreetmap.org/way/893003619",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/893003619",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_893452593": {
+    "name": {
+      "value": "紫薇主题公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "紫薇主题公园",
+          "source_url": "https://www.openstreetmap.org/way/893452593",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/893452593",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_893452594": {
+    "name": {
+      "value": "南火车站广场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "南火车站广场",
+          "source_url": "https://www.openstreetmap.org/way/893452594",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/893452594",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_900954276": {
+    "name": {
+      "value": "滨水公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "滨水公园",
+          "source_url": "https://www.openstreetmap.org/way/900954276",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/900954276",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_902320710": {
+    "name": {
+      "value": "会昌河畔公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "会昌河畔公园",
+          "source_url": "https://www.openstreetmap.org/way/902320710",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/902320710",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_982937385": {
+    "name": {
+      "value": "西山公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "西山公园",
+          "source_url": "https://www.openstreetmap.org/way/982937385",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/982937385",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1008977206": {
+    "name": {
+      "value": "荷塘月色公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "荷塘月色公园",
+          "source_url": "https://www.openstreetmap.org/way/1008977206",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/1008977206",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1145549215": {
+    "name": {
+      "value": "申顺文体主题公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "申顺文体主题公园",
+          "source_url": "https://www.openstreetmap.org/way/1145549215",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/1145549215",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1283326214": {
+    "name": {
+      "value": "白门渡公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "白门渡公园",
+          "source_url": "https://www.openstreetmap.org/way/1283326214",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/1283326214",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1319719830": {
+    "name": {
+      "value": "十八湾滨水公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "十八湾滨水公园",
+          "source_url": "https://www.openstreetmap.org/way/1319719830",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/1319719830",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1373611868": {
+    "name": {
+      "value": "姜宅村休闲园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "姜宅村休闲园",
+          "source_url": "https://www.openstreetmap.org/way/1373611868",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/way/1373611868",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_relation_11867625": {
+    "name": {
+      "value": "龙舟公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "龙舟公园",
+          "source_url": "https://www.openstreetmap.org/relation/11867625",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "公园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "公园",
+          "source_url": "https://www.openstreetmap.org/relation/11867625",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_8330242776": {
+    "name": {
+      "value": "千年大榕树",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "千年大榕树",
+          "source_url": "https://www.openstreetmap.org/node/8330242776",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "景点",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/node/8330242776",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10591363706": {
+    "name": {
+      "value": "丽花亭",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "丽花亭",
+          "source_url": "https://www.openstreetmap.org/node/10591363706",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "景点",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/node/10591363706",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11847794502": {
+    "name": {
+      "value": "丽塘井",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "丽塘井",
+          "source_url": "https://www.openstreetmap.org/node/11847794502",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "景点",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/node/11847794502",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12688499804": {
+    "name": {
+      "value": "灯雨龙舌",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "灯雨龙舌",
+          "source_url": "https://www.openstreetmap.org/node/12688499804",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "景点",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/node/12688499804",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12688499805": {
+    "name": {
+      "value": "葛凯明彻",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "葛凯明彻",
+          "source_url": "https://www.openstreetmap.org/node/12688499805",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "景点",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/node/12688499805",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12688499806": {
+    "name": {
+      "value": "我建犹怜",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "我建犹怜",
+          "source_url": "https://www.openstreetmap.org/node/12688499806",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "景点",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/node/12688499806",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12739359585": {
+    "name": {
+      "value": "小心石楠",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "小心石楠",
+          "source_url": "https://www.openstreetmap.org/node/12739359585",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "景点",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/node/12739359585",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1243686572": {
+    "name": {
+      "value": "梧田老街",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "梧田老街",
+          "source_url": "https://www.openstreetmap.org/way/1243686572",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": null,
+      "status": "conflicting",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/1243686572",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        },
+        {
+          "value": "景点",
+          "source_url": "https://www.openstreetmap.org/way/1243686572",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_8327826124": {
+    "name": {
+      "value": "瓯海博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "瓯海博物馆",
+          "source_url": "https://www.openstreetmap.org/node/8327826124",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "博物馆",
+          "source_url": "https://www.openstreetmap.org/node/8327826124",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12233993485": {
+    "name": {
+      "value": "温州肯恩大学校史馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州肯恩大学校史馆",
+          "source_url": "https://www.openstreetmap.org/node/12233993485",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "博物馆",
+          "source_url": "https://www.openstreetmap.org/node/12233993485",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_514675857": {
+    "name": {
+      "value": "校史馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "校史馆",
+          "source_url": "https://www.openstreetmap.org/way/514675857",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "博物馆",
+          "source_url": "https://www.openstreetmap.org/way/514675857",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1311615813": {
+    "name": {
+      "value": "瓯海博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "瓯海博物馆",
+          "source_url": "https://www.openstreetmap.org/way/1311615813",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "博物馆",
+          "source_url": "https://www.openstreetmap.org/way/1311615813",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1315891580": {
+    "name": {
+      "value": "温州珐琅彩艺术博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州珐琅彩艺术博物馆",
+          "source_url": "https://www.openstreetmap.org/way/1315891580",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "博物馆",
+          "source_url": "https://www.openstreetmap.org/way/1315891580",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1315891581": {
+    "name": {
+      "value": "青灯石刻艺术博物馆南馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "青灯石刻艺术博物馆南馆",
+          "source_url": "https://www.openstreetmap.org/way/1315891581",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "博物馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "博物馆",
+          "source_url": "https://www.openstreetmap.org/way/1315891581",
+          "source_field": "tags.tourism",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11578994770": {
+    "name": {
+      "value": "城市书房",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "城市书房",
+          "source_url": "https://www.openstreetmap.org/node/11578994770",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "图书馆",
+          "source_url": "https://www.openstreetmap.org/node/11578994770",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11617938336": {
+    "name": {
+      "value": "城市书房",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "城市书房",
+          "source_url": "https://www.openstreetmap.org/node/11617938336",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "图书馆",
+          "source_url": "https://www.openstreetmap.org/node/11617938336",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_376003430": {
+    "name": {
+      "value": "育英图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "育英图书馆",
+          "source_url": "https://www.openstreetmap.org/way/376003430",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        },
+        {
+          "value": "育英图书馆",
+          "source_url": "https://www.openstreetmap.org/way/376003430",
+          "source_field": "tags.name:zh",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "图书馆",
+          "source_url": "https://www.openstreetmap.org/way/376003430",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_514673571": {
+    "name": {
+      "value": "温州中学图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州中学图书馆",
+          "source_url": "https://www.openstreetmap.org/way/514673571",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "图书馆",
+          "source_url": "https://www.openstreetmap.org/way/514673571",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_895905506": {
+    "name": {
+      "value": "瓯海区图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "瓯海区图书馆",
+          "source_url": "https://www.openstreetmap.org/way/895905506",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "图书馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "图书馆",
+          "source_url": "https://www.openstreetmap.org/way/895905506",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_expansion_20261125_get/response.json",
+          "raw_sha256": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+          "retrieved_at": "2026-11-25T18:58:13.198867+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11637753447": {
+    "name": {
+      "value": "伯爵量贩KTV",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "伯爵量贩KTV",
+          "source_url": "https://www.openstreetmap.org/node/11637753447",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "KTV",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "KTV",
+          "source_url": "https://www.openstreetmap.org/node/11637753447",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12142822612": {
+    "name": {
+      "value": "魅KTV",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "魅KTV",
+          "source_url": "https://www.openstreetmap.org/node/12142822612",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "KTV",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "KTV",
+          "source_url": "https://www.openstreetmap.org/node/12142822612",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_8281822514": {
+    "name": {
+      "value": "威尼斯电影院",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "威尼斯电影院",
+          "source_url": "https://www.openstreetmap.org/node/8281822514",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "电影院",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "电影院",
+          "source_url": "https://www.openstreetmap.org/node/8281822514",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12183256610": {
+    "name": {
+      "value": "趣玩咖&GAME HOUSE",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "趣玩咖&GAME HOUSE",
+          "source_url": "https://www.openstreetmap.org/node/12183256610",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "游戏娱乐场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "游戏娱乐场所",
+          "source_url": "https://www.openstreetmap.org/node/12183256610",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12183294727": {
+    "name": {
+      "value": "星际传奇",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "星际传奇",
+          "source_url": "https://www.openstreetmap.org/node/12183294727",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "游戏娱乐场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "游戏娱乐场所",
+          "source_url": "https://www.openstreetmap.org/node/12183294727",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11637756046": {
+    "name": {
+      "value": "坚蛋健身",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "坚蛋健身",
+          "source_url": "https://www.openstreetmap.org/node/11637756046",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "健身场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "健身场所",
+          "source_url": "https://www.openstreetmap.org/node/11637756046",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11946855286": {
+    "name": {
+      "value": "Natatorium 游泳馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "Natatorium 游泳馆",
+          "source_url": "https://www.openstreetmap.org/node/11946855286",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "游泳场馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "游泳场馆",
+          "source_url": "https://www.openstreetmap.org/node/11946855286",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12134434518": {
+    "name": {
+      "value": "中田健身房工作室",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "中田健身房工作室",
+          "source_url": "https://www.openstreetmap.org/node/12134434518",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "健身场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "健身场所",
+          "source_url": "https://www.openstreetmap.org/node/12134434518",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12134434538": {
+    "name": {
+      "value": "坚蛋健身",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "坚蛋健身",
+          "source_url": "https://www.openstreetmap.org/node/12134434538",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "健身场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "健身场所",
+          "source_url": "https://www.openstreetmap.org/node/12134434538",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12140824834": {
+    "name": {
+      "value": "哇塞健身工作室",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "哇塞健身工作室",
+          "source_url": "https://www.openstreetmap.org/node/12140824834",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "健身场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "健身场所",
+          "source_url": "https://www.openstreetmap.org/node/12140824834",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12142822123": {
+    "name": {
+      "value": "思迈健身",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "思迈健身",
+          "source_url": "https://www.openstreetmap.org/node/12142822123",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "健身场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "健身场所",
+          "source_url": "https://www.openstreetmap.org/node/12142822123",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12142822607": {
+    "name": {
+      "value": "温州乐豪体育",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州乐豪体育",
+          "source_url": "https://www.openstreetmap.org/node/12142822607",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "健身场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "健身场所",
+          "source_url": "https://www.openstreetmap.org/node/12142822607",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12142822608": {
+    "name": {
+      "value": "伍嘉体育",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "伍嘉体育",
+          "source_url": "https://www.openstreetmap.org/node/12142822608",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "健身场所",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "健身场所",
+          "source_url": "https://www.openstreetmap.org/node/12142822608",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12183294744": {
+    "name": {
+      "value": "阿特锐射箭馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "阿特锐射箭馆",
+          "source_url": "https://www.openstreetmap.org/node/12183294744",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "运动场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "运动场",
+          "source_url": "https://www.openstreetmap.org/node/12183294744",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12183295130": {
+    "name": {
+      "value": "泡泡米POPOME益智乐园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "泡泡米POPOME益智乐园",
+          "source_url": "https://www.openstreetmap.org/node/12183295130",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "游乐场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "游乐场",
+          "source_url": "https://www.openstreetmap.org/node/12183295130",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12183295151": {
+    "name": {
+      "value": "泡泡堂儿童乐园",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "泡泡堂儿童乐园",
+          "source_url": "https://www.openstreetmap.org/node/12183295151",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "游乐场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "游乐场",
+          "source_url": "https://www.openstreetmap.org/node/12183295151",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_13371912545": {
+    "name": {
+      "value": "bocpoc网球",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "bocpoc网球",
+          "source_url": "https://www.openstreetmap.org/node/13371912545",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "体育中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "体育中心",
+          "source_url": "https://www.openstreetmap.org/node/13371912545",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_514673567": {
+    "name": {
+      "value": "篮球场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "篮球场",
+          "source_url": "https://www.openstreetmap.org/way/514673567",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "运动场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "运动场",
+          "source_url": "https://www.openstreetmap.org/way/514673567",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_514681182": {
+    "name": {
+      "value": "网球场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "网球场",
+          "source_url": "https://www.openstreetmap.org/way/514681182",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "运动场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "运动场",
+          "source_url": "https://www.openstreetmap.org/way/514681182",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_891571379": {
+    "name": {
+      "value": "Tennis Court 网球场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "Tennis Court 网球场",
+          "source_url": "https://www.openstreetmap.org/way/891571379",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "运动场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "运动场",
+          "source_url": "https://www.openstreetmap.org/way/891571379",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_891571380": {
+    "name": {
+      "value": "Basketball Court 篮球场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "Basketball Court 篮球场",
+          "source_url": "https://www.openstreetmap.org/way/891571380",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "运动场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "运动场",
+          "source_url": "https://www.openstreetmap.org/way/891571380",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_893358230": {
+    "name": {
+      "value": "奥林匹克射击中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "奥林匹克射击中心",
+          "source_url": "https://www.openstreetmap.org/way/893358230",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "体育中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "体育中心",
+          "source_url": "https://www.openstreetmap.org/way/893358230",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1128380006": {
+    "name": {
+      "value": "温州龙舟运动中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州龙舟运动中心",
+          "source_url": "https://www.openstreetmap.org/way/1128380006",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "体育中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "体育中心",
+          "source_url": "https://www.openstreetmap.org/way/1128380006",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1128380007": {
+    "name": {
+      "value": "温州奥体中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州奥体中心",
+          "source_url": "https://www.openstreetmap.org/way/1128380007",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "体育中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "体育中心",
+          "source_url": "https://www.openstreetmap.org/way/1128380007",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1242884986": {
+    "name": {
+      "value": "乐滑天地",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "乐滑天地",
+          "source_url": "https://www.openstreetmap.org/way/1242884986",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "运动场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "运动场",
+          "source_url": "https://www.openstreetmap.org/way/1242884986",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1315643622": {
+    "name": {
+      "value": "WKU Stadium 室外田径场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "WKU Stadium 室外田径场",
+          "source_url": "https://www.openstreetmap.org/way/1315643622",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "体育场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "体育场",
+          "source_url": "https://www.openstreetmap.org/way/1315643622",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1458069511": {
+    "name": {
+      "value": "温匹克球运动中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温匹克球运动中心",
+          "source_url": "https://www.openstreetmap.org/way/1458069511",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "体育中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "体育中心",
+          "source_url": "https://www.openstreetmap.org/way/1458069511",
+          "source_field": "tags.leisure",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_8269489233": {
+    "name": {
+      "value": "万象城",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "万象城",
+          "source_url": "https://www.openstreetmap.org/node/8269489233",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "购物中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "购物中心",
+          "source_url": "https://www.openstreetmap.org/node/8269489233",
+          "source_field": "tags.shop",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_8278871041": {
+    "name": {
+      "value": "大西洋银泰百货",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "大西洋银泰百货",
+          "source_url": "https://www.openstreetmap.org/node/8278871041",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "购物中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "购物中心",
+          "source_url": "https://www.openstreetmap.org/node/8278871041",
+          "source_field": "tags.shop",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_12134434528": {
+    "name": {
+      "value": "中梁亿象商业广场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "中梁亿象商业广场",
+          "source_url": "https://www.openstreetmap.org/node/12134434528",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "购物中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "购物中心",
+          "source_url": "https://www.openstreetmap.org/node/12134434528",
+          "source_field": "tags.shop",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_375962108": {
+    "name": {
+      "value": "温州大学城商务中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州大学城商务中心",
+          "source_url": "https://www.openstreetmap.org/way/375962108",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "购物中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "购物中心",
+          "source_url": "https://www.openstreetmap.org/way/375962108",
+          "source_field": "tags.shop",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_839848498": {
+    "name": {
+      "value": "温州万象城",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州万象城",
+          "source_url": "https://www.openstreetmap.org/way/839848498",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "购物中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "购物中心",
+          "source_url": "https://www.openstreetmap.org/way/839848498",
+          "source_field": "tags.shop",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_893986420": {
+    "name": {
+      "value": "梦多多小镇",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "梦多多小镇",
+          "source_url": "https://www.openstreetmap.org/way/893986420",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/893986420",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_894885361": {
+    "name": {
+      "value": "阿外楼度假酒店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "阿外楼度假酒店",
+          "source_url": "https://www.openstreetmap.org/way/894885361",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/894885361",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_899611724": {
+    "name": {
+      "value": "红星国际家居广场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "红星国际家居广场",
+          "source_url": "https://www.openstreetmap.org/way/899611724",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/899611724",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_899611725": {
+    "name": {
+      "value": "温州灯饰城",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州灯饰城",
+          "source_url": "https://www.openstreetmap.org/way/899611725",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/899611725",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1007137022": {
+    "name": {
+      "value": "大西洋银泰百货",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "大西洋银泰百货",
+          "source_url": "https://www.openstreetmap.org/way/1007137022",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/1007137022",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1009329230": {
+    "name": {
+      "value": "温州站南商贸城",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "温州站南商贸城",
+          "source_url": "https://www.openstreetmap.org/way/1009329230",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/1009329230",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1009329231": {
+    "name": {
+      "value": "大象城国际商贸中心",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "大象城国际商贸中心",
+          "source_url": "https://www.openstreetmap.org/way/1009329231",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/1009329231",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1026259135": {
+    "name": {
+      "value": "印象里",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "印象里",
+          "source_url": "https://www.openstreetmap.org/way/1026259135",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "商业区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "商业区域",
+          "source_url": "https://www.openstreetmap.org/way/1026259135",
+          "source_field": "tags.landuse",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_311157801": {
+    "name": {
+      "value": "金虹东街",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "金虹东街",
+          "source_url": "https://www.openstreetmap.org/way/311157801",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "步行区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "步行区域",
+          "source_url": "https://www.openstreetmap.org/way/311157801",
+          "source_field": "tags.highway",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_514673572": {
+    "name": {
+      "value": "南广场",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "南广场",
+          "source_url": "https://www.openstreetmap.org/way/514673572",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "步行区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "步行区域",
+          "source_url": "https://www.openstreetmap.org/way/514673572",
+          "source_field": "tags.highway",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_way_1273082943": {
+    "name": {
+      "value": "Commercial Street of Banyan Hall 榕楼商业街",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "Commercial Street of Banyan Hall 榕楼商业街",
+          "source_url": "https://www.openstreetmap.org/way/1273082943",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "步行区域",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "步行区域",
+          "source_url": "https://www.openstreetmap.org/way/1273082943",
+          "source_field": "tags.highway",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10556551350": {
+    "name": {
+      "value": "东池便当",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "东池便当",
+          "source_url": "https://www.openstreetmap.org/node/10556551350",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10556551350",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10558579609": {
+    "name": {
+      "value": "金勺子",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "金勺子",
+          "source_url": "https://www.openstreetmap.org/node/10558579609",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10558579609",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10558867218": {
+    "name": {
+      "value": "瑞幸咖啡",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "瑞幸咖啡",
+          "source_url": "https://www.openstreetmap.org/node/10558867218",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        },
+        {
+          "value": "瑞幸咖啡",
+          "source_url": "https://www.openstreetmap.org/node/10558867218",
+          "source_field": "tags.name:zh",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "咖啡饮品店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "咖啡饮品店",
+          "source_url": "https://www.openstreetmap.org/node/10558867218",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10572173212": {
+    "name": {
+      "value": "沙县小吃",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "沙县小吃",
+          "source_url": "https://www.openstreetmap.org/node/10572173212",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10572173212",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10572338352": {
+    "name": {
+      "value": "胡记羊肉馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "胡记羊肉馆",
+          "source_url": "https://www.openstreetmap.org/node/10572338352",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10572338352",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10593185580": {
+    "name": {
+      "value": "杨国福麻辣烫",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "杨国福麻辣烫",
+          "source_url": "https://www.openstreetmap.org/node/10593185580",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        },
+        {
+          "value": "杨国福麻辣烫",
+          "source_url": "https://www.openstreetmap.org/node/10593185580",
+          "source_field": "tags.name:zh",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10593185580",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10593185581": {
+    "name": {
+      "value": "阿青泥炉羊肉",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "阿青泥炉羊肉",
+          "source_url": "https://www.openstreetmap.org/node/10593185581",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10593185581",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10593225765": {
+    "name": {
+      "value": "兰州拉面",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "兰州拉面",
+          "source_url": "https://www.openstreetmap.org/node/10593225765",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10593225765",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10593229454": {
+    "name": {
+      "value": "幸运咖",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "幸运咖",
+          "source_url": "https://www.openstreetmap.org/node/10593229454",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "咖啡饮品店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "咖啡饮品店",
+          "source_url": "https://www.openstreetmap.org/node/10593229454",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10595917525": {
+    "name": {
+      "value": "柳州螺狮粉",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "柳州螺狮粉",
+          "source_url": "https://www.openstreetmap.org/node/10595917525",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10595917525",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10595917526": {
+    "name": {
+      "value": "重庆小面",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "重庆小面",
+          "source_url": "https://www.openstreetmap.org/node/10595917526",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10595917526",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10595917529": {
+    "name": {
+      "value": "贴口福",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "贴口福",
+          "source_url": "https://www.openstreetmap.org/node/10595917529",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10595917529",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10595917531": {
+    "name": {
+      "value": "黄焖鸡米饭",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "黄焖鸡米饭",
+          "source_url": "https://www.openstreetmap.org/node/10595917531",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10595917531",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10595917532": {
+    "name": {
+      "value": "新桥面馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "新桥面馆",
+          "source_url": "https://www.openstreetmap.org/node/10595917532",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10595917532",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10600384443": {
+    "name": {
+      "value": "记得面馆",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "记得面馆",
+          "source_url": "https://www.openstreetmap.org/node/10600384443",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10600384443",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10600411632": {
+    "name": {
+      "value": "金太子牛排",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "金太子牛排",
+          "source_url": "https://www.openstreetmap.org/node/10600411632",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10600411632",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10600411633": {
+    "name": {
+      "value": "王者龙虾",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "王者龙虾",
+          "source_url": "https://www.openstreetmap.org/node/10600411633",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10600411633",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10603430576": {
+    "name": {
+      "value": "阿敏农家乐",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "阿敏农家乐",
+          "source_url": "https://www.openstreetmap.org/node/10603430576",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10603430576",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10603430577": {
+    "name": {
+      "value": "初客牛排",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "初客牛排",
+          "source_url": "https://www.openstreetmap.org/node/10603430577",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10603430577",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10603430578": {
+    "name": {
+      "value": "胡记肠粉",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "胡记肠粉",
+          "source_url": "https://www.openstreetmap.org/node/10603430578",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10603430578",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10603432509": {
+    "name": {
+      "value": "蜜雪冰城",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "蜜雪冰城",
+          "source_url": "https://www.openstreetmap.org/node/10603432509",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        },
+        {
+          "value": "蜜雪冰城",
+          "source_url": "https://www.openstreetmap.org/node/10603432509",
+          "source_field": "tags.name:zh",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "咖啡饮品店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "咖啡饮品店",
+          "source_url": "https://www.openstreetmap.org/node/10603432509",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10607923622": {
+    "name": {
+      "value": "星巴克",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "星巴克",
+          "source_url": "https://www.openstreetmap.org/node/10607923622",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        },
+        {
+          "value": "星巴克",
+          "source_url": "https://www.openstreetmap.org/node/10607923622",
+          "source_field": "tags.name:zh",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "咖啡饮品店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "咖啡饮品店",
+          "source_url": "https://www.openstreetmap.org/node/10607923622",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10607923623": {
+    "name": {
+      "value": "必胜客",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "必胜客",
+          "source_url": "https://www.openstreetmap.org/node/10607923623",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        },
+        {
+          "value": "必胜客",
+          "source_url": "https://www.openstreetmap.org/node/10607923623",
+          "source_field": "tags.name:zh",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10607923623",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10607937224": {
+    "name": {
+      "value": "小个子美食阁",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "小个子美食阁",
+          "source_url": "https://www.openstreetmap.org/node/10607937224",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10607937224",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10610274549": {
+    "name": {
+      "value": "凉小西",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "凉小西",
+          "source_url": "https://www.openstreetmap.org/node/10610274549",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10610274549",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10610280307": {
+    "name": {
+      "value": "一号码头美食坊",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "一号码头美食坊",
+          "source_url": "https://www.openstreetmap.org/node/10610280307",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10610280307",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10610289942": {
+    "name": {
+      "value": "谷茗",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "谷茗",
+          "source_url": "https://www.openstreetmap.org/node/10610289942",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "咖啡饮品店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "咖啡饮品店",
+          "source_url": "https://www.openstreetmap.org/node/10610289942",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_10610297428": {
+    "name": {
+      "value": "绝味鸭脖",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "绝味鸭脖",
+          "source_url": "https://www.openstreetmap.org/node/10610297428",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/10610297428",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11064026579": {
+    "name": {
+      "value": "亿源智慧餐厅",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "亿源智慧餐厅",
+          "source_url": "https://www.openstreetmap.org/node/11064026579",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/11064026579",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11549910722": {
+    "name": {
+      "value": "河南饭店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "河南饭店",
+          "source_url": "https://www.openstreetmap.org/node/11549910722",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/11549910722",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11549910723": {
+    "name": {
+      "value": "旋转小火锅",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "旋转小火锅",
+          "source_url": "https://www.openstreetmap.org/node/11549910723",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/11549910723",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  },
+  "osm_node_11549930335": {
+    "name": {
+      "value": "悦和慧",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "悦和慧",
+          "source_url": "https://www.openstreetmap.org/node/11549930335",
+          "source_field": "tags.name",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "category": {
+      "value": "餐饮店",
+      "status": "supported",
+      "evidence": [
+        {
+          "value": "餐饮店",
+          "source_url": "https://www.openstreetmap.org/node/11549930335",
+          "source_field": "tags.amenity",
+          "raw_path": "data/raw/osm_activities_20261126/response.json",
+          "raw_sha256": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426",
+          "retrieved_at": "2026-11-26T23:58:26.135518+08:00",
+          "scope": "source_snapshot_only"
+        }
+      ],
+      "scope": "source_snapshot_only"
+    },
+    "address": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "seats": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    },
+    "holdings": {
+      "value": null,
+      "status": "unknown",
+      "evidence": [],
+      "scope": "source_snapshot_only"
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "authorship": "assistant_authored_source_constructed_development_only",
+  "independent_held_out": false,
+  "human_relevance_labels": 0,
+  "items": [
+    {
+      "group": "constructed_exact_name",
+      "text": "文化公园",
+      "expected_source_id": "osm_node_12132373350",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F01"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "温州肯恩大学校史馆",
+      "expected_source_id": "osm_node_12233993485",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F02"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "育英图书馆",
+      "expected_source_id": "osm_way_376003430",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F03"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "伯爵量贩KTV",
+      "expected_source_id": "osm_node_11637753447",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F04"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "威尼斯电影院",
+      "expected_source_id": "osm_node_8281822514",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F05"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "中田健身房工作室",
+      "expected_source_id": "osm_node_12134434518",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F06"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "阿特锐射箭馆",
+      "expected_source_id": "osm_node_12183294744",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F07"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "bocpoc网球",
+      "expected_source_id": "osm_node_13371912545",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F08"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "中梁亿象商业广场",
+      "expected_source_id": "osm_node_12134434528",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F09"
+    },
+    {
+      "group": "constructed_exact_name",
+      "text": "东池便当",
+      "expected_source_id": "osm_node_10556551350",
+      "reference_scope": "source_record_lookup_only_NOT_human_relevance_or_real_world_identity",
+      "query_id": "F10"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找看电影的地方",
+      "query_id": "F11"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想和朋友唱歌",
+      "query_id": "F12"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找可以进行篮球运动的场地",
+      "query_id": "F13"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找打网球的场地",
+      "query_id": "F14"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找健身锻炼的场所",
+      "query_id": "F15"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想去博物馆了解文化",
+      "query_id": "F16"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找公园绿地走走",
+      "query_id": "F17"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找可以购物的商场",
+      "query_id": "F18"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找吃饭的餐馆",
+      "query_id": "F19"
+    },
+    {
+      "group": "AI_authored_paraphrase",
+      "text": "想找喝咖啡的地方",
+      "query_id": "F20"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "优先看看公园，同时希望有休闲步道",
+      "query_id": "F21"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "希望找到购物中心，也想看看餐饮店",
+      "query_id": "F22"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "优先选择KTV，同时希望有其他娱乐设施",
+      "query_id": "F23"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "希望有体育中心，优先考虑篮球项目",
+      "query_id": "F24"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "优先找运动场，同时希望能打网球",
+      "query_id": "F25"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "希望看看博物馆，也想了解文化类景点",
+      "query_id": "F26"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "优先找图书馆，同时希望有阅读空间",
+      "query_id": "F27"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "希望看看公园，优先选择能看水景的地方",
+      "query_id": "F28"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "优先看看咖啡饮品店，也希望可以用餐",
+      "query_id": "F29"
+    },
+    {
+      "group": "AI_authored_multiple_preferences",
+      "text": "希望找到健身场所，优先考虑游泳项目",
+      "query_id": "F30"
+    }
+  ],
+  "constraint_checks": [
+    {
+      "case_id": "C01",
+      "query": "想找唱歌的地方",
+      "constraints": [
+        {
+          "field": "category",
+          "operator": "eq",
+          "value": "KTV"
+        }
+      ]
+    },
+    {
+      "case_id": "C02",
+      "query": "想运动",
+      "constraints": [
+        {
+          "field": "category",
+          "operator": "eq",
+          "value": "运动场"
+        }
+      ]
+    },
+    {
+      "case_id": "C03",
+      "query": "想看看绿地",
+      "constraints": [
+        {
+          "field": "category",
+          "operator": "eq",
+          "value": "公园"
+        }
+      ]
+    },
+    {
+      "case_id": "C04",
+      "query": "想购物",
+      "constraints": [
+        {
+          "field": "category",
+          "operator": "eq",
+          "value": "购物中心"
+        }
+      ]
+    },
+    {
+      "case_id": "C05",
+      "query": "想找阅读空间",
+      "constraints": [
+        {
+          "field": "seats",
+          "operator": "gte",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "case_id": "C06",
+      "query": "想借书",
+      "constraints": [
+        {
+          "field": "holdings",
+          "operator": "gte",
+          "value": 12000
+        }
+      ]
+    }
+  ]
+}

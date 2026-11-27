@@ -1,0 +1,23 @@
+{
+  "source_records": 114,
+  "field_status_counts": {
+    "name": {
+      "supported": 114
+    },
+    "category": {
+      "supported": 113,
+      "conflicting": 1
+    },
+    "address": {
+      "unknown": 114
+    },
+    "seats": {
+      "unknown": 114
+    },
+    "holdings": {
+      "unknown": 114
+    }
+  },
+  "purpose": "source_snapshot_coverage_NOT_current_facility_census",
+  "new_human_labels": 0
+}

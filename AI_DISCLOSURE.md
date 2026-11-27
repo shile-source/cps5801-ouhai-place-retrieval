@@ -1,3 +1,7 @@
+## Public engineering experiment 28 November 2026
+
+The new public 30-query set was authored by the AI assistant and frozen before the recorded 114-source engineering run. Ten exact names were selected from the source corpus with source-ID references; ten paraphrases and ten preference requests are development examples. These are distinct from the user's private30 submission. The experiment creates no human relevance labels or independent test set. Its 450 measured searches and18 filter checks are actual program executions, not simulated results. The manuscript, slides, explanations and summary scripts were substantially AI-assisted; human interpretation, source reading and defense remain the student's responsibilities. Repeated timings are not independent query evidence, and source-name recovery is not real-user recommendation accuracy. Public raw observations support checking every new table.
+
 ## Current activity expansion and human spotcheck 27 November 2026
 
 The user requested commercial, entertainment and sports coverage and then reduced the new human task to a spotcheck. The local151 source-record catalogue,114-record open OSM demo, source import rules, interface, tests, manuscript and slide preparation received substantial Codex/ChatGPT assistance. These are not represented as entirely unaided student work. Pretrained model creators and libraries are attributed separately.

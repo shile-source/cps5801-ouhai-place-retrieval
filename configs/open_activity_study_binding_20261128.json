@@ -1,0 +1,11 @@
+{
+  "scope": "source_snapshot_only",
+  "corpus_sha256": "565d6fac88bc11959ae03564a44841a9d60aba49af0b748343dc032c108298b8",
+  "facts_path": "data/clean/open_activity_study_v1_20261128/source_facts.json",
+  "facts_sha256": "8bb4d762c1a75feeb6065560640645c631e30cc54a7f71d9987fd88ada7eab0c",
+  "evidence_sha256": {
+    "data/raw/osm_expansion_20261125_get/response.json": "90efae32c8e941f38c2ba72439ae75ee20754761d836e6c1dc32787f0ad7d150",
+    "data/raw/osm_activities_20261126/response.json": "cb09ac68fc9cc1cccbe1b1c9c781fb2c019988257318c602afb3bfc6e4479426"
+  },
+  "formal_relevance_benchmark": false
+}

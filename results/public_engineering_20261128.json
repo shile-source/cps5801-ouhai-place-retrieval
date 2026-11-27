@@ -1,0 +1,159 @@
+{
+  "scope": "source_constructed_public_engineering_NOT_human_relevance",
+  "query_count": 30,
+  "measured_requests": 450,
+  "repeats_per_query": 5,
+  "methods": {
+    "keyword": {
+      "observations": 150,
+      "distinct_queries": 30,
+      "search_ms": {
+        "median": 0.12139999307692051,
+        "p95": 0.16083500231616196
+      },
+      "server_elapsed_ms": {
+        "median": 0.8617000130470842,
+        "p95": 1.0104500106535852
+      },
+      "constructed_lookup_queries": 10,
+      "source_id_recovery_at1": 1.0,
+      "source_id_recovery_at5": 1.0
+    },
+    "bm25": {
+      "observations": 150,
+      "distinct_queries": 30,
+      "search_ms": {
+        "median": 0.2373000024817884,
+        "p95": 0.33225999504793435
+      },
+      "server_elapsed_ms": {
+        "median": 0.9741500252857804,
+        "p95": 1.1540149978827685
+      },
+      "constructed_lookup_queries": 10,
+      "source_id_recovery_at1": 1.0,
+      "source_id_recovery_at5": 1.0
+    },
+    "bge_m3": {
+      "observations": 150,
+      "distinct_queries": 30,
+      "search_ms": {
+        "median": 12.297999986913055,
+        "p95": 13.99179000291042
+      },
+      "server_elapsed_ms": {
+        "median": 13.702900003409013,
+        "p95": 15.43878499942366
+      },
+      "constructed_lookup_queries": 10,
+      "source_id_recovery_at1": 1.0,
+      "source_id_recovery_at5": 1.0
+    }
+  },
+  "cold_load": {
+    "method": "bge_m3",
+    "load_ms": 40585.31110000331,
+    "search_ms": 75.22529998095706,
+    "elapsed_ms": 45703.28459999291
+  },
+  "pairwise_overlap": {
+    "keyword__bm25": {
+      "mean_top5_jaccard": 0.7988095238095239,
+      "queries": 30
+    },
+    "keyword__bge_m3": {
+      "mean_top5_jaccard": 0.2785714285714286,
+      "queries": 30
+    },
+    "bm25__bge_m3": {
+      "mean_top5_jaccard": 0.326984126984127,
+      "queries": 30
+    }
+  },
+  "constraint_checks": [
+    {
+      "case_id": "C01",
+      "eligible_count": 2,
+      "unknown_count": 1,
+      "unmet_count": 111,
+      "methods_checked": 3,
+      "all_returned_ids_eligible": true
+    },
+    {
+      "case_id": "C02",
+      "eligible_count": 6,
+      "unknown_count": 1,
+      "unmet_count": 107,
+      "methods_checked": 3,
+      "all_returned_ids_eligible": true
+    },
+    {
+      "case_id": "C03",
+      "eligible_count": 20,
+      "unknown_count": 1,
+      "unmet_count": 93,
+      "methods_checked": 3,
+      "all_returned_ids_eligible": true
+    },
+    {
+      "case_id": "C04",
+      "eligible_count": 5,
+      "unknown_count": 1,
+      "unmet_count": 108,
+      "methods_checked": 3,
+      "all_returned_ids_eligible": true
+    },
+    {
+      "case_id": "C05",
+      "eligible_count": 0,
+      "unknown_count": 114,
+      "unmet_count": 0,
+      "methods_checked": 3,
+      "all_returned_ids_eligible": true
+    },
+    {
+      "case_id": "C06",
+      "eligible_count": 0,
+      "unknown_count": 114,
+      "unmet_count": 0,
+      "methods_checked": 3,
+      "all_returned_ids_eligible": true
+    }
+  ],
+  "identical_repeated_rankings_and_scores": true,
+  "new_human_labels": 0,
+  "independent_test_set": false,
+  "relevance_ndcg_mrr_recall": null,
+  "general_recommendation_quality_claim": false,
+  "corpus_sha256": "565d6fac88bc11959ae03564a44841a9d60aba49af0b748343dc032c108298b8",
+  "query_sha256": "fa22a9389a26bfb0a8ab8e534117038ed03566aee50d8b490299f061f49a906d",
+  "protocol_sha256": "caabd12a54856c0f9a0aafa7d623a143d341edace854a934c1d5bae43a2a87df",
+  "raw_observations_sha256": "8f682a8ba6a90cc3b4f50c46ccb82a213220facf8f5afe4abfc93ba472c60274",
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "ram_bytes": 16898142208
+  },
+  "packages": {
+    "torch": "2.10.0+cu126",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.2.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "dense_configuration": {
+    "type": "ready",
+    "load_ms": 40585.31110000331,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "dimension": 1024,
+    "backend": "bge_m3",
+    "max_length": 128,
+    "batch_size": 4,
+    "direct_gpu_load": true,
+    "parameter_dtype": "torch.float16",
+    "safetensors_backend": "pread",
+    "loader": "streamed",
+    "maximum_document_tokens": 81,
+    "documents_truncated_at_128": 0
+  }
+}

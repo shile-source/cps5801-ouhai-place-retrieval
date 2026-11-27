@@ -10,9 +10,18 @@ TAG_CATEGORY = {('tags.leisure','park'):'公园', ('tags.tourism','museum'):'博
                 ('tags.amenity','library'):'图书馆'}
 
 
-def compile_facts(records, evidence, root):
+def compile_facts(records, evidence, root, *, category_labels=None):
     """Accept only field-level evidence whose original bytes still match their hash."""
     root = Path(root).resolve()
+    category_map=dict(TAG_CATEGORY)
+    if category_labels:
+        for key,label in category_labels.items():
+            if (not isinstance(key,tuple) or len(key)!=2 or not all(isinstance(x,str) for x in key)
+                    or not isinstance(label,str) or not label):
+                raise ValueError('Explicit source-tag category mapping required')
+            if key in category_map and category_map[key]!=label:
+                raise ValueError('Do not redefine an existing source category')
+            category_map[key]=label
     ids = [r['poi_id'] for r in records]
     if len(ids) != len(set(ids)):
         raise ValueError('Duplicate record ID')
@@ -24,8 +33,8 @@ def compile_facts(records, evidence, root):
             raise ValueError('Evidence for unknown record')
         field = ALIASES.get(row.get('source_field'))
         value = row.get('source_value')
-        if (row.get('source_field'), value) in TAG_CATEGORY:
-            field, value = 'category', TAG_CATEGORY[row['source_field'], value]
+        if (row.get('source_field'), value) in category_map:
+            field, value = 'category', category_map[row['source_field'], value]
         if not field:
             continue
         relative, expected = row.get('raw_path'), row.get('raw_sha256')

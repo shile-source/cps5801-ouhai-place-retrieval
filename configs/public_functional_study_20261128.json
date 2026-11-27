@@ -1,0 +1,37 @@
+{
+  "purpose": "public_source_engineering_comparison_NOT_independent_relevance_effectiveness",
+  "corpus_path": "data/clean/open_activity_v1_20261127/poi_candidates.json",
+  "corpus_sha256": "565d6fac88bc11959ae03564a44841a9d60aba49af0b748343dc032c108298b8",
+  "facts_binding": "configs/open_activity_study_binding_20261128.json",
+  "query_path": "configs/public_functional_queries_20261128.json",
+  "query_sha256": "fa22a9389a26bfb0a8ab8e534117038ed03566aee50d8b490299f061f49a906d",
+  "common_text_fields": [
+    "name",
+    "category",
+    "address",
+    "description"
+  ],
+  "methods": [
+    "keyword",
+    "bm25",
+    "bge_m3"
+  ],
+  "dense_precision": "float16",
+  "batch_size": 4,
+  "max_length": 128,
+  "dense_idle_seconds": 60,
+  "maximum_model_loads": 1,
+  "automatic_retries": 0,
+  "warmups_per_method": 1,
+  "repeats_per_query": 5,
+  "top_k": 5,
+  "order_seed": 5801,
+  "latency_summary": "backend search_ms and complete server elapsed_ms reported separately; repeated observations are not independent queries",
+  "lookup_metric": "exact frozen source_id recovery at1/5 on10 constructed unique-name queries; not human relevance",
+  "comparison_metric": "pairwise top5 Jaccard across30 requests; disagreement is not quality",
+  "source_filter_checks": "same eligible IDs for each method; unknown never passes",
+  "relevance_ndcg_mrr_recall": null,
+  "bootstrapped_relevance_CI": null,
+  "raw_responses_public": true,
+  "formal_human_labels_created": false
+}

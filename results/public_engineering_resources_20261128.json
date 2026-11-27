@@ -1,0 +1,14 @@
+{
+  "scope": "finite_public_engineering_run",
+  "resource_samples": 49,
+  "minimum_c_free_bytes": 8176205824,
+  "maximum_active_c_decline_bytes": 663552,
+  "model_loads": 1,
+  "model_processes_exited": true,
+  "c_minimum_guard_gib": 5,
+  "d_minimum_guard_gib": 10,
+  "c_decline_guard_gib": 1,
+  "system_settings_changed": false,
+  "automatic_retries": 0,
+  "long_term_stability_proven": false
+}
