@@ -14,5 +14,7 @@
   "automatic_retries": 0,
   "c_free_before": 8622276608,
   "c_free_after": 8622116864,
-  "school_A5000_tested": false
+  "school_A5000_tested": false,
+  "later_runtime_status": "stopped_under_C_decline_guard_no_automatic_retry",
+  "continuous_availability_verified": false
 }

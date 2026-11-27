@@ -2,6 +2,8 @@
 
 ## Current application and delivery version 27 November 2026
 
+**Latest runtime caveat:** after the successful finite151-record request, a later residency check found BGE stopped by the unchanged C-drive-decline guard. The cause and exact transient minimum were not established. Dense inference is now paused with no automatic retry; lexical search and annotation remain available. A local stop checkpoint prevents `Start-Demo.ps1` from clearing the failure on restart; `Start-Demo.ps1 -LexicalOnly` restores the local mixed151 application without models. The successful timing below is historical finite evidence, not a claim of current sustained availability.
+
 Public source repository: [shile-source/cps5801-ouhai-place-retrieval](https://github.com/shile-source/cps5801-ouhai-place-retrieval).
 
 This is a source-aware Chinese place-search prototype using fixed pretrained models, **not a newly trained model**. The root page links natural-language retrieval to source details and map markers; `/compare` retains method comparison. Keyword overlap, BM25, multilingual MPNet and BGE-M3 use the same four fields. Unknown facts do not pass explicit hard conditions; model similarity does not verify an actual destination.

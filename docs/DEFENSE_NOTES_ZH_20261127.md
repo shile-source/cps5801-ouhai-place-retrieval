@@ -74,9 +74,9 @@
 
 ## 第13页
 
-151条目录已做实际BGE搜索，单次加载39.2秒、查询约89毫秒。第一次需加载模型，不能把加载时间漏掉。所有项目文件在D，但Windows分页仍会占C，未通过修改系统保护来掩盖。街道底图在所检浏览器不可用，来源标记、列表和外部地图仍可用。
+151条目录做过一次实际BGE搜索，单次加载39.2秒、查询约89毫秒。之后继续驻留期间C盘下降保护停止了BGE，具体瞬时占用成因未充分核实。当前AI暂停，不能把历史成功说成持续可用；没有降低保护或重试。BM25、目录和评分页仍可用。街道底图在所检浏览器不可用，来源标记、列表和外部地图仍可用。
 
-依据：outputs/live_activity_check_20261127/result.json; src/demo/map.html
+依据：outputs/live_activity_check_20261127/result.json; outputs/final_delivery_20261127/service_checkpoint.json; src/demo/map.html
 
 ## 第14页
 

@@ -130,6 +130,8 @@ All project models, caches and generated files are directed to D before library 
 
 A subsequent single live BGE FP16 request on the expanded 151-record catalogue also passed, returning ten newly computed results. Observed model load was 39,224.3 ms and search was 89.0 ms; C free space changed from 8,622,276,608 to 8,622,116,864 bytes across the request. These endpoint snapshots do not represent a continuous memory benchmark. No new relevance judgments or effectiveness metrics were produced.
 
+A later residency check found that the BGE worker had stopped under the retained C-drive-decline guard. The available status does not establish the cause or exact transient minimum. The earlier successful request remains a finite functional result, not proof of sustained availability. No automatic retry or relaxed threshold was applied. Dense inference is currently paused; lexical search and annotation remain available.
+
 ### 7.1. New user requests and limited human spotcheck
 
 The user submitted and locked 30 requests and reported personally writing them. The original submission is preserved. Its form declaration that rankings were unseen conflicts with known result exposure in the conversation; independence has not been established. Many requests concern experiential or weakly documented attributes such as quietness, lake views, picnicking, desserts or family activities. These require additional evidence and cannot be assumed true from a place name. Vague preferences such as abundant seats or many books do not inherit the earlier Pilot's fixed numerical thresholds.
